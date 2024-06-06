@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 25,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 26,
+            "end": 45,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 46,
+            "end": 89,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/light/se_light_wide_laser_shower",
+            "begin": 4,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

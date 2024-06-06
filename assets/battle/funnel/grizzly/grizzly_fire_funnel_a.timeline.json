@@ -1,0 +1,41 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 51,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 52,
+            "end": 138,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 139,
+            "end": 272,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 273,
+            "end": 303,
+            "name": "none",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/weapon/se_grenade",
+            "begin": 139,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

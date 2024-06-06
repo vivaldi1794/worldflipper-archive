@@ -1,0 +1,50 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 95,
+            "name": "neutral",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/unique/se_fox_scientist_throw",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/unique/se_fox_scientist_blast",
+            "begin": 52,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [
+        {
+            "path": "hit_circle",
+            "frames": [
+                {
+                    "begin": 55,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -420,
+                            "r": 300
+                        }
+                    ]
+                },
+                {
+                    "begin": 66,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

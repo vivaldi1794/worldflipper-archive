@@ -1,0 +1,165 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 65,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 66,
+            "end": 85,
+            "name": "ex_start",
+            "kind": "once"
+        },
+        {
+            "begin": 86,
+            "end": 118,
+            "name": "ex_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 119,
+            "end": 160,
+            "name": "ex_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 161,
+            "end": 181,
+            "name": "ex_end",
+            "kind": "once"
+        },
+        {
+            "begin": 182,
+            "end": 220,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 221,
+            "end": 253,
+            "name": "shot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 254,
+            "end": 286,
+            "name": "shot_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 287,
+            "end": 307,
+            "name": "shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 308,
+            "end": 342,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 343,
+            "end": 422,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 423,
+            "end": 479,
+            "name": "shot2_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 480,
+            "end": 512,
+            "name": "shot2_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 513,
+            "end": 540,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 541,
+            "end": 575,
+            "name": "shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 576,
+            "end": 616,
+            "name": "shot3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 617,
+            "end": 653,
+            "name": "shot3_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 654,
+            "end": 686,
+            "name": "shot3_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 687,
+            "end": 713,
+            "name": "shot3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 714,
+            "end": 746,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 747,
+            "end": 807,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 808,
+            "end": 840,
+            "name": "tenjinin_wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 841,
+            "end": 901,
+            "name": "tenjinin_wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 902,
+            "end": 934,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 935,
+            "end": 995,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 996,
+            "end": 1066,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

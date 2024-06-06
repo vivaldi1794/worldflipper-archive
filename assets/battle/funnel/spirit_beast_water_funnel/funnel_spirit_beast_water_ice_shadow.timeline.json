@@ -1,0 +1,75 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 38,
+            "name": "popup",
+            "kind": "pass"
+        },
+        {
+            "begin": 39,
+            "end": 81,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 82,
+            "end": 164,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 165,
+            "end": 174,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 175,
+            "end": 211,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 212,
+            "end": 219,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 220,
+            "end": 232,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 233,
+            "end": 246,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 247,
+            "end": 271,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 272,
+            "end": 288,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 289,
+            "end": 319,
+            "name": "explosion",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

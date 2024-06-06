@@ -1,0 +1,159 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 81,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 82,
+            "end": 112,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 113,
+            "end": 133,
+            "name": "shot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 134,
+            "end": 146,
+            "name": "shot_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 147,
+            "end": 157,
+            "name": "shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 158,
+            "end": 178,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 179,
+            "end": 198,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 199,
+            "end": 205,
+            "name": "skill_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 206,
+            "end": 216,
+            "name": "skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 217,
+            "end": 222,
+            "name": "parts_skill_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 223,
+            "end": 252,
+            "name": "parts_skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 253,
+            "end": 270,
+            "name": "parts_skill_fire_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 271,
+            "end": 278,
+            "name": "parts_skill_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 279,
+            "end": 298,
+            "name": "parts_skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 299,
+            "end": 331,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 332,
+            "end": 364,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 365,
+            "end": 397,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 398,
+            "end": 430,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 431,
+            "end": 563,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/light/se_beam_blade_shot",
+            "begin": 82,
+            "loop": -1,
+            "end": 113,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_charge",
+            "begin": 113,
+            "loop": -1,
+            "end": 134,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_shot",
+            "begin": 134,
+            "loop": -1,
+            "end": 147,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_beam_blade_shot",
+            "begin": 158,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_skill_charge",
+            "begin": 179,
+            "loop": -1,
+            "end": 199,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

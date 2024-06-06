@@ -1,0 +1,155 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 31,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 32,
+            "end": 128,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 129,
+            "end": 141,
+            "name": "attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 142,
+            "end": 166,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 167,
+            "end": 167,
+            "name": "attack_fire_start",
+            "kind": "stop"
+        },
+        {
+            "begin": 168,
+            "end": 181,
+            "name": "attack_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 182,
+            "end": 206,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 207,
+            "end": 316,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 317,
+            "end": 413,
+            "name": "inactive_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 414,
+            "end": 415,
+            "name": "inactive_start",
+            "kind": "goto",
+            "target": "inactive_loop"
+        },
+        {
+            "begin": 416,
+            "end": 525,
+            "name": "inactive_dead",
+            "kind": "once"
+        },
+        {
+            "begin": 526,
+            "end": 526,
+            "name": "inactive_end",
+            "kind": "stop"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/element/se_moving_wind",
+            "begin": 1,
+            "loop": -1,
+            "end": 32,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_magic_charge1",
+            "begin": 142,
+            "loop": -1,
+            "end": 167,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_effect_skill_attack_spin_smash_sword",
+            "begin": 168,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_crack_in_space",
+            "begin": 207,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_crack_in_space",
+            "begin": 416,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -78
+                        }
+                    ]
+                },
+                {
+                    "begin": 32,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -96
+                        }
+                    ]
+                },
+                {
+                    "begin": 207,
+                    "data": []
+                },
+                {
+                    "begin": 317,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -96
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

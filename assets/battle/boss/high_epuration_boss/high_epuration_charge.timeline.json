@@ -1,0 +1,40 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 40,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 41,
+            "end": 80,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 81,
+            "end": 93,
+            "name": "end1",
+            "kind": "goto",
+            "target": "none"
+        },
+        {
+            "begin": 94,
+            "end": 106,
+            "name": "end2",
+            "kind": "pass"
+        },
+        {
+            "begin": 107,
+            "end": 111,
+            "name": "none",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

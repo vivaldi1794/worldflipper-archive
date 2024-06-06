@@ -1,0 +1,166 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 129,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 130,
+            "end": 210,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 211,
+            "end": 264,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 265,
+            "end": 267,
+            "name": "shot_charge",
+            "kind": "pass"
+        },
+        {
+            "begin": 268,
+            "end": 291,
+            "name": "shot_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 292,
+            "end": 306,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 307,
+            "end": 380,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 381,
+            "end": 423,
+            "name": "skill_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 424,
+            "end": 463,
+            "name": "skill_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 464,
+            "end": 474,
+            "name": "skill_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 475,
+            "end": 528,
+            "name": "breath_start",
+            "kind": "once"
+        },
+        {
+            "begin": 529,
+            "end": 531,
+            "name": "breath_charge",
+            "kind": "pass"
+        },
+        {
+            "begin": 532,
+            "end": 555,
+            "name": "breath_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 556,
+            "end": 636,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 637,
+            "end": 717,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 718,
+            "end": 798,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 799,
+            "end": 879,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 880,
+            "end": 969,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 970,
+            "end": 1038,
+            "name": "change",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_orochi_head_in",
+            "begin": 62,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_effect_skill_heal",
+            "begin": 268,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 307,
+            "loop": -1,
+            "end": 381,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_effect_skill_heal_wind_oracle",
+            "begin": 425,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_shot_wind2",
+            "begin": 532,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_orochi_head_dead",
+            "begin": 880,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

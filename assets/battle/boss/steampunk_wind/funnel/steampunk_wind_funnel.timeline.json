@@ -1,0 +1,161 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 50,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 51,
+            "end": 104,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 105,
+            "end": 212,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 213,
+            "end": 242,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 243,
+            "end": 266,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 267,
+            "end": 269,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 270,
+            "end": 289,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 290,
+            "end": 307,
+            "name": "shot1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/weapon/se_bomb",
+            "begin": 105,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_machinegun_oneshot",
+            "begin": 270,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 51,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90
+                        }
+                    ]
+                },
+                {
+                    "begin": 105,
+                    "data": []
+                },
+                {
+                    "begin": 213,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 51,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 105,
+                    "data": []
+                },
+                {
+                    "begin": 213,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 51,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 46.798095703125
+                        }
+                    ]
+                },
+                {
+                    "begin": 105,
+                    "data": []
+                },
+                {
+                    "begin": 213,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 46.798095703125
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

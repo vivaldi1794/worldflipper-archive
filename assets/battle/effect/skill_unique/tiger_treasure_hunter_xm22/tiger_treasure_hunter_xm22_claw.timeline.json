@@ -1,0 +1,43 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 20,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 21,
+            "end": 58,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/slash/se_rapier_slash",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/slash/se_rapier_slash",
+            "begin": 12,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/slash/se_big_spark_claw",
+            "begin": 22,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

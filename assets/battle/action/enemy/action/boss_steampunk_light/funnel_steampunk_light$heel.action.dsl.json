@@ -1,0 +1,110 @@
+[
+    "ActionDsl",
+    1,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "FindAllSubjects",
+                    0,
+                    51,
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        "DoNothing"
+                    ],
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "CreateRatioHeal",
+                                    0,
+                                    2,
+                                    [
+                                        {
+                                            "min": 0.0024,
+                                            "max": 0.0024
+                                        }
+                                    ],
+                                    [],
+                                    [
+                                        {
+                                            "min": 0,
+                                            "max": 0
+                                        }
+                                    ],
+                                    [
+                                        "GenericHealHitEffect"
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "FindAllSubjects",
+                    1,
+                    52,
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        "DoNothing"
+                    ],
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "CreateRatioHeal",
+                                    1,
+                                    2,
+                                    [
+                                        {
+                                            "min": 0.01,
+                                            "max": 0.01
+                                        }
+                                    ],
+                                    [],
+                                    [
+                                        {
+                                            "min": 0,
+                                            "max": 0
+                                        }
+                                    ],
+                                    [
+                                        "GenericHealHitEffect"
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

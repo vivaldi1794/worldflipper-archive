@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 15,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 16,
+            "end": 75,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 76,
+            "end": 102,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/dark/se_bad_soul_wind",
+            "begin": 77,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

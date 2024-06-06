@@ -1,0 +1,111 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 34,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 35,
+            "end": 40,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 41,
+            "end": 73,
+            "name": "charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 74,
+            "end": 90,
+            "name": "charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 91,
+            "end": 121,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 122,
+            "end": 176,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/blow/se_deck_hit",
+            "begin": 21,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bomb",
+            "begin": 105,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_yuremono_gravel_hit",
+            "begin": 124,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 35,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -72
+                        }
+                    ]
+                },
+                {
+                    "begin": 105,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 35,
+                    "data": [
+                        {
+                            "x": -4.5,
+                            "y": -63.3,
+                            "r": 62.3990478515625
+                        },
+                        {
+                            "x": -4.5,
+                            "y": -63.3,
+                            "r": 62.3990478515625
+                        }
+                    ]
+                },
+                {
+                    "begin": 105,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

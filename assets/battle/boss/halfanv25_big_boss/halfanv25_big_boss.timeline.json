@@ -1,0 +1,295 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 138,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 139,
+            "end": 163,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 164,
+            "end": 235,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 236,
+            "end": 260,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 261,
+            "end": 332,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 333,
+            "end": 438,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 439,
+            "end": 450,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 451,
+            "end": 490,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 491,
+            "end": 501,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 502,
+            "end": 525,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 526,
+            "end": 549,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 550,
+            "end": 561,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 562,
+            "end": 601,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 602,
+            "end": 612,
+            "name": "shot2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 613,
+            "end": 636,
+            "name": "shot2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 637,
+            "end": 660,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 661,
+            "end": 672,
+            "name": "shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 673,
+            "end": 712,
+            "name": "shot3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 713,
+            "end": 723,
+            "name": "shot3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 724,
+            "end": 747,
+            "name": "shot3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 748,
+            "end": 771,
+            "name": "shot3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 772,
+            "end": 783,
+            "name": "skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 784,
+            "end": 823,
+            "name": "skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 824,
+            "end": 841,
+            "name": "skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 842,
+            "end": 865,
+            "name": "skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 866,
+            "end": 891,
+            "name": "skill1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_laser_charge1",
+            "begin": 451,
+            "loop": -1,
+            "end": 491,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_laser_shot",
+            "begin": 491,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_laser_charge1",
+            "begin": 562,
+            "loop": -1,
+            "end": 602,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_laser_attack1",
+            "begin": 602,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_laser_charge1",
+            "begin": 673,
+            "loop": -1,
+            "end": 713,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_laser_shot",
+            "begin": 713,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_big",
+            "begin": 784,
+            "loop": -1,
+            "end": 824,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_big_wave_shot",
+            "begin": 824,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hit_count_check",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": 243.6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 201.6,
+                            "y": -185.7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -0.6000000000000001,
+                            "y": -300.29999999999995
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -1.7999999999999998,
+                            "y": -91.2
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -1.7999999999999998,
+                            "y": -91.5,
+                            "r": 155.990478515625
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

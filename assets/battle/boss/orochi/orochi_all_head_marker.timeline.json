@@ -1,0 +1,493 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 10,
+            "name": "neutral5",
+            "kind": "loop"
+        },
+        {
+            "begin": 11,
+            "end": 20,
+            "name": "next5",
+            "kind": "pass"
+        },
+        {
+            "begin": 21,
+            "end": 30,
+            "name": "neutral4",
+            "kind": "loop"
+        },
+        {
+            "begin": 31,
+            "end": 40,
+            "name": "next4",
+            "kind": "pass"
+        },
+        {
+            "begin": 41,
+            "end": 50,
+            "name": "neutral3",
+            "kind": "loop"
+        },
+        {
+            "begin": 51,
+            "end": 60,
+            "name": "next3",
+            "kind": "pass"
+        },
+        {
+            "begin": 61,
+            "end": 70,
+            "name": "neutral2",
+            "kind": "loop"
+        },
+        {
+            "begin": 71,
+            "end": 80,
+            "name": "next2",
+            "kind": "pass"
+        },
+        {
+            "begin": 81,
+            "end": 90,
+            "name": "neutral1",
+            "kind": "loop"
+        },
+        {
+            "begin": 91,
+            "end": 100,
+            "name": "next1",
+            "kind": "pass"
+        },
+        {
+            "begin": 101,
+            "end": 110,
+            "name": "neutral0",
+            "kind": "once"
+        },
+        {
+            "begin": 111,
+            "end": 213,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 214,
+            "end": 244,
+            "name": "skill_charge1",
+            "kind": "pass"
+        },
+        {
+            "begin": 245,
+            "end": 275,
+            "name": "skill_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 276,
+            "end": 350,
+            "name": "skill_shot",
+            "kind": "pass"
+        },
+        {
+            "begin": 351,
+            "end": 366,
+            "name": "skill_shot_loop",
+            "kind": "once"
+        },
+        {
+            "begin": 367,
+            "end": 434,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_eyes_flash",
+            "begin": 276,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_orochi_body_beam",
+            "begin": 351,
+            "loop": -1,
+            "end": 367,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "skill_shot1",
+            "frames": [
+                {
+                    "begin": 276,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 571.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 277,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin1",
+            "frames": [
+                {
+                    "begin": 276,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -54
+                        }
+                    ]
+                },
+                {
+                    "begin": 277,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 111,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -420
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 111,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 6
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -16.799999999999997,
+                            "r": 249.59619140625
+                        }
+                    ]
+                },
+                {
+                    "begin": 276,
+                    "data": [
+                        {
+                            "x": -6,
+                            "y": -54,
+                            "r": 249.59619140625
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body3",
+            "frames": [
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": -426,
+                            "y": 519,
+                            "r": 109.19952392578124
+                        }
+                    ]
+                },
+                {
+                    "begin": 276,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body4",
+            "frames": [
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": 417.6,
+                            "y": 493.2000000000001,
+                            "r": 124.798095703125
+                        }
+                    ]
+                },
+                {
+                    "begin": 276,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body2",
+            "frames": [
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": -415.2000000000001,
+                            "y": 60,
+                            "r": 187.201904296875
+                        }
+                    ]
+                },
+                {
+                    "begin": 276,
+                    "data": [
+                        {
+                            "x": -492,
+                            "y": -84,
+                            "r": 249.605712890625
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body5",
+            "frames": [
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": 447.6,
+                            "y": 30,
+                            "r": 218.394287109375
+                        }
+                    ]
+                },
+                {
+                    "begin": 276,
+                    "data": [
+                        {
+                            "x": 480,
+                            "y": -84,
+                            "r": 249.59619140625
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body6",
+            "frames": [
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": 912,
+                            "y": 283.20000000000005,
+                            "r": 561.59619140625
+                        }
+                    ]
+                },
+                {
+                    "begin": 276,
+                    "data": [
+                        {
+                            "x": 600,
+                            "y": 324,
+                            "r": 187.1971435546875
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body7",
+            "frames": [
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": -900,
+                            "y": 283.20000000000005,
+                            "r": 561.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 276,
+                    "data": [
+                        {
+                            "x": -594,
+                            "y": 324,
+                            "r": 187.201904296875
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body8",
+            "frames": [
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -480,
+                            "r": 561.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class1_11",
+            "frames": [
+                {
+                    "begin": 351,
+                    "data": [
+                        {
+                            "x": -9,
+                            "y": 228,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class3_21",
+            "frames": [
+                {
+                    "begin": 351,
+                    "data": [
+                        {
+                            "x": -336,
+                            "y": 168,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class3_51",
+            "frames": [
+                {
+                    "begin": 351,
+                    "data": [
+                        {
+                            "x": 330,
+                            "y": 144,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class4_61",
+            "frames": [
+                {
+                    "begin": 351,
+                    "data": [
+                        {
+                            "x": 432,
+                            "y": 468,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class4_71",
+            "frames": [
+                {
+                    "begin": 351,
+                    "data": [
+                        {
+                            "x": -426,
+                            "y": 468,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 367,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

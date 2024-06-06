@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 120,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 121,
+            "end": 240,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 241,
+            "end": 265,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_admin_laser_bit_shot",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,432 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 51,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 52,
+            "end": 138,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 139,
+            "end": 272,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 273,
+            "end": 304,
+            "name": "none1",
+            "kind": "once"
+        },
+        {
+            "begin": 305,
+            "end": 336,
+            "name": "none2",
+            "kind": "once"
+        },
+        {
+            "begin": 337,
+            "end": 368,
+            "name": "none3",
+            "kind": "once"
+        },
+        {
+            "begin": 369,
+            "end": 400,
+            "name": "none4",
+            "kind": "once"
+        },
+        {
+            "begin": 401,
+            "end": 432,
+            "name": "kinomi1",
+            "kind": "once"
+        },
+        {
+            "begin": 433,
+            "end": 464,
+            "name": "kinomi2",
+            "kind": "once"
+        },
+        {
+            "begin": 465,
+            "end": 496,
+            "name": "kinomi3",
+            "kind": "once"
+        },
+        {
+            "begin": 497,
+            "end": 528,
+            "name": "kinomi4",
+            "kind": "once"
+        },
+        {
+            "begin": 529,
+            "end": 560,
+            "name": "kinomi5",
+            "kind": "once"
+        },
+        {
+            "begin": 561,
+            "end": 592,
+            "name": "kinomi6",
+            "kind": "once"
+        },
+        {
+            "begin": 593,
+            "end": 624,
+            "name": "kinomi_all",
+            "kind": "once"
+        },
+        {
+            "begin": 625,
+            "end": 656,
+            "name": "start",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -222
+                        }
+                    ]
+                },
+                {
+                    "begin": 52,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -36
+                        }
+                    ]
+                },
+                {
+                    "begin": 52,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 273,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 274,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 305,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 306,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin4",
+            "frames": [
+                {
+                    "begin": 337,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 338,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 369,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 370,
+                    "data": []
+                },
+                {
+                    "begin": 401,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 402,
+                    "data": []
+                },
+                {
+                    "begin": 433,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 434,
+                    "data": []
+                },
+                {
+                    "begin": 465,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 466,
+                    "data": []
+                },
+                {
+                    "begin": 497,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 498,
+                    "data": []
+                },
+                {
+                    "begin": 529,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 530,
+                    "data": []
+                },
+                {
+                    "begin": 561,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 390
+                        }
+                    ]
+                },
+                {
+                    "begin": 562,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot7",
+            "frames": [
+                {
+                    "begin": 305,
+                    "data": [
+                        {
+                            "x": -36,
+                            "y": 18.299999999999997
+                        }
+                    ]
+                },
+                {
+                    "begin": 306,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 401,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 69.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 402,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 433,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 69.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 434,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot3",
+            "frames": [
+                {
+                    "begin": 465,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 69.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 466,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot4",
+            "frames": [
+                {
+                    "begin": 497,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 69.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 498,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot5",
+            "frames": [
+                {
+                    "begin": 529,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 69.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 530,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot6",
+            "frames": [
+                {
+                    "begin": 561,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 69.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 562,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -35.7,
+                            "r": 37.4384765625
+                        }
+                    ]
+                },
+                {
+                    "begin": 52,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,261 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 66,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 67,
+            "end": 119,
+            "name": "move",
+            "kind": "loop"
+        },
+        {
+            "begin": 120,
+            "end": 130,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 131,
+            "end": 135,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 136,
+            "end": 148,
+            "name": "shot1_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 149,
+            "end": 155,
+            "name": "shot1_attack",
+            "kind": "loop"
+        },
+        {
+            "begin": 156,
+            "end": 171,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 172,
+            "end": 184,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 185,
+            "end": 225,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 226,
+            "end": 232,
+            "name": "shot2_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 233,
+            "end": 249,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 250,
+            "end": 272,
+            "name": "funnel1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 273,
+            "end": 302,
+            "name": "funnel1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 303,
+            "end": 325,
+            "name": "funnel1_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 326,
+            "end": 360,
+            "name": "funnel1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 361,
+            "end": 408,
+            "name": "funnel2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 409,
+            "end": 438,
+            "name": "funnel2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 439,
+            "end": 473,
+            "name": "funnel2_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 474,
+            "end": 507,
+            "name": "funnel2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 508,
+            "end": 554,
+            "name": "skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 555,
+            "end": 567,
+            "name": "skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 568,
+            "end": 574,
+            "name": "skill1_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 575,
+            "end": 612,
+            "name": "skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 613,
+            "end": 643,
+            "name": "skill2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 644,
+            "end": 656,
+            "name": "skill2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 657,
+            "end": 675,
+            "name": "skill2_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 676,
+            "end": 694,
+            "name": "skill2_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 695,
+            "end": 725,
+            "name": "skill2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 726,
+            "end": 746,
+            "name": "special_start",
+            "kind": "once"
+        },
+        {
+            "begin": 747,
+            "end": 776,
+            "name": "special_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 777,
+            "end": 808,
+            "name": "special_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 809,
+            "end": 813,
+            "name": "special_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 814,
+            "end": 863,
+            "name": "special_end",
+            "kind": "once"
+        },
+        {
+            "begin": 864,
+            "end": 877,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 878,
+            "end": 938,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 939,
+            "end": 952,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 953,
+            "end": 1013,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 1014,
+            "end": 1101,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 1102,
+            "end": 1117,
+            "name": "funnel3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1118,
+            "end": 1147,
+            "name": "funnel3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1148,
+            "end": 1174,
+            "name": "funnel3_attack",
+            "kind": "loop"
+        },
+        {
+            "begin": 1175,
+            "end": 1199,
+            "name": "funnel3_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

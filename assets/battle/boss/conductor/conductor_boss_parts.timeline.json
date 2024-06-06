@@ -1,0 +1,238 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 29,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 30,
+            "end": 94,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 95,
+            "end": 111,
+            "name": "laser_start",
+            "kind": "once"
+        },
+        {
+            "begin": 112,
+            "end": 144,
+            "name": "laser_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 145,
+            "end": 177,
+            "name": "laser_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 178,
+            "end": 194,
+            "name": "laser_end",
+            "kind": "once"
+        },
+        {
+            "begin": 195,
+            "end": 211,
+            "name": "laser_long_start",
+            "kind": "once"
+        },
+        {
+            "begin": 212,
+            "end": 244,
+            "name": "laser_long_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 245,
+            "end": 277,
+            "name": "laser_long_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 278,
+            "end": 294,
+            "name": "laser_long_end",
+            "kind": "once"
+        },
+        {
+            "begin": 295,
+            "end": 343,
+            "name": "attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 344,
+            "end": 360,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 361,
+            "end": 393,
+            "name": "attack_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 394,
+            "end": 442,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 443,
+            "end": 447,
+            "name": "chase_laser_start",
+            "kind": "once"
+        },
+        {
+            "begin": 448,
+            "end": 480,
+            "name": "chase_laser_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 481,
+            "end": 497,
+            "name": "chase_laser_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 498,
+            "end": 514,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 515,
+            "end": 547,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 548,
+            "end": 580,
+            "name": "skill_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 581,
+            "end": 597,
+            "name": "skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 598,
+            "end": 614,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 615,
+            "end": 644,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 645,
+            "end": 649,
+            "name": "hidden",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_admin_laser_bit_start",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_medium",
+            "begin": 112,
+            "loop": -1,
+            "end": 145,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_fire_laser",
+            "begin": 145,
+            "loop": -1,
+            "end": 178,
+            "volume": 8
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_big",
+            "begin": 212,
+            "loop": -1,
+            "end": 245,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_big_wave_shot",
+            "begin": 245,
+            "loop": -1,
+            "end": 278,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_big_wave_charge",
+            "begin": 344,
+            "loop": -1,
+            "end": 361,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/fire/se_burn_out",
+            "begin": 362,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/fire/se_burn_out",
+            "begin": 370,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/fire/se_burn_out",
+            "begin": 379,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_medium",
+            "begin": 448,
+            "loop": -1,
+            "end": 481,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_laser_bit_charge",
+            "begin": 515,
+            "loop": -1,
+            "end": 548,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_laser_bit_shot",
+            "begin": 548,
+            "loop": -1,
+            "end": 581,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

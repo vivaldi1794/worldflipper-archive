@@ -1,0 +1,164 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 10,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 11,
+            "end": 88,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 89,
+            "end": 176,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 177,
+            "end": 206,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 207,
+            "end": 224,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 225,
+            "end": 244,
+            "name": "explosion",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/thunder/se_lightning_needle_charge",
+            "begin": 177,
+            "loop": -1,
+            "end": 207,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_lightning_needle_charge",
+            "begin": 207,
+            "loop": -1,
+            "end": 225,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bomb",
+            "begin": 225,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 11,
+                    "data": [
+                        {
+                            "x": -3,
+                            "y": -109.5
+                        }
+                    ]
+                },
+                {
+                    "begin": 89,
+                    "data": []
+                },
+                {
+                    "begin": 177,
+                    "data": [
+                        {
+                            "x": -3,
+                            "y": -109.5
+                        }
+                    ]
+                },
+                {
+                    "begin": 225,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 11,
+                    "data": [
+                        {
+                            "x": -0.8999999999999999,
+                            "y": -7.800000000000001
+                        }
+                    ]
+                },
+                {
+                    "begin": 89,
+                    "data": []
+                },
+                {
+                    "begin": 177,
+                    "data": [
+                        {
+                            "x": -0.8999999999999999,
+                            "y": -7.800000000000001
+                        }
+                    ]
+                },
+                {
+                    "begin": 225,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 11,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -5.699999999999999,
+                            "r": 62.3990478515625
+                        }
+                    ]
+                },
+                {
+                    "begin": 89,
+                    "data": []
+                },
+                {
+                    "begin": 177,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -5.699999999999999,
+                            "r": 62.3990478515625
+                        }
+                    ]
+                },
+                {
+                    "begin": 225,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

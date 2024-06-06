@@ -1,0 +1,2913 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 3,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 4,
+            "end": 6,
+            "name": "start3",
+            "kind": "once"
+        },
+        {
+            "begin": 7,
+            "end": 85,
+            "name": "start_2",
+            "kind": "once"
+        },
+        {
+            "begin": 86,
+            "end": 158,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 159,
+            "end": 169,
+            "name": "phase3_funnel_dead",
+            "kind": "once"
+        },
+        {
+            "begin": 170,
+            "end": 180,
+            "name": "phase2_start",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 181,
+            "end": 191,
+            "name": "fever_down",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 192,
+            "end": 202,
+            "name": "phase3_fever_field",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 203,
+            "end": 212,
+            "name": "phase3_start",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 213,
+            "end": 223,
+            "name": "phase3_field_end",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 224,
+            "end": 234,
+            "name": "phase3_bonus",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 235,
+            "end": 245,
+            "name": "phase1_comboup1",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 246,
+            "end": 256,
+            "name": "phase1_comboup2",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 257,
+            "end": 267,
+            "name": "phase1_comboup3",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 268,
+            "end": 277,
+            "name": "phase3_pf_check1",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 278,
+            "end": 288,
+            "name": "phase3_pf_check2",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 289,
+            "end": 299,
+            "name": "phase3_pf_check2_pf",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 300,
+            "end": 307,
+            "name": "phase2_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 308,
+            "end": 318,
+            "name": "phase2_neutral2",
+            "kind": "goto",
+            "target": "phase2_neutral"
+        },
+        {
+            "begin": 319,
+            "end": 329,
+            "name": "phase2_neutral_add",
+            "kind": "goto",
+            "target": "phase2_neutral"
+        },
+        {
+            "begin": 330,
+            "end": 340,
+            "name": "phase3_fever_add",
+            "kind": "goto",
+            "target": "phase2_neutral"
+        },
+        {
+            "begin": 341,
+            "end": 383,
+            "name": "solo_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 384,
+            "end": 407,
+            "name": "solo_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 408,
+            "end": 409,
+            "name": "solo_fire1",
+            "kind": "goto",
+            "target": "laser_fire1_loop"
+        },
+        {
+            "begin": 410,
+            "end": 426,
+            "name": "solo_fire1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 427,
+            "end": 454,
+            "name": "solo_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 455,
+            "end": 470,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 471,
+            "end": 484,
+            "name": "shot_front",
+            "kind": "once"
+        },
+        {
+            "begin": 485,
+            "end": 524,
+            "name": "shot_right",
+            "kind": "once"
+        },
+        {
+            "begin": 525,
+            "end": 559,
+            "name": "shot_left",
+            "kind": "once"
+        },
+        {
+            "begin": 560,
+            "end": 578,
+            "name": "shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 579,
+            "end": 597,
+            "name": "debuff_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 598,
+            "end": 611,
+            "name": "debuff_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 612,
+            "end": 630,
+            "name": "debuff_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 631,
+            "end": 649,
+            "name": "wave_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 650,
+            "end": 663,
+            "name": "wave_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 664,
+            "end": 682,
+            "name": "wave_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 683,
+            "end": 701,
+            "name": "lvwave_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 702,
+            "end": 715,
+            "name": "lvwave_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 716,
+            "end": 734,
+            "name": "lvwave_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 735,
+            "end": 748,
+            "name": "lvwave_attack2",
+            "kind": "once"
+        },
+        {
+            "begin": 749,
+            "end": 767,
+            "name": "lvwave_start3",
+            "kind": "once"
+        },
+        {
+            "begin": 768,
+            "end": 781,
+            "name": "lvwave_attack3",
+            "kind": "once"
+        },
+        {
+            "begin": 782,
+            "end": 800,
+            "name": "lvwave_start4",
+            "kind": "once"
+        },
+        {
+            "begin": 801,
+            "end": 814,
+            "name": "lvwave_attack4",
+            "kind": "once"
+        },
+        {
+            "begin": 815,
+            "end": 833,
+            "name": "lvwave_start5",
+            "kind": "once"
+        },
+        {
+            "begin": 834,
+            "end": 847,
+            "name": "lvwave_attack5",
+            "kind": "once"
+        },
+        {
+            "begin": 848,
+            "end": 863,
+            "name": "lvwave_end",
+            "kind": "once"
+        },
+        {
+            "begin": 864,
+            "end": 905,
+            "name": "tracking_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 906,
+            "end": 930,
+            "name": "tracking_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 931,
+            "end": 932,
+            "name": "tracking_fire1",
+            "kind": "pass"
+        },
+        {
+            "begin": 933,
+            "end": 949,
+            "name": "tracking_fire1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 950,
+            "end": 977,
+            "name": "tracking_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 978,
+            "end": 1019,
+            "name": "target1_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1020,
+            "end": 1044,
+            "name": "target1_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 1045,
+            "end": 1069,
+            "name": "target1_charge2",
+            "kind": "once"
+        },
+        {
+            "begin": 1070,
+            "end": 1071,
+            "name": "target1_fire1",
+            "kind": "pass"
+        },
+        {
+            "begin": 1072,
+            "end": 1088,
+            "name": "target1_fire1_loop",
+            "kind": "goto",
+            "target": "target2_fire1_loop"
+        },
+        {
+            "begin": 1089,
+            "end": 1116,
+            "name": "target1_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 1117,
+            "end": 1158,
+            "name": "target2_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1159,
+            "end": 1183,
+            "name": "target2_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 1184,
+            "end": 1185,
+            "name": "target2_fire1",
+            "kind": "pass"
+        },
+        {
+            "begin": 1186,
+            "end": 1202,
+            "name": "target2_fire1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1203,
+            "end": 1230,
+            "name": "target2_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 1231,
+            "end": 1272,
+            "name": "target3_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1273,
+            "end": 1297,
+            "name": "target3_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 1298,
+            "end": 1322,
+            "name": "target3_charge2",
+            "kind": "once"
+        },
+        {
+            "begin": 1323,
+            "end": 1324,
+            "name": "target3_fire1",
+            "kind": "pass"
+        },
+        {
+            "begin": 1325,
+            "end": 1341,
+            "name": "target3_fire1_loop",
+            "kind": "goto",
+            "target": "target2_fire1_loop"
+        },
+        {
+            "begin": 1342,
+            "end": 1369,
+            "name": "target3_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 1370,
+            "end": 1412,
+            "name": "laser_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1413,
+            "end": 1436,
+            "name": "laser_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1437,
+            "end": 1438,
+            "name": "laser_fire1",
+            "kind": "goto",
+            "target": "laser_fire1_loop"
+        },
+        {
+            "begin": 1439,
+            "end": 1440,
+            "name": "laser_fire2",
+            "kind": "pass"
+        },
+        {
+            "begin": 1441,
+            "end": 1457,
+            "name": "laser_fire1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1458,
+            "end": 1485,
+            "name": "laser_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 1486,
+            "end": 1528,
+            "name": "lasershot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1529,
+            "end": 1553,
+            "name": "lasershot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1554,
+            "end": 1555,
+            "name": "lasershot",
+            "kind": "pass"
+        },
+        {
+            "begin": 1556,
+            "end": 1572,
+            "name": "lasershot_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1573,
+            "end": 1600,
+            "name": "lasershot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1601,
+            "end": 1614,
+            "name": "attackup_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1615,
+            "end": 1639,
+            "name": "attackup_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1640,
+            "end": 1694,
+            "name": "attackup_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 1695,
+            "end": 1749,
+            "name": "attackup_attack2",
+            "kind": "once"
+        },
+        {
+            "begin": 1750,
+            "end": 1763,
+            "name": "moveattack_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1764,
+            "end": 1788,
+            "name": "moveattack_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1789,
+            "end": 1843,
+            "name": "moveattack_attack1",
+            "kind": "pass"
+        },
+        {
+            "begin": 1844,
+            "end": 1898,
+            "name": "moveattack_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1899,
+            "end": 1912,
+            "name": "funnel1_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1913,
+            "end": 1937,
+            "name": "funnel1_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 1938,
+            "end": 1962,
+            "name": "funnel1_charge4",
+            "kind": "once"
+        },
+        {
+            "begin": 1963,
+            "end": 2016,
+            "name": "funnel1_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 2017,
+            "end": 2030,
+            "name": "funnel1_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 2031,
+            "end": 2055,
+            "name": "funnel1_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 2056,
+            "end": 2109,
+            "name": "funnel1_attack2",
+            "kind": "once"
+        },
+        {
+            "begin": 2110,
+            "end": 2163,
+            "name": "funnel1_attack2_fever",
+            "kind": "once"
+        },
+        {
+            "begin": 2164,
+            "end": 2217,
+            "name": "funnel1_shot3",
+            "kind": "once"
+        },
+        {
+            "begin": 2218,
+            "end": 2231,
+            "name": "funnel2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2232,
+            "end": 2256,
+            "name": "funnel2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2257,
+            "end": 2311,
+            "name": "funnel2_shot1",
+            "kind": "once"
+        },
+        {
+            "begin": 2312,
+            "end": 2325,
+            "name": "funnel3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2326,
+            "end": 2350,
+            "name": "funnel3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2351,
+            "end": 2405,
+            "name": "funnel3_shot1",
+            "kind": "once"
+        },
+        {
+            "begin": 2406,
+            "end": 2419,
+            "name": "funnel4_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 2420,
+            "end": 2444,
+            "name": "funnel4_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2445,
+            "end": 2499,
+            "name": "funnel4_shot1",
+            "kind": "once"
+        },
+        {
+            "begin": 2500,
+            "end": 2554,
+            "name": "funnel4_shot2",
+            "kind": "once"
+        },
+        {
+            "begin": 2555,
+            "end": 2609,
+            "name": "funnel4_shot3",
+            "kind": "once"
+        },
+        {
+            "begin": 2610,
+            "end": 2623,
+            "name": "funnel5_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 2624,
+            "end": 2637,
+            "name": "funnel5_start1_fever",
+            "kind": "once"
+        },
+        {
+            "begin": 2638,
+            "end": 2662,
+            "name": "funnel5_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2663,
+            "end": 2717,
+            "name": "funnel5_shot1",
+            "kind": "once"
+        },
+        {
+            "begin": 2718,
+            "end": 2731,
+            "name": "funnel6_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 2732,
+            "end": 2756,
+            "name": "funnel6_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2757,
+            "end": 2811,
+            "name": "funnel6_shot1",
+            "kind": "once"
+        },
+        {
+            "begin": 2812,
+            "end": 2825,
+            "name": "funnel7_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 2826,
+            "end": 2850,
+            "name": "funnel7_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2851,
+            "end": 2905,
+            "name": "funnel7_shot1",
+            "kind": "once"
+        },
+        {
+            "begin": 2906,
+            "end": 2919,
+            "name": "funnel2_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 2920,
+            "end": 2944,
+            "name": "funnel2_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2945,
+            "end": 3001,
+            "name": "funnel2_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 3002,
+            "end": 3056,
+            "name": "funnel2_attack2",
+            "kind": "pass"
+        },
+        {
+            "begin": 3057,
+            "end": 3070,
+            "name": "funnel2_start3",
+            "kind": "stop"
+        },
+        {
+            "begin": 3071,
+            "end": 3125,
+            "name": "funnel2_attack3",
+            "kind": "once"
+        },
+        {
+            "begin": 3126,
+            "end": 3139,
+            "name": "funnel2_start3_fever",
+            "kind": "once"
+        },
+        {
+            "begin": 3140,
+            "end": 3194,
+            "name": "funnel2_attack3_fever",
+            "kind": "once"
+        },
+        {
+            "begin": 3195,
+            "end": 3249,
+            "name": "funnel2_attack4",
+            "kind": "once"
+        },
+        {
+            "begin": 3250,
+            "end": 3291,
+            "name": "skill_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 3292,
+            "end": 3308,
+            "name": "skill_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 3309,
+            "end": 3325,
+            "name": "skill_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 3326,
+            "end": 3380,
+            "name": "skill_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 3381,
+            "end": 3488,
+            "name": "wince_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 3489,
+            "end": 3597,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 3598,
+            "end": 3706,
+            "name": "stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 3707,
+            "end": 3815,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 3816,
+            "end": 3924,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 3925,
+            "end": 3967,
+            "name": "normalshot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3968,
+            "end": 3992,
+            "name": "normalshot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 3993,
+            "end": 4009,
+            "name": "normalshot1",
+            "kind": "loop"
+        },
+        {
+            "begin": 4010,
+            "end": 4037,
+            "name": "normalshot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 4038,
+            "end": 4051,
+            "name": "funnel1_start1_monitor",
+            "kind": "once"
+        },
+        {
+            "begin": 4052,
+            "end": 4062,
+            "name": "phase2_start_monitor",
+            "kind": "goto",
+            "target": "neutral"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 408,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 931,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 1070,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 1184,
+            "loop": -1,
+            "end": 1186,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 1323,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_short",
+            "begin": 1437,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_short",
+            "begin": 1439,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_short",
+            "begin": 1554,
+            "loop": -1,
+            "end": 1556,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 3968,
+            "loop": -1,
+            "end": 3993,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 3993,
+            "loop": -1,
+            "end": 4010,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hit_count_check",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -240
+                        }
+                    ]
+                },
+                {
+                    "begin": 3816,
+                    "data": []
+                },
+                {
+                    "begin": 3925,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -240
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -117
+                        }
+                    ]
+                },
+                {
+                    "begin": 300,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -1650
+                        }
+                    ]
+                },
+                {
+                    "begin": 308,
+                    "data": [
+                        {
+                            "x": -9,
+                            "y": -1614
+                        }
+                    ]
+                },
+                {
+                    "begin": 319,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -117
+                        }
+                    ]
+                },
+                {
+                    "begin": 3002,
+                    "data": [
+                        {
+                            "x": -9,
+                            "y": -1710
+                        }
+                    ]
+                },
+                {
+                    "begin": 3057,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -117
+                        }
+                    ]
+                },
+                {
+                    "begin": 3071,
+                    "data": [
+                        {
+                            "x": -9,
+                            "y": -1656
+                        }
+                    ]
+                },
+                {
+                    "begin": 3126,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -117
+                        }
+                    ]
+                },
+                {
+                    "begin": 3140,
+                    "data": [
+                        {
+                            "x": -9,
+                            "y": -1656
+                        }
+                    ]
+                },
+                {
+                    "begin": 3250,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -117
+                        }
+                    ]
+                },
+                {
+                    "begin": 3816,
+                    "data": []
+                },
+                {
+                    "begin": 3925,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -117
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 86,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 48
+                        }
+                    ]
+                },
+                {
+                    "begin": 3816,
+                    "data": []
+                },
+                {
+                    "begin": 3925,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 48
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 1529,
+                    "data": [
+                        {
+                            "x": 69.6,
+                            "y": -18
+                        }
+                    ]
+                },
+                {
+                    "begin": 1554,
+                    "data": []
+                },
+                {
+                    "begin": 3292,
+                    "data": [
+                        {
+                            "x": 120,
+                            "y": -72
+                        }
+                    ]
+                },
+                {
+                    "begin": 3309,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action43",
+            "frames": [
+                {
+                    "begin": 2,
+                    "data": [
+                        {
+                            "x": -11.7,
+                            "y": 36.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 3,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action47",
+            "frames": [
+                {
+                    "begin": 5,
+                    "data": [
+                        {
+                            "x": -11.7,
+                            "y": 36.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 6,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "eliminate_all_funnels",
+            "frames": [
+                {
+                    "begin": 171,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 172,
+                    "data": []
+                },
+                {
+                    "begin": 203,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 204,
+                    "data": []
+                },
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 215,
+                    "data": []
+                },
+                {
+                    "begin": 4053,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 4054,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action38",
+            "frames": [
+                {
+                    "begin": 182,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 183,
+                    "data": []
+                },
+                {
+                    "begin": 236,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 183
+                        }
+                    ]
+                },
+                {
+                    "begin": 237,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action19",
+            "frames": [
+                {
+                    "begin": 193,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 194,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action40",
+            "frames": [
+                {
+                    "begin": 216,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 183
+                        }
+                    ]
+                },
+                {
+                    "begin": 217,
+                    "data": []
+                },
+                {
+                    "begin": 258,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 183
+                        }
+                    ]
+                },
+                {
+                    "begin": 259,
+                    "data": []
+                },
+                {
+                    "begin": 330,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 331,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action39",
+            "frames": [
+                {
+                    "begin": 225,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 183
+                        }
+                    ]
+                },
+                {
+                    "begin": 226,
+                    "data": []
+                },
+                {
+                    "begin": 247,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 183
+                        }
+                    ]
+                },
+                {
+                    "begin": 248,
+                    "data": []
+                },
+                {
+                    "begin": 2625,
+                    "data": [
+                        {
+                            "x": 12,
+                            "y": 105
+                        }
+                    ]
+                },
+                {
+                    "begin": 2626,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action44",
+            "frames": [
+                {
+                    "begin": 268,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 269,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action45",
+            "frames": [
+                {
+                    "begin": 279,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 280,
+                    "data": []
+                },
+                {
+                    "begin": 290,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 291,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action42",
+            "frames": [
+                {
+                    "begin": 319,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 320,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action07",
+            "frames": [
+                {
+                    "begin": 408,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -69.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 409,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action31",
+            "frames": [
+                {
+                    "begin": 598,
+                    "data": [
+                        {
+                            "x": -3.5999999999999996,
+                            "y": -45
+                        }
+                    ]
+                },
+                {
+                    "begin": 599,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action03",
+            "frames": [
+                {
+                    "begin": 650,
+                    "data": [
+                        {
+                            "x": -3.5999999999999996,
+                            "y": -45
+                        }
+                    ]
+                },
+                {
+                    "begin": 651,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action33",
+            "frames": [
+                {
+                    "begin": 702,
+                    "data": [
+                        {
+                            "x": -3.5999999999999996,
+                            "y": -45
+                        }
+                    ]
+                },
+                {
+                    "begin": 703,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action34",
+            "frames": [
+                {
+                    "begin": 735,
+                    "data": [
+                        {
+                            "x": -3.5999999999999996,
+                            "y": -45
+                        }
+                    ]
+                },
+                {
+                    "begin": 736,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action35",
+            "frames": [
+                {
+                    "begin": 768,
+                    "data": [
+                        {
+                            "x": -3.5999999999999996,
+                            "y": -45
+                        }
+                    ]
+                },
+                {
+                    "begin": 769,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action36",
+            "frames": [
+                {
+                    "begin": 801,
+                    "data": [
+                        {
+                            "x": -3.5999999999999996,
+                            "y": -45
+                        }
+                    ]
+                },
+                {
+                    "begin": 802,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action37",
+            "frames": [
+                {
+                    "begin": 834,
+                    "data": [
+                        {
+                            "x": -3.5999999999999996,
+                            "y": -45
+                        }
+                    ]
+                },
+                {
+                    "begin": 835,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action01",
+            "frames": [
+                {
+                    "begin": 906,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 907,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action04",
+            "frames": [
+                {
+                    "begin": 1020,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 1021,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action08",
+            "frames": [
+                {
+                    "begin": 1045,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 1046,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action05",
+            "frames": [
+                {
+                    "begin": 1159,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 1160,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action06",
+            "frames": [
+                {
+                    "begin": 1273,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 1274,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action10",
+            "frames": [
+                {
+                    "begin": 1298,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 1299,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action02",
+            "frames": [
+                {
+                    "begin": 1437,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -69.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 1438,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action09",
+            "frames": [
+                {
+                    "begin": 1439,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -69.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 1440,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action41",
+            "frames": [
+                {
+                    "begin": 1640,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1641,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action46",
+            "frames": [
+                {
+                    "begin": 1695,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1696,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action32",
+            "frames": [
+                {
+                    "begin": 1789,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1790,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action21",
+            "frames": [
+                {
+                    "begin": 1900,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1901,
+                    "data": []
+                },
+                {
+                    "begin": 4039,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 4040,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action25",
+            "frames": [
+                {
+                    "begin": 1938,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1939,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action23",
+            "frames": [
+                {
+                    "begin": 2061,
+                    "data": [
+                        {
+                            "x": -2.7,
+                            "y": -33.599999999999994
+                        }
+                    ]
+                },
+                {
+                    "begin": 2062,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action18",
+            "frames": [
+                {
+                    "begin": 2115,
+                    "data": [
+                        {
+                            "x": -2.7,
+                            "y": -33.599999999999994
+                        }
+                    ]
+                },
+                {
+                    "begin": 2116,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action26",
+            "frames": [
+                {
+                    "begin": 2445,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 21
+                        }
+                    ]
+                },
+                {
+                    "begin": 2446,
+                    "data": []
+                },
+                {
+                    "begin": 2555,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 21
+                        }
+                    ]
+                },
+                {
+                    "begin": 2556,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action27",
+            "frames": [
+                {
+                    "begin": 2500,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 21
+                        }
+                    ]
+                },
+                {
+                    "begin": 2501,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action48",
+            "frames": [
+                {
+                    "begin": 2663,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 21
+                        }
+                    ]
+                },
+                {
+                    "begin": 2664,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action49",
+            "frames": [
+                {
+                    "begin": 2757,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 21
+                        }
+                    ]
+                },
+                {
+                    "begin": 2758,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action50",
+            "frames": [
+                {
+                    "begin": 2851,
+                    "data": [
+                        {
+                            "x": 9,
+                            "y": 21
+                        }
+                    ]
+                },
+                {
+                    "begin": 2852,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action22",
+            "frames": [
+                {
+                    "begin": 2945,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 2946,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action24",
+            "frames": [
+                {
+                    "begin": 3002,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 3003,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action29",
+            "frames": [
+                {
+                    "begin": 3071,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 3072,
+                    "data": []
+                },
+                {
+                    "begin": 3141,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 3142,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action20",
+            "frames": [
+                {
+                    "begin": 3195,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 3196,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action11",
+            "frames": [
+                {
+                    "begin": 3326,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 3327,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action30",
+            "frames": [
+                {
+                    "begin": 4039,
+                    "data": [
+                        {
+                            "x": 291,
+                            "y": -139.5
+                        }
+                    ]
+                },
+                {
+                    "begin": 4040,
+                    "data": []
+                },
+                {
+                    "begin": 4054,
+                    "data": [
+                        {
+                            "x": 291,
+                            "y": -139.5
+                        }
+                    ]
+                },
+                {
+                    "begin": 4055,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin10",
+            "frames": [
+                {
+                    "begin": 159,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 160,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin9",
+            "frames": [
+                {
+                    "begin": 181,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 182,
+                    "data": []
+                },
+                {
+                    "begin": 235,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 236,
+                    "data": []
+                },
+                {
+                    "begin": 246,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": 75
+                        }
+                    ]
+                },
+                {
+                    "begin": 247,
+                    "data": []
+                },
+                {
+                    "begin": 257,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "begin": 258,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin7",
+            "frames": [
+                {
+                    "begin": 192,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": 75
+                        }
+                    ]
+                },
+                {
+                    "begin": 193,
+                    "data": []
+                },
+                {
+                    "begin": 782,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 783,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin10",
+            "frames": [
+                {
+                    "begin": 224,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 225,
+                    "data": []
+                },
+                {
+                    "begin": 289,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 290,
+                    "data": []
+                },
+                {
+                    "begin": 3126,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 600
+                        }
+                    ]
+                },
+                {
+                    "begin": 3127,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin7",
+            "frames": [
+                {
+                    "begin": 341,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 342,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin1",
+            "frames": [
+                {
+                    "begin": 579,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 580,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 631,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 632,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin4",
+            "frames": [
+                {
+                    "begin": 683,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 684,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin5",
+            "frames": [
+                {
+                    "begin": 716,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 717,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin6",
+            "frames": [
+                {
+                    "begin": 749,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 750,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin8",
+            "frames": [
+                {
+                    "begin": 815,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 816,
+                    "data": []
+                },
+                {
+                    "begin": 2624,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 2625,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 864,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 865,
+                    "data": []
+                },
+                {
+                    "begin": 3925,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 3926,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin4",
+            "frames": [
+                {
+                    "begin": 978,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 979,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin5",
+            "frames": [
+                {
+                    "begin": 1117,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 1118,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin6",
+            "frames": [
+                {
+                    "begin": 1231,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 1232,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 1370,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 1371,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin1",
+            "frames": [
+                {
+                    "begin": 1486,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 1487,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin2",
+            "frames": [
+                {
+                    "begin": 1601,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 1602,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin3",
+            "frames": [
+                {
+                    "begin": 1750,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 1751,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin1",
+            "frames": [
+                {
+                    "begin": 1899,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 1900,
+                    "data": []
+                },
+                {
+                    "begin": 4038,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 4039,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin3",
+            "frames": [
+                {
+                    "begin": 2017,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 2018,
+                    "data": []
+                },
+                {
+                    "begin": 2312,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 2313,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin2",
+            "frames": [
+                {
+                    "begin": 2218,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 2219,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin4",
+            "frames": [
+                {
+                    "begin": 2406,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 2407,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin6",
+            "frames": [
+                {
+                    "begin": 2610,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 2611,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin7",
+            "frames": [
+                {
+                    "begin": 2718,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 2719,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin8",
+            "frames": [
+                {
+                    "begin": 2812,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 2813,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin5",
+            "frames": [
+                {
+                    "begin": 2906,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 150
+                        }
+                    ]
+                },
+                {
+                    "begin": 2907,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin2",
+            "frames": [
+                {
+                    "begin": 3250,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 3251,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "weak_point11",
+            "frames": [
+                {
+                    "begin": 1529,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 43.5,
+                            "r": 75
+                        }
+                    ]
+                },
+                {
+                    "begin": 1554,
+                    "data": []
+                },
+                {
+                    "begin": 3292,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 48,
+                            "r": 90.00091552734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 3309,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point13",
+            "frames": [
+                {
+                    "begin": 3292,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -252,
+                            "r": 90.00091552734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 3309,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 86,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -116.7,
+                            "r": 80.9967041015625
+                        }
+                    ]
+                },
+                {
+                    "begin": 159,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -117,
+                            "r": 66.0003662109375
+                        }
+                    ]
+                },
+                {
+                    "begin": 170,
+                    "data": []
+                },
+                {
+                    "begin": 181,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -116.7,
+                            "r": 80.9967041015625
+                        }
+                    ]
+                },
+                {
+                    "begin": 300,
+                    "data": []
+                },
+                {
+                    "begin": 341,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -117,
+                            "r": 66.0003662109375
+                        }
+                    ]
+                },
+                {
+                    "begin": 455,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -116.7,
+                            "r": 80.9967041015625
+                        }
+                    ]
+                },
+                {
+                    "begin": 2906,
+                    "data": []
+                },
+                {
+                    "begin": 3250,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -116.7,
+                            "r": 80.9967041015625
+                        }
+                    ]
+                },
+                {
+                    "begin": 3381,
+                    "data": [
+                        {
+                            "x": 0.30000000000000004,
+                            "y": -117,
+                            "r": 80.9967041015625
+                        }
+                    ]
+                },
+                {
+                    "begin": 3816,
+                    "data": []
+                },
+                {
+                    "begin": 3925,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -116.7,
+                            "r": 80.9967041015625
+                        }
+                    ]
+                },
+                {
+                    "begin": 4052,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

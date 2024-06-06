@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 27,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 28,
+            "end": 63,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 64,
+            "end": 75,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/blow/se_blow_attack_a",
+            "begin": 65,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

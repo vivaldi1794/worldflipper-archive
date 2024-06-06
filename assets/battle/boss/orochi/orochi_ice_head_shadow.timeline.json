@@ -1,0 +1,123 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 69,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 70,
+            "end": 150,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 151,
+            "end": 204,
+            "name": "funnel_start",
+            "kind": "once"
+        },
+        {
+            "begin": 205,
+            "end": 235,
+            "name": "funnel_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 236,
+            "end": 259,
+            "name": "funnel_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 260,
+            "end": 313,
+            "name": "target_start",
+            "kind": "once"
+        },
+        {
+            "begin": 314,
+            "end": 344,
+            "name": "target_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 345,
+            "end": 368,
+            "name": "target_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 369,
+            "end": 420,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 421,
+            "end": 457,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 458,
+            "end": 500,
+            "name": "skill_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 501,
+            "end": 546,
+            "name": "skill_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 547,
+            "end": 557,
+            "name": "skill_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 558,
+            "end": 638,
+            "name": "wince_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 639,
+            "end": 719,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 720,
+            "end": 800,
+            "name": "stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 801,
+            "end": 881,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 882,
+            "end": 971,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 972,
+            "end": 1040,
+            "name": "change",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,60 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 42,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 43,
+            "end": 103,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 104,
+            "end": 134,
+            "name": "charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 135,
+            "end": 147,
+            "name": "charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 148,
+            "end": 173,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 174,
+            "end": 202,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/weapon/se_bomb",
+            "begin": 154,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_boar_rider_bomb_single",
+            "begin": 178,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

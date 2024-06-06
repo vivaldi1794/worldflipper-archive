@@ -1,0 +1,309 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 33,
+            "name": "start",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 34,
+            "end": 64,
+            "name": "neutral0",
+            "kind": "pass"
+        },
+        {
+            "begin": 65,
+            "end": 95,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 96,
+            "end": 101,
+            "name": "charge_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 102,
+            "end": 120,
+            "name": "charge_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 121,
+            "end": 139,
+            "name": "charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 140,
+            "end": 159,
+            "name": "attack",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 160,
+            "end": 165,
+            "name": "ex_ready",
+            "kind": "goto",
+            "target": "charge_1"
+        },
+        {
+            "begin": 166,
+            "end": 184,
+            "name": "ex_charge",
+            "kind": "goto",
+            "target": "charge_1"
+        },
+        {
+            "begin": 185,
+            "end": 204,
+            "name": "ex_fire",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 205,
+            "end": 235,
+            "name": "no_buff",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 236,
+            "end": 255,
+            "name": "attack2",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 256,
+            "end": 264,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -105
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 35,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 19.200000000000003
+                        }
+                    ]
+                },
+                {
+                    "begin": 36,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 149,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -40.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 150,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 160,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 19.200000000000003
+                        }
+                    ]
+                },
+                {
+                    "begin": 161,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 194,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -40.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 195,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin4",
+            "frames": [
+                {
+                    "begin": 206,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 19.200000000000003
+                        }
+                    ]
+                },
+                {
+                    "begin": 207,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot3",
+            "frames": [
+                {
+                    "begin": 206,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -40.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 207,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot4",
+            "frames": [
+                {
+                    "begin": 245,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -40.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 246,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 258,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 19.200000000000003
+                        }
+                    ]
+                },
+                {
+                    "begin": 259,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "eliminate_all_funnels",
+            "frames": [
+                {
+                    "begin": 258,
+                    "data": [
+                        {
+                            "x": 313.79999999999995,
+                            "y": 16.5
+                        }
+                    ]
+                },
+                {
+                    "begin": 259,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 34,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -43.5,
+                            "r": 43.694091796875
+                        }
+                    ]
+                },
+                {
+                    "begin": 256,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

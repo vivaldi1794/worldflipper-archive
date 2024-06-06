@@ -1,0 +1,57 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 28,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 29,
+            "end": 104,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 105,
+            "end": 217,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 218,
+            "end": 235,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 236,
+            "end": 255,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 256,
+            "end": 261,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 262,
+            "end": 277,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 278,
+            "end": 301,
+            "name": "shot1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

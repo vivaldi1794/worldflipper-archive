@@ -1,0 +1,54 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 83,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 84,
+            "end": 179,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 180,
+            "end": 254,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 255,
+            "end": 278,
+            "name": "stun",
+            "kind": "once"
+        },
+        {
+            "begin": 279,
+            "end": 314,
+            "name": "energy_charge",
+            "kind": "loop"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/thunder/se_thunderbolt_single",
+            "begin": 255,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_sf_full_energy",
+            "begin": 279,
+            "loop": -1,
+            "end": 315,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

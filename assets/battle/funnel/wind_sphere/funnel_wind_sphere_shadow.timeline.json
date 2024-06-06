@@ -1,0 +1,69 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 26,
+            "name": "popin",
+            "kind": "once"
+        },
+        {
+            "begin": 27,
+            "end": 87,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 88,
+            "end": 104,
+            "name": "attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 105,
+            "end": 117,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 118,
+            "end": 122,
+            "name": "attack_fire",
+            "kind": "pass"
+        },
+        {
+            "begin": 123,
+            "end": 127,
+            "name": "attack_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 128,
+            "end": 138,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 139,
+            "end": 163,
+            "name": "ex_start",
+            "kind": "once"
+        },
+        {
+            "begin": 164,
+            "end": 200,
+            "name": "ex_suction",
+            "kind": "once"
+        },
+        {
+            "begin": 201,
+            "end": 235,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

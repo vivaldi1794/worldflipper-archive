@@ -1,0 +1,294 @@
+[
+    "ActionDsl",
+    2,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "StopBall",
+                    -18,
+                    30,
+                    [
+                        "RestoreToSpeedBeforeActionExecution"
+                    ],
+                    [
+                        "AB"
+                    ],
+                    0
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "ShowEffect",
+                    "地面演出",
+                    [
+                        "SpecifyEffectDirectly",
+                        "battle/effect/skill_unique/evilloli_master/evilloli_master_ground"
+                    ],
+                    -18,
+                    [
+                        "BacksideOfCharacter"
+                    ],
+                    [
+                        "PlayOnlyFirstSequence"
+                    ],
+                    [
+                        "AB"
+                    ],
+                    0,
+                    0,
+                    0,
+                    false,
+                    false,
+                    [
+                        "None"
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "CreateHitArea",
+                    "*",
+                    -18,
+                    [
+                        "AB"
+                    ],
+                    0,
+                    50,
+                    0,
+                    false,
+                    false,
+                    [
+                        "Rectangle",
+                        [
+                            {
+                                "min": 300,
+                                "max": 300
+                            }
+                        ],
+                        [
+                            {
+                                "min": 300,
+                                "max": 300
+                            }
+                        ]
+                    ],
+                    [
+                        "Center"
+                    ],
+                    [
+                        "Bottom"
+                    ],
+                    [
+                        "Single"
+                    ],
+                    [
+                        "SpecifyHitAreaLifetimeDirectly",
+                        100
+                    ],
+                    [
+                        "SpecifyMinHitIntervalDirectly",
+                        1
+                    ],
+                    [
+                        "Some",
+                        [
+                            {
+                                "min": 8,
+                                "max": 8
+                            }
+                        ]
+                    ],
+                    false,
+                    true,
+                    [
+                        "None"
+                    ],
+                    0,
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "ShowEffect",
+                                    "攻撃演出",
+                                    [
+                                        "SpecifyEffectDirectly",
+                                        "battle/effect/skill_unique/evilloli_master/evilloli_master_attack"
+                                    ],
+                                    0,
+                                    [
+                                        "ForesideOfCharacter"
+                                    ],
+                                    [
+                                        "UntilTargetTerminates"
+                                    ],
+                                    [
+                                        "AB"
+                                    ],
+                                    0,
+                                    -50,
+                                    0,
+                                    true,
+                                    false,
+                                    [
+                                        "None"
+                                    ]
+                                ]
+                            ],
+                            [
+                                "Command",
+                                [
+                                    "MoveHitArea",
+                                    0,
+                                    [
+                                        "AB"
+                                    ],
+                                    0,
+                                    40,
+                                    [
+                                        "None"
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ],
+                    1,
+                    2,
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "ShakeCamera",
+                                    1
+                                ]
+                            ],
+                            [
+                                "Command",
+                                [
+                                    "CreateNormalAttack",
+                                    2,
+                                    255,
+                                    [],
+                                    [],
+                                    26,
+                                    [
+                                        {
+                                            "min": 3.46125,
+                                            "max": 4,
+                                            "alv_min": 0.1875,
+                                            "alv_max": 0.375
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "min": 0,
+                                            "max": 0
+                                        }
+                                    ],
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    [
+                                        {
+                                            "min": 0.625,
+                                            "max": 0.625
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "min": 0.625,
+                                            "max": 0.625
+                                        }
+                                    ],
+                                    [
+                                        "Fine"
+                                    ],
+                                    true
+                                ]
+                            ],
+                            [
+                                "Command",
+                                [
+                                    "CreateCondition",
+                                    2,
+                                    [
+                                        [
+                                            "ACToleranceOfElement",
+                                            [
+                                                {
+                                                    "min": 900,
+                                                    "max": 900
+                                                }
+                                            ],
+                                            6,
+                                            [
+                                                {
+                                                    "min": -0.2,
+                                                    "max": -0.25
+                                                }
+                                            ],
+                                            [
+                                                {
+                                                    "min": 1,
+                                                    "max": 1
+                                                }
+                                            ]
+                                        ]
+                                    ],
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    [
+                                        "GenericConditionHitEffect"
+                                    ],
+                                    true,
+                                    false,
+                                    "",
+                                    null,
+                                    false,
+                                    3,
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    false
+                                ]
+                            ]
+                        ]
+                    ],
+                    0,
+                    0,
+                    [
+                        "None"
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

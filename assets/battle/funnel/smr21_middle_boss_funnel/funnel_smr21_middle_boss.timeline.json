@@ -1,0 +1,97 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 25,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 26,
+            "end": 92,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 93,
+            "end": 172,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 173,
+            "end": 209,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 210,
+            "end": 234,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 235,
+            "end": 251,
+            "name": "explosion_charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 252,
+            "end": 264,
+            "name": "explosion",
+            "kind": "once"
+        },
+        {
+            "begin": 265,
+            "end": 271,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 272,
+            "end": 302,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 303,
+            "end": 331,
+            "name": "shot1_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 332,
+            "end": 344,
+            "name": "shot1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/fire/se_medium_explosion",
+            "begin": 252,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_thunderbolt_single",
+            "begin": 272,
+            "loop": -1,
+            "end": 303,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_thunder_shot",
+            "begin": 303,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

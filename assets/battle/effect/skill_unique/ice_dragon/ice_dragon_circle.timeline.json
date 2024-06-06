@@ -1,0 +1,49 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 100,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 101,
+            "end": 250,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 251,
+            "end": 307,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/water/se_ice_chill",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/water/se_snap_splash",
+            "begin": 34,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/water/se_ice_break_echo",
+            "begin": 252,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

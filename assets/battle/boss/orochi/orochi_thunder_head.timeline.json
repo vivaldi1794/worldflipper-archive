@@ -1,0 +1,133 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 129,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 130,
+            "end": 210,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 211,
+            "end": 297,
+            "name": "opening_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 298,
+            "end": 351,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 352,
+            "end": 355,
+            "name": "shot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 356,
+            "end": 379,
+            "name": "shot_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 380,
+            "end": 394,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 395,
+            "end": 468,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 469,
+            "end": 511,
+            "name": "skill_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 512,
+            "end": 557,
+            "name": "skill_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 558,
+            "end": 568,
+            "name": "skill_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 569,
+            "end": 649,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 650,
+            "end": 730,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 731,
+            "end": 811,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 812,
+            "end": 892,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 893,
+            "end": 982,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 983,
+            "end": 1076,
+            "name": "change",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_orochi_head_in",
+            "begin": 62,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 395,
+            "loop": -1,
+            "end": 469,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_orochi_head_dead",
+            "begin": 893,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

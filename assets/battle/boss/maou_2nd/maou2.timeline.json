@@ -1,0 +1,368 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 96,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 97,
+            "end": 147,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 148,
+            "end": 154,
+            "name": "move",
+            "kind": "loop"
+        },
+        {
+            "begin": 155,
+            "end": 179,
+            "name": "movein",
+            "kind": "once"
+        },
+        {
+            "begin": 180,
+            "end": 195,
+            "name": "moveout",
+            "kind": "once"
+        },
+        {
+            "begin": 196,
+            "end": 236,
+            "name": "shot_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 237,
+            "end": 253,
+            "name": "shot_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 254,
+            "end": 278,
+            "name": "shot_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 279,
+            "end": 285,
+            "name": "shot_attack_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 286,
+            "end": 321,
+            "name": "shot_attack_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 322,
+            "end": 361,
+            "name": "shot_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 362,
+            "end": 381,
+            "name": "shot_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 382,
+            "end": 396,
+            "name": "shot_attack2",
+            "kind": "once"
+        },
+        {
+            "begin": 397,
+            "end": 411,
+            "name": "shot_attack_loop2",
+            "kind": "loop"
+        },
+        {
+            "begin": 412,
+            "end": 431,
+            "name": "shot_attack_end2",
+            "kind": "once"
+        },
+        {
+            "begin": 432,
+            "end": 457,
+            "name": "shot_start3",
+            "kind": "once"
+        },
+        {
+            "begin": 458,
+            "end": 478,
+            "name": "shot_charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 479,
+            "end": 521,
+            "name": "shot_attack3",
+            "kind": "once"
+        },
+        {
+            "begin": 522,
+            "end": 557,
+            "name": "shot_start4",
+            "kind": "once"
+        },
+        {
+            "begin": 558,
+            "end": 570,
+            "name": "shot_charge4",
+            "kind": "loop"
+        },
+        {
+            "begin": 571,
+            "end": 623,
+            "name": "shot_attack4",
+            "kind": "once"
+        },
+        {
+            "begin": 624,
+            "end": 659,
+            "name": "funnel_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 660,
+            "end": 672,
+            "name": "funnel_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 673,
+            "end": 725,
+            "name": "funnel_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 726,
+            "end": 765,
+            "name": "skill_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 766,
+            "end": 785,
+            "name": "skill_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 786,
+            "end": 800,
+            "name": "skill_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 801,
+            "end": 815,
+            "name": "skill_attack_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 816,
+            "end": 835,
+            "name": "skill_attack_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 836,
+            "end": 866,
+            "name": "wince_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 867,
+            "end": 876,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 877,
+            "end": 925,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 926,
+            "end": 950,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 951,
+            "end": 979,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_teleportation",
+            "begin": 155,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_teleportation",
+            "begin": 180,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_start",
+            "begin": 196,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 237,
+            "loop": -1,
+            "end": 254,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_short",
+            "begin": 254,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_wave_shot",
+            "begin": 279,
+            "loop": -1,
+            "end": 286,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_start",
+            "begin": 322,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 362,
+            "loop": -1,
+            "end": 382,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_short",
+            "begin": 382,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_wave_shot",
+            "begin": 397,
+            "loop": -1,
+            "end": 412,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_big_wave_charge",
+            "begin": 458,
+            "loop": -1,
+            "end": 479,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_big_wave_shot",
+            "begin": 479,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_wave_start",
+            "begin": 522,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_wave_charge",
+            "begin": 558,
+            "loop": -1,
+            "end": 571,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_wave_shot",
+            "begin": 571,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_wave_start",
+            "begin": 624,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_wave_charge",
+            "begin": 660,
+            "loop": -1,
+            "end": 673,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_wave_shot",
+            "begin": 673,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_start",
+            "begin": 726,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 766,
+            "loop": -1,
+            "end": 786,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_long",
+            "begin": 786,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_wave_shot",
+            "begin": 801,
+            "loop": -1,
+            "end": 816,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

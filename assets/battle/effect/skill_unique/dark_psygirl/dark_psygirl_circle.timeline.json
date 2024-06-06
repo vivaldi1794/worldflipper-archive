@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 42,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 43,
+            "end": 66,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 67,
+            "end": 86,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/situation/se_spear_thrust_normal",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

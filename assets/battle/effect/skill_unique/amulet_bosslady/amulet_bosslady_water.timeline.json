@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 29,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 30,
+            "end": 74,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 75,
+            "end": 120,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/water/se_water_giant_tidal_wave",
+            "begin": 20,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,194 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 60,
+            "name": "popup",
+            "kind": "pass"
+        },
+        {
+            "begin": 61,
+            "end": 172,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 173,
+            "end": 280,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 281,
+            "end": 292,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 293,
+            "end": 372,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 373,
+            "end": 382,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 383,
+            "end": 462,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 463,
+            "end": 472,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 473,
+            "end": 484,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 485,
+            "end": 496,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 497,
+            "end": 532,
+            "name": "shot2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 533,
+            "end": 568,
+            "name": "shot2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 569,
+            "end": 574,
+            "name": "shot2_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_appearance",
+            "begin": 379,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_swing_ver4",
+            "begin": 497,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_swing_ver4",
+            "begin": 533,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -150
+                        }
+                    ]
+                },
+                {
+                    "begin": 173,
+                    "data": []
+                },
+                {
+                    "begin": 253,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -150
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 173,
+                    "data": []
+                },
+                {
+                    "begin": 253,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 46.798095703125
+                        }
+                    ]
+                },
+                {
+                    "begin": 173,
+                    "data": []
+                },
+                {
+                    "begin": 253,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 46.79571533203125
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,320 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 49,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 50,
+            "end": 89,
+            "name": "jump_out",
+            "kind": "pass"
+        },
+        {
+            "begin": 90,
+            "end": 115,
+            "name": "jump",
+            "kind": "once"
+        },
+        {
+            "begin": 116,
+            "end": 143,
+            "name": "jump_in",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 144,
+            "end": 158,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 159,
+            "end": 188,
+            "name": "skill_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 189,
+            "end": 218,
+            "name": "skill_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 219,
+            "end": 248,
+            "name": "skill_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 249,
+            "end": 265,
+            "name": "skill_end",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 266,
+            "end": 307,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 308,
+            "end": 337,
+            "name": "skill_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 338,
+            "end": 367,
+            "name": "skill_charge3",
+            "kind": "loop"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -181.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 86,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -678
+                        }
+                    ]
+                },
+                {
+                    "begin": 120,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -345.29999999999995
+                        }
+                    ]
+                },
+                {
+                    "begin": 122,
+                    "data": [
+                        {
+                            "x": -4.5,
+                            "y": -47.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 266,
+                    "data": []
+                },
+                {
+                    "begin": 308,
+                    "data": [
+                        {
+                            "x": -4.5,
+                            "y": -60
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 224,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 6
+                        }
+                    ]
+                },
+                {
+                    "begin": 225,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 159,
+                    "data": [
+                        {
+                            "x": 100.5,
+                            "y": 57.599999999999994
+                        }
+                    ]
+                },
+                {
+                    "begin": 219,
+                    "data": []
+                },
+                {
+                    "begin": 308,
+                    "data": [
+                        {
+                            "x": 100.5,
+                            "y": 57.599999999999994
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -450
+                        }
+                    ]
+                },
+                {
+                    "begin": 83,
+                    "data": []
+                },
+                {
+                    "begin": 122,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -450
+                        }
+                    ]
+                },
+                {
+                    "begin": 266,
+                    "data": []
+                },
+                {
+                    "begin": 308,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -450
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "weak_point_class1_11",
+            "frames": [
+                {
+                    "begin": 159,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 146.10000000000002,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 189,
+                    "data": []
+                },
+                {
+                    "begin": 308,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 76.19999999999999,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 338,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 146.10000000000002,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -83.4,
+                            "r": 112.3201904296875
+                        }
+                    ]
+                },
+                {
+                    "begin": 83,
+                    "data": []
+                },
+                {
+                    "begin": 122,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -56.099999999999994,
+                            "r": 112.3201904296875
+                        }
+                    ]
+                },
+                {
+                    "begin": 255,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -110.7,
+                            "r": 112.3201904296875
+                        }
+                    ]
+                },
+                {
+                    "begin": 266,
+                    "data": []
+                },
+                {
+                    "begin": 308,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -56.099999999999994,
+                            "r": 112.3201904296875
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

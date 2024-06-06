@@ -1,0 +1,170 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 28,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 29,
+            "end": 155,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 156,
+            "end": 195,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 196,
+            "end": 201,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 202,
+            "end": 235,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 236,
+            "end": 240,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 241,
+            "end": 264,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 265,
+            "end": 270,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 271,
+            "end": 310,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 311,
+            "end": 342,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 343,
+            "end": 357,
+            "name": "explosion",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/thunder/se_lightning_attack",
+            "begin": 1,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_paralysis_umbness",
+            "begin": 156,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_lightning_needle_charge",
+            "begin": 202,
+            "loop": -1,
+            "end": 236,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_shot_wind2",
+            "begin": 236,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_lightning_needle_charge",
+            "begin": 271,
+            "loop": -1,
+            "end": 311,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_lightning_needle_charge",
+            "begin": 311,
+            "loop": -1,
+            "end": 343,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/fire/se_medium_explosion",
+            "begin": 343,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -6.300000000000001,
+                            "y": -216.3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": -0.30000000000000004
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -1.2000000000000002,
+                            "y": 0,
+                            "r": 37.428955078125
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

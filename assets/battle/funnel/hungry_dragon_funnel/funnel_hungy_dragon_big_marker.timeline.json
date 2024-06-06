@@ -1,0 +1,474 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "neutral",
+            "kind": "stop"
+        },
+        {
+            "begin": 2,
+            "end": 2,
+            "name": "walk_back",
+            "kind": "stop"
+        },
+        {
+            "begin": 3,
+            "end": 3,
+            "name": "walk_front",
+            "kind": "stop"
+        },
+        {
+            "begin": 4,
+            "end": 4,
+            "name": "wince_ready",
+            "kind": "stop"
+        },
+        {
+            "begin": 5,
+            "end": 5,
+            "name": "stun_ready",
+            "kind": "stop"
+        },
+        {
+            "begin": 6,
+            "end": 7,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 8,
+            "end": 9,
+            "name": "shot1_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 10,
+            "end": 10,
+            "name": "shot1_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 11,
+            "end": 12,
+            "name": "shot1_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 13,
+            "end": 14,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 15,
+            "end": 16,
+            "name": "shot2_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 17,
+            "end": 17,
+            "name": "shot2_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 18,
+            "end": 19,
+            "name": "shot2_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 20,
+            "end": 21,
+            "name": "shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 22,
+            "end": 23,
+            "name": "shot3_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 24,
+            "end": 24,
+            "name": "shot3_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 25,
+            "end": 26,
+            "name": "shot3_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 27,
+            "end": 28,
+            "name": "shot4_start",
+            "kind": "once"
+        },
+        {
+            "begin": 29,
+            "end": 30,
+            "name": "shot4_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 31,
+            "end": 31,
+            "name": "shot4_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 32,
+            "end": 33,
+            "name": "shot4_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 34,
+            "end": 35,
+            "name": "shot5_start",
+            "kind": "once"
+        },
+        {
+            "begin": 36,
+            "end": 37,
+            "name": "shot5_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 38,
+            "end": 38,
+            "name": "shot5_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 39,
+            "end": 40,
+            "name": "shot5_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 41,
+            "end": 42,
+            "name": "skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 43,
+            "end": 44,
+            "name": "skill1_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 45,
+            "end": 45,
+            "name": "skill1_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 46,
+            "end": 47,
+            "name": "skill1_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 48,
+            "end": 48,
+            "name": "dead",
+            "kind": "stop"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 11,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "begin": 12,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 18,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -24
+                        }
+                    ]
+                },
+                {
+                    "begin": 19,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot3",
+            "frames": [
+                {
+                    "begin": 25,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "begin": 26,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot4",
+            "frames": [
+                {
+                    "begin": 32,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "begin": 33,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot6",
+            "frames": [
+                {
+                    "begin": 46,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "begin": 47,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 6,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "begin": 7,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 13,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "begin": 14,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 20,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "begin": 21,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin4",
+            "frames": [
+                {
+                    "begin": 27,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "begin": 28,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin6",
+            "frames": [
+                {
+                    "begin": 41,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "begin": 42,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 43,
+                    "data": [
+                        {
+                            "x": 112.2,
+                            "y": -142.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 45,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -163.2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -66
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "weak_point_class1_11",
+            "frames": [
+                {
+                    "begin": 43,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": -216,
+                            "r": 93.59857177734376
+                        }
+                    ]
+                },
+                {
+                    "begin": 45,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class2_11",
+            "frames": [
+                {
+                    "begin": 43,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": 114,
+                            "r": 93.59857177734376
+                        }
+                    ]
+                },
+                {
+                    "begin": 45,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 2.7,
+                            "y": -65.69999999999999,
+                            "r": 62.4752197265625
+                        }
+                    ]
+                },
+                {
+                    "begin": 48,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

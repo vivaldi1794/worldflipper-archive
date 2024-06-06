@@ -1,0 +1,60 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 73,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 74,
+            "end": 146,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 147,
+            "end": 163,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 164,
+            "end": 211,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 212,
+            "end": 240,
+            "name": "attack2",
+            "kind": "once"
+        },
+        {
+            "begin": 241,
+            "end": 275,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/wind/se_wind_medium_size_swing",
+            "begin": 164,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/wind/se_wind_bang_down",
+            "begin": 212,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

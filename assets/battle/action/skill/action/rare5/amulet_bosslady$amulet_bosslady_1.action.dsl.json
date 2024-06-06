@@ -1,0 +1,418 @@
+[
+    "ActionDsl",
+    1,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "StopBall",
+                    -18,
+                    30,
+                    [
+                        "RestoreToSpeedBeforeActionExecution"
+                    ],
+                    [
+                        "EF"
+                    ],
+                    0
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "ShowEffect",
+                    "水エフェクト",
+                    [
+                        "SpecifyEffectDirectly",
+                        "battle/effect/skill_unique/amulet_bosslady/amulet_bosslady_water"
+                    ],
+                    -18,
+                    [
+                        "BacksideOfCharacter"
+                    ],
+                    [
+                        "SpecifyEffectLifetimeDirectly",
+                        690
+                    ],
+                    [
+                        "AB"
+                    ],
+                    0,
+                    0,
+                    0,
+                    true,
+                    false,
+                    [
+                        "Some",
+                        [
+                            {
+                                "min": 1,
+                                "max": 1
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "ShowEffect",
+                    "札エフェクト",
+                    [
+                        "SpecifyEffectDirectly",
+                        "battle/effect/skill_unique/amulet_bosslady/amulet_bosslady_ohuda"
+                    ],
+                    -18,
+                    [
+                        "ForesideOfCharacter"
+                    ],
+                    [
+                        "SpecifyEffectLifetimeDirectly",
+                        690
+                    ],
+                    [
+                        "AB"
+                    ],
+                    0,
+                    0,
+                    0,
+                    true,
+                    false,
+                    [
+                        "Some",
+                        [
+                            {
+                                "min": 1,
+                                "max": 1
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "Event",
+                [
+                    "Wait",
+                    20,
+                    "*",
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "CreateHitArea",
+                                    "*",
+                                    -18,
+                                    [
+                                        "AB"
+                                    ],
+                                    0,
+                                    0,
+                                    0,
+                                    true,
+                                    false,
+                                    [
+                                        "Circle",
+                                        [
+                                            {
+                                                "min": 200,
+                                                "max": 200
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "Center"
+                                    ],
+                                    [
+                                        "Center"
+                                    ],
+                                    [
+                                        "Single"
+                                    ],
+                                    [
+                                        "SpecifyHitAreaLifetimeDirectly",
+                                        720
+                                    ],
+                                    [
+                                        "SpecifyMinHitIntervalDirectly",
+                                        60
+                                    ],
+                                    [
+                                        "Some",
+                                        [
+                                            {
+                                                "min": 12,
+                                                "max": 12
+                                            }
+                                        ]
+                                    ],
+                                    false,
+                                    true,
+                                    [
+                                        "None"
+                                    ],
+                                    0,
+                                    [
+                                        "Block",
+                                        []
+                                    ],
+                                    1,
+                                    2,
+                                    [
+                                        "Block",
+                                        [
+                                            [
+                                                "Command",
+                                                [
+                                                    "ShakeCamera",
+                                                    1
+                                                ]
+                                            ],
+                                            [
+                                                "Command",
+                                                [
+                                                    "CreateNormalAttack",
+                                                    2,
+                                                    255,
+                                                    [],
+                                                    [],
+                                                    16,
+                                                    [
+                                                        {
+                                                            "min": 1.6666666666666667,
+                                                            "max": 1.6666666666666667
+                                                        }
+                                                    ],
+                                                    [
+                                                        {
+                                                            "min": 0,
+                                                            "max": 0
+                                                        }
+                                                    ],
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    [
+                                                        {
+                                                            "min": 1,
+                                                            "max": 1
+                                                        }
+                                                    ],
+                                                    [
+                                                        {
+                                                            "min": 1,
+                                                            "max": 1
+                                                        }
+                                                    ],
+                                                    [
+                                                        "Fine"
+                                                    ],
+                                                    true
+                                                ]
+                                            ],
+                                            [
+                                                "Command",
+                                                [
+                                                    "CreateCondition",
+                                                    2,
+                                                    [
+                                                        [
+                                                            "ACAttackPoint",
+                                                            [
+                                                                {
+                                                                    "min": 3000,
+                                                                    "max": 3000
+                                                                }
+                                                            ],
+                                                            [
+                                                                {
+                                                                    "min": -0.05,
+                                                                    "max": -0.05
+                                                                }
+                                                            ],
+                                                            [
+                                                                {
+                                                                    "min": 3,
+                                                                    "max": 3
+                                                                }
+                                                            ]
+                                                        ]
+                                                    ],
+                                                    [
+                                                        {
+                                                            "min": 1,
+                                                            "max": 1
+                                                        }
+                                                    ],
+                                                    [
+                                                        "GenericConditionHitEffect"
+                                                    ],
+                                                    true,
+                                                    false,
+                                                    "",
+                                                    null,
+                                                    false,
+                                                    3,
+                                                    [
+                                                        {
+                                                            "min": 1,
+                                                            "max": 1
+                                                        }
+                                                    ],
+                                                    false
+                                                ]
+                                            ],
+                                            [
+                                                "Command",
+                                                [
+                                                    "CreateCondition",
+                                                    2,
+                                                    [
+                                                        [
+                                                            "ACToleranceOfElement",
+                                                            [
+                                                                {
+                                                                    "min": 3000,
+                                                                    "max": 3000
+                                                                }
+                                                            ],
+                                                            2,
+                                                            [
+                                                                {
+                                                                    "min": -0.04,
+                                                                    "max": -0.04
+                                                                }
+                                                            ],
+                                                            [
+                                                                {
+                                                                    "min": 3,
+                                                                    "max": 3
+                                                                }
+                                                            ]
+                                                        ]
+                                                    ],
+                                                    [
+                                                        {
+                                                            "min": 1,
+                                                            "max": 1
+                                                        }
+                                                    ],
+                                                    [
+                                                        "GenericConditionHitEffect"
+                                                    ],
+                                                    true,
+                                                    false,
+                                                    "耐性ダウン1",
+                                                    null,
+                                                    false,
+                                                    3,
+                                                    [
+                                                        {
+                                                            "min": 1,
+                                                            "max": 1
+                                                        }
+                                                    ],
+                                                    false
+                                                ]
+                                            ],
+                                            [
+                                                "Command",
+                                                [
+                                                    "ConditionalsChangeSkillFlag",
+                                                    1,
+                                                    [
+                                                        "Block",
+                                                        [
+                                                            [
+                                                                "Command",
+                                                                [
+                                                                    "CreateCondition",
+                                                                    2,
+                                                                    [
+                                                                        [
+                                                                            "ACToleranceOfElement",
+                                                                            [
+                                                                                {
+                                                                                    "alv_min": 3900,
+                                                                                    "alv_max": 3900
+                                                                                }
+                                                                            ],
+                                                                            2,
+                                                                            [
+                                                                                {
+                                                                                    "alv_min": -0.025,
+                                                                                    "alv_max": -0.05
+                                                                                }
+                                                                            ],
+                                                                            [
+                                                                                {
+                                                                                    "min": 3,
+                                                                                    "max": 3
+                                                                                }
+                                                                            ]
+                                                                        ]
+                                                                    ],
+                                                                    [
+                                                                        {
+                                                                            "alv_min": 1,
+                                                                            "alv_max": 1
+                                                                        }
+                                                                    ],
+                                                                    [
+                                                                        "GenericConditionHitEffect"
+                                                                    ],
+                                                                    true,
+                                                                    false,
+                                                                    "耐性ダウン2",
+                                                                    null,
+                                                                    false,
+                                                                    3,
+                                                                    [
+                                                                        {
+                                                                            "min": 1,
+                                                                            "max": 1
+                                                                        }
+                                                                    ],
+                                                                    false
+                                                                ]
+                                                            ]
+                                                        ]
+                                                    ],
+                                                    [
+                                                        "Block",
+                                                        []
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ],
+                                    0,
+                                    0,
+                                    [
+                                        "None"
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

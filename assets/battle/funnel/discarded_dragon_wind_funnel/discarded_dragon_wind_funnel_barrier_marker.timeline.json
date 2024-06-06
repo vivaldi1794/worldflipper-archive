@@ -1,0 +1,285 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 57,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 58,
+            "end": 106,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 107,
+            "end": 131,
+            "name": "charge",
+            "kind": "once"
+        },
+        {
+            "begin": 132,
+            "end": 156,
+            "name": "charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 157,
+            "end": 189,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 190,
+            "end": 226,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 227,
+            "end": 263,
+            "name": "dead_debuff",
+            "kind": "once"
+        },
+        {
+            "begin": 264,
+            "end": 265,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 266,
+            "end": 267,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 268,
+            "end": 269,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 270,
+            "end": 271,
+            "name": "wince",
+            "kind": "loop"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hit_count_check",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": 132
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 58,
+                    "data": [
+                        {
+                            "x": -1.2000000000000002,
+                            "y": -233.1
+                        }
+                    ]
+                },
+                {
+                    "begin": 157,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot3",
+            "frames": [
+                {
+                    "begin": 58,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 59,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 107,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 12
+                        }
+                    ]
+                },
+                {
+                    "begin": 108,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 157,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -83.69999999999999
+                        }
+                    ]
+                },
+                {
+                    "begin": 158,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 157,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 12
+                        }
+                    ]
+                },
+                {
+                    "begin": 158,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 227,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": -69.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 228,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 227,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 30.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 228,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 132,
+                    "data": [
+                        {
+                            "x": 96,
+                            "y": -60.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 157,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -84
+                        }
+                    ]
+                },
+                {
+                    "begin": 157,
+                    "data": []
+                },
+                {
+                    "begin": 264,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -78
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 58,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -78,
+                            "r": 62.39666748046875
+                        }
+                    ]
+                },
+                {
+                    "begin": 157,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

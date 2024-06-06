@@ -1,0 +1,202 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 49,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 50,
+            "end": 98,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 99,
+            "end": 107,
+            "name": "jump_out",
+            "kind": "pass"
+        },
+        {
+            "begin": 108,
+            "end": 133,
+            "name": "jump",
+            "kind": "once"
+        },
+        {
+            "begin": 134,
+            "end": 159,
+            "name": "jump_no_shadow",
+            "kind": "once"
+        },
+        {
+            "begin": 160,
+            "end": 167,
+            "name": "jump_in",
+            "kind": "once"
+        },
+        {
+            "begin": 168,
+            "end": 183,
+            "name": "funnel_start",
+            "kind": "once"
+        },
+        {
+            "begin": 184,
+            "end": 234,
+            "name": "funnel_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 235,
+            "end": 255,
+            "name": "funnel_shot",
+            "kind": "once"
+        },
+        {
+            "begin": 256,
+            "end": 270,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 271,
+            "end": 301,
+            "name": "shot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 302,
+            "end": 311,
+            "name": "shot_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 312,
+            "end": 314,
+            "name": "shot_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 315,
+            "end": 331,
+            "name": "shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 332,
+            "end": 386,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 387,
+            "end": 441,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 442,
+            "end": 496,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 497,
+            "end": 551,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 552,
+            "end": 637,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 638,
+            "end": 698,
+            "name": "mini_avatar_start",
+            "kind": "once"
+        },
+        {
+            "begin": 699,
+            "end": 729,
+            "name": "mini_avatar_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 730,
+            "end": 760,
+            "name": "mini_avatar_move",
+            "kind": "loop"
+        },
+        {
+            "begin": 761,
+            "end": 779,
+            "name": "mini_avatar_move_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 780,
+            "end": 797,
+            "name": "mini_avatar_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 798,
+            "end": 819,
+            "name": "mini_avatar_dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_jump",
+            "begin": 100,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_jump_in",
+            "begin": 166,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 271,
+            "loop": -1,
+            "end": 302,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bullet_continuous_big",
+            "begin": 302,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_ghost",
+            "begin": 639,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bullet_short",
+            "begin": 780,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

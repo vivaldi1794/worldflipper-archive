@@ -1,0 +1,42 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 192,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 193,
+            "end": 384,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 385,
+            "end": 418,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/thunder/se_thunder_wide_area_electricity",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_thunderbolt_single",
+            "begin": 386,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

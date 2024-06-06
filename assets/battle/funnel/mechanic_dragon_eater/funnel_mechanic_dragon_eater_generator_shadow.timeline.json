@@ -1,0 +1,39 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 83,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 84,
+            "end": 179,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 180,
+            "end": 254,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 255,
+            "end": 278,
+            "name": "stun",
+            "kind": "once"
+        },
+        {
+            "begin": 279,
+            "end": 314,
+            "name": "energy_charge",
+            "kind": "loop"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

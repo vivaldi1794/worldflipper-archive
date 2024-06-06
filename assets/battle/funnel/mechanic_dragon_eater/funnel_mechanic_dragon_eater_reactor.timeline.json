@@ -1,0 +1,103 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 60,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 61,
+            "end": 133,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 134,
+            "end": 225,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 226,
+            "end": 234,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 235,
+            "end": 270,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 271,
+            "end": 278,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 279,
+            "end": 286,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 287,
+            "end": 304,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 305,
+            "end": 358,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 359,
+            "end": 406,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 407,
+            "end": 442,
+            "name": "explosion_charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 443,
+            "end": 490,
+            "name": "explosion_fire",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 226,
+            "loop": -1,
+            "end": 235,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bullet_continuous_small",
+            "begin": 271,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bombard_singly",
+            "begin": 443,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

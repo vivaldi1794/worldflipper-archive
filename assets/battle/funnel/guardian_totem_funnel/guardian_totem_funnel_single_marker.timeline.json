@@ -1,0 +1,242 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 30,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 31,
+            "end": 71,
+            "name": "landing",
+            "kind": "pass"
+        },
+        {
+            "begin": 72,
+            "end": 136,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 137,
+            "end": 201,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 202,
+            "end": 246,
+            "name": "attack",
+            "kind": "loop"
+        },
+        {
+            "begin": 247,
+            "end": 257,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -180
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 211,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -15.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 212,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 214,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -15.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 215,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot3",
+            "frames": [
+                {
+                    "begin": 217,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -15.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 218,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot4",
+            "frames": [
+                {
+                    "begin": 220,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -15.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 221,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot5",
+            "frames": [
+                {
+                    "begin": 223,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -15.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 224,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot6",
+            "frames": [
+                {
+                    "begin": 226,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -15.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 227,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot7",
+            "frames": [
+                {
+                    "begin": 229,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -15.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 230,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot8",
+            "frames": [
+                {
+                    "begin": 232,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -15.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 233,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 31,
+                    "data": [
+                        {
+                            "x": 2.4000000000000004,
+                            "y": -45,
+                            "r": 56.15533447265625
+                        }
+                    ]
+                },
+                {
+                    "begin": 247,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

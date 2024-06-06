@@ -1,0 +1,272 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 25,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 26,
+            "end": 92,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 93,
+            "end": 159,
+            "name": "explosion_cutin",
+            "kind": "once"
+        },
+        {
+            "begin": 160,
+            "end": 239,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 240,
+            "end": 276,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 277,
+            "end": 301,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 302,
+            "end": 318,
+            "name": "explosion_charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 319,
+            "end": 331,
+            "name": "explosion",
+            "kind": "once"
+        },
+        {
+            "begin": 332,
+            "end": 338,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 339,
+            "end": 369,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 370,
+            "end": 398,
+            "name": "shot1_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 399,
+            "end": 411,
+            "name": "shot1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -180
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 93,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 36
+                        }
+                    ]
+                },
+                {
+                    "begin": 94,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 319,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -54
+                        }
+                    ]
+                },
+                {
+                    "begin": 320,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 382,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -6
+                        }
+                    ]
+                },
+                {
+                    "begin": 383,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 26,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -54,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 69,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 85,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -54,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 136,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 152,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -54,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 160,
+                    "data": []
+                },
+                {
+                    "begin": 240,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -54,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 319,
+                    "data": []
+                },
+                {
+                    "begin": 332,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -54,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 382,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -18,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 403,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -36,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

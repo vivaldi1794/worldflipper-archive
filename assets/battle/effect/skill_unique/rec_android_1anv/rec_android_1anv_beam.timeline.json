@@ -1,0 +1,42 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 47,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 48,
+            "end": 94,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 95,
+            "end": 134,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_laser_attack1",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_paralysis_umbness",
+            "begin": 96,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

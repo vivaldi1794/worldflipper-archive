@@ -1,0 +1,280 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 61,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 62,
+            "end": 71,
+            "name": "funnel_start",
+            "kind": "once"
+        },
+        {
+            "begin": 72,
+            "end": 95,
+            "name": "funnel_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 96,
+            "end": 114,
+            "name": "funnel_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 115,
+            "end": 156,
+            "name": "funnel_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 157,
+            "end": 172,
+            "name": "funnel_end",
+            "kind": "once"
+        },
+        {
+            "begin": 173,
+            "end": 182,
+            "name": "fire_pillar_start",
+            "kind": "once"
+        },
+        {
+            "begin": 183,
+            "end": 206,
+            "name": "fire_pillar_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 207,
+            "end": 225,
+            "name": "fire_pillar_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 226,
+            "end": 267,
+            "name": "fire_pillar_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 268,
+            "end": 283,
+            "name": "fire_pillar_end",
+            "kind": "once"
+        },
+        {
+            "begin": 284,
+            "end": 293,
+            "name": "normal_shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 294,
+            "end": 317,
+            "name": "normal_shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 318,
+            "end": 336,
+            "name": "normal_shot1_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 337,
+            "end": 378,
+            "name": "normal_shot1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 379,
+            "end": 394,
+            "name": "normal_shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 395,
+            "end": 409,
+            "name": "normal_shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 410,
+            "end": 421,
+            "name": "normal_shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 422,
+            "end": 479,
+            "name": "normal_shot2_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 480,
+            "end": 490,
+            "name": "skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 491,
+            "end": 501,
+            "name": "skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 502,
+            "end": 559,
+            "name": "skill1_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 560,
+            "end": 570,
+            "name": "fire_pillar2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 571,
+            "end": 594,
+            "name": "fire_pillar2_charge",
+            "kind": "goto",
+            "target": "fire_pillar_charge"
+        },
+        {
+            "begin": 595,
+            "end": 613,
+            "name": "fire_pillar2_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 614,
+            "end": 654,
+            "name": "fire_pillar2_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 655,
+            "end": 670,
+            "name": "fire_pillar2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 671,
+            "end": 723,
+            "name": "skill2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 724,
+            "end": 749,
+            "name": "skill2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 750,
+            "end": 772,
+            "name": "skill2_link",
+            "kind": "once"
+        },
+        {
+            "begin": 773,
+            "end": 787,
+            "name": "skill2_roaring",
+            "kind": "loop"
+        },
+        {
+            "begin": 788,
+            "end": 819,
+            "name": "skill2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 820,
+            "end": 824,
+            "name": "jump_start",
+            "kind": "once"
+        },
+        {
+            "begin": 825,
+            "end": 854,
+            "name": "jump_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 855,
+            "end": 860,
+            "name": "jump_end",
+            "kind": "once"
+        },
+        {
+            "begin": 861,
+            "end": 878,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 879,
+            "end": 896,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 897,
+            "end": 914,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 915,
+            "end": 932,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 933,
+            "end": 949,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 950,
+            "end": 978,
+            "name": "rage",
+            "kind": "once"
+        },
+        {
+            "begin": 979,
+            "end": 995,
+            "name": "rage_jump_start",
+            "kind": "once"
+        },
+        {
+            "begin": 996,
+            "end": 1005,
+            "name": "rage_jump_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1006,
+            "end": 1028,
+            "name": "rage_jump_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1029,
+            "end": 1049,
+            "name": "fallen",
+            "kind": "stop"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

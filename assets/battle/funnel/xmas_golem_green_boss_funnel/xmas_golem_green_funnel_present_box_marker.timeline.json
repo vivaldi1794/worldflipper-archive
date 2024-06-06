@@ -1,0 +1,164 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 25,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 26,
+            "end": 42,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 43,
+            "end": 59,
+            "name": "special_before",
+            "kind": "once"
+        },
+        {
+            "begin": 60,
+            "end": 92,
+            "name": "special",
+            "kind": "once"
+        },
+        {
+            "begin": 93,
+            "end": 125,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -6,
+                            "y": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 1.5,
+                            "y": -64.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 60,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 24
+                        }
+                    ]
+                },
+                {
+                    "begin": 61,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 94,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 132
+                        }
+                    ]
+                },
+                {
+                    "begin": 95,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 60,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -66
+                        }
+                    ]
+                },
+                {
+                    "begin": 61,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 94,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -62.7
+                        }
+                    ]
+                },
+                {
+                    "begin": 95,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 17,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -39,
+                            "r": 59.27362060546875
+                        }
+                    ]
+                },
+                {
+                    "begin": 60,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

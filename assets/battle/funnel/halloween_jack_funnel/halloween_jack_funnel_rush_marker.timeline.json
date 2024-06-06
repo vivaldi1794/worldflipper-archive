@@ -1,0 +1,248 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 42,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 43,
+            "end": 103,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 104,
+            "end": 164,
+            "name": "neutral2",
+            "kind": "once"
+        },
+        {
+            "begin": 165,
+            "end": 195,
+            "name": "charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 196,
+            "end": 208,
+            "name": "charge2",
+            "kind": "once"
+        },
+        {
+            "begin": 209,
+            "end": 234,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 235,
+            "end": 442,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 43,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -154.2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 44,
+                    "data": [
+                        {
+                            "x": 0.30000000000000004,
+                            "y": 100.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 45,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 105,
+                    "data": [
+                        {
+                            "x": 0.30000000000000004,
+                            "y": 100.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 106,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 166,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 90
+                        }
+                    ]
+                },
+                {
+                    "begin": 167,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin5",
+            "frames": [
+                {
+                    "begin": 210,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 90
+                        }
+                    ]
+                },
+                {
+                    "begin": 211,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin6",
+            "frames": [
+                {
+                    "begin": 236,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": 89.4
+                        }
+                    ]
+                },
+                {
+                    "begin": 237,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin4",
+            "frames": [
+                {
+                    "begin": 339,
+                    "data": [
+                        {
+                            "x": -0.8999999999999999,
+                            "y": 87
+                        }
+                    ]
+                },
+                {
+                    "begin": 340,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 216,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -60
+                        }
+                    ]
+                },
+                {
+                    "begin": 217,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 430,
+                    "data": [
+                        {
+                            "x": -1.2000000000000002,
+                            "y": -57.599999999999994
+                        }
+                    ]
+                },
+                {
+                    "begin": 431,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 43,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42.3,
+                            "r": 30.85675048828125
+                        }
+                    ]
+                },
+                {
+                    "begin": 216,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

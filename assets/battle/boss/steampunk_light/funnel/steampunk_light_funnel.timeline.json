@@ -1,0 +1,200 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 50,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 51,
+            "end": 104,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 105,
+            "end": 212,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 213,
+            "end": 242,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 243,
+            "end": 266,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 267,
+            "end": 269,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 270,
+            "end": 289,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 290,
+            "end": 307,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 308,
+            "end": 349,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 350,
+            "end": 385,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 386,
+            "end": 430,
+            "name": "explosion",
+            "kind": "once"
+        },
+        {
+            "begin": 431,
+            "end": 442,
+            "name": "no_body_neutral",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/weapon/se_bomb",
+            "begin": 105,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bullet_short",
+            "begin": 270,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bomb",
+            "begin": 386,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 51,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90
+                        }
+                    ]
+                },
+                {
+                    "begin": 105,
+                    "data": []
+                },
+                {
+                    "begin": 213,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90
+                        }
+                    ]
+                },
+                {
+                    "begin": 386,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 51,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 105,
+                    "data": []
+                },
+                {
+                    "begin": 213,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 386,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 51,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 46.798095703125
+                        }
+                    ]
+                },
+                {
+                    "begin": 105,
+                    "data": []
+                },
+                {
+                    "begin": 213,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 46.798095703125
+                        }
+                    ]
+                },
+                {
+                    "begin": 386,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

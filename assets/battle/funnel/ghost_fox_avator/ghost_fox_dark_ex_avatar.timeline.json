@@ -1,0 +1,79 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 49,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 50,
+            "end": 57,
+            "name": "jump_out",
+            "kind": "pass"
+        },
+        {
+            "begin": 58,
+            "end": 83,
+            "name": "jump",
+            "kind": "once"
+        },
+        {
+            "begin": 84,
+            "end": 91,
+            "name": "jump_in",
+            "kind": "once"
+        },
+        {
+            "begin": 92,
+            "end": 106,
+            "name": "skill_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 107,
+            "end": 136,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 137,
+            "end": 166,
+            "name": "skill_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 167,
+            "end": 183,
+            "name": "skill_end",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 184,
+            "end": 225,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 107,
+            "loop": -1,
+            "end": 137,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bullet_continuous_big",
+            "begin": 137,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

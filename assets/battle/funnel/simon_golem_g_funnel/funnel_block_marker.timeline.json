@@ -1,0 +1,90 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 60,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 61,
+            "end": 79,
+            "name": "landing",
+            "kind": "once"
+        },
+        {
+            "begin": 80,
+            "end": 85,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 86,
+            "end": 107,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 61,
+                    "data": [
+                        {
+                            "x": -0.8999999999999999,
+                            "y": -33.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 86,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 61,
+                    "data": [
+                        {
+                            "x": 2.0999999999999996,
+                            "y": -145.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 86,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 61,
+                    "data": [
+                        {
+                            "x": -3.9,
+                            "y": -36,
+                            "r": 47.586822509765625
+                        }
+                    ]
+                },
+                {
+                    "begin": 86,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

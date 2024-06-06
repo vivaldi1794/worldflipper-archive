@@ -1,0 +1,42 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 12,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 13,
+            "end": 31,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 32,
+            "end": 50,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/unique/se_ghost_fox_rotation",
+            "begin": 5,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/fire/se_burn_out",
+            "begin": 33,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

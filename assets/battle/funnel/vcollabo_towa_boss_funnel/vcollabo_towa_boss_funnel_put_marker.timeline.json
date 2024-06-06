@@ -1,0 +1,150 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 35,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 36,
+            "end": 39,
+            "name": "wait",
+            "kind": "loop"
+        },
+        {
+            "begin": 40,
+            "end": 43,
+            "name": "shot",
+            "kind": "goto",
+            "target": "wait"
+        },
+        {
+            "begin": 44,
+            "end": 59,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 60,
+            "end": 61,
+            "name": "attack",
+            "kind": "pass"
+        },
+        {
+            "begin": 62,
+            "end": 84,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_warp_in",
+            "begin": 3,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bomb",
+            "begin": 62,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -96
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -300
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 40,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "begin": 41,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 60,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "begin": 61,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 11,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -60,
+                            "r": 62.3990478515625
+                        }
+                    ]
+                },
+                {
+                    "begin": 60,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

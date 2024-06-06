@@ -1,0 +1,210 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 165,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 166,
+            "end": 247,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 248,
+            "end": 271,
+            "name": "shot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 272,
+            "end": 272,
+            "name": "shot_fire_start",
+            "kind": "stop"
+        },
+        {
+            "begin": 273,
+            "end": 307,
+            "name": "shot_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 308,
+            "end": 323,
+            "name": "shot_end",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 324,
+            "end": 372,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 373,
+            "end": 436,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 437,
+            "end": 461,
+            "name": "skill_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 462,
+            "end": 468,
+            "name": "skill_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 469,
+            "end": 492,
+            "name": "skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 493,
+            "end": 545,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 546,
+            "end": 611,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 612,
+            "end": 664,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 665,
+            "end": 717,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 718,
+            "end": 895,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_admin_gauge_charge",
+            "begin": 166,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_gauge_finish",
+            "begin": 308,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_skill_charge",
+            "begin": 373,
+            "loop": -1,
+            "end": 437,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_skill_shot",
+            "begin": 437,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 114,
+                            "y": -78
+                        }
+                    ]
+                },
+                {
+                    "begin": 718,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -252
+                        }
+                    ]
+                },
+                {
+                    "begin": 718,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -72
+                        }
+                    ]
+                },
+                {
+                    "begin": 718,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -32.099999999999994,
+                            "r": 109.19952392578124
+                        }
+                    ]
+                },
+                {
+                    "begin": 718,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

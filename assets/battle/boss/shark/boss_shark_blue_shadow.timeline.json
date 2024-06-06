@@ -1,0 +1,204 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 73,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 74,
+            "end": 122,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 123,
+            "end": 135,
+            "name": "wince_ready",
+            "kind": "goto",
+            "target": "wince"
+        },
+        {
+            "begin": 136,
+            "end": 184,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 185,
+            "end": 190,
+            "name": "stun_ready",
+            "kind": "goto",
+            "target": "stun"
+        },
+        {
+            "begin": 191,
+            "end": 241,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 242,
+            "end": 277,
+            "name": "jump_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 278,
+            "end": 317,
+            "name": "jump_jump",
+            "kind": "once"
+        },
+        {
+            "begin": 318,
+            "end": 329,
+            "name": "jump_end",
+            "kind": "once"
+        },
+        {
+            "begin": 330,
+            "end": 354,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 355,
+            "end": 379,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 380,
+            "end": 384,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 385,
+            "end": 397,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 398,
+            "end": 410,
+            "name": "shot1_fire_center_to_left1",
+            "kind": "loop"
+        },
+        {
+            "begin": 411,
+            "end": 423,
+            "name": "shot1_fire_center_to_left2",
+            "kind": "loop"
+        },
+        {
+            "begin": 424,
+            "end": 436,
+            "name": "shot1_fire_center_to_right1",
+            "kind": "loop"
+        },
+        {
+            "begin": 437,
+            "end": 449,
+            "name": "shot1_fire_center_to_right2",
+            "kind": "loop"
+        },
+        {
+            "begin": 450,
+            "end": 460,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 461,
+            "end": 469,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 470,
+            "end": 494,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 495,
+            "end": 506,
+            "name": "shot2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 507,
+            "end": 522,
+            "name": "shot2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 523,
+            "end": 529,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 530,
+            "end": 538,
+            "name": "shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 539,
+            "end": 545,
+            "name": "shot3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 546,
+            "end": 557,
+            "name": "shot3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 558,
+            "end": 559,
+            "name": "shot3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 560,
+            "end": 565,
+            "name": "shot3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 566,
+            "end": 614,
+            "name": "inactive_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 615,
+            "end": 627,
+            "name": "inactive_start",
+            "kind": "goto",
+            "target": "inactive_loop"
+        },
+        {
+            "begin": 628,
+            "end": 678,
+            "name": "inactive_dead",
+            "kind": "once"
+        },
+        {
+            "begin": 679,
+            "end": 751,
+            "name": "inactive_end",
+            "kind": "loop"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

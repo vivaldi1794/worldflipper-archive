@@ -1,0 +1,153 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "hidden",
+            "kind": "stop"
+        },
+        {
+            "begin": 2,
+            "end": 30,
+            "name": "start",
+            "kind": "stop"
+        },
+        {
+            "begin": 31,
+            "end": 95,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 96,
+            "end": 112,
+            "name": "laser_start",
+            "kind": "once"
+        },
+        {
+            "begin": 113,
+            "end": 145,
+            "name": "laser_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 146,
+            "end": 178,
+            "name": "laser_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 179,
+            "end": 195,
+            "name": "laser_end",
+            "kind": "once"
+        },
+        {
+            "begin": 196,
+            "end": 212,
+            "name": "laser_long_start",
+            "kind": "once"
+        },
+        {
+            "begin": 213,
+            "end": 245,
+            "name": "laser_long_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 246,
+            "end": 278,
+            "name": "laser_long_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 279,
+            "end": 295,
+            "name": "laser_long_end",
+            "kind": "once"
+        },
+        {
+            "begin": 296,
+            "end": 344,
+            "name": "attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 345,
+            "end": 361,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 362,
+            "end": 394,
+            "name": "attack_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 395,
+            "end": 443,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 444,
+            "end": 448,
+            "name": "chase_laser_start",
+            "kind": "once"
+        },
+        {
+            "begin": 449,
+            "end": 481,
+            "name": "chase_laser_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 482,
+            "end": 498,
+            "name": "chase_laser_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 499,
+            "end": 515,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 516,
+            "end": 548,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 549,
+            "end": 581,
+            "name": "skill_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 582,
+            "end": 598,
+            "name": "skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 599,
+            "end": 615,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 616,
+            "end": 632,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,57 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 19,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 20,
+            "end": 44,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 45,
+            "end": 56,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 57,
+            "end": 62,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 63,
+            "end": 71,
+            "name": "shot_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 72,
+            "end": 133,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 134,
+            "end": 155,
+            "name": "escape",
+            "kind": "once"
+        },
+        {
+            "begin": 156,
+            "end": 157,
+            "name": "escaping",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

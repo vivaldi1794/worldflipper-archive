@@ -1,0 +1,178 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 26,
+            "name": "popin",
+            "kind": "once"
+        },
+        {
+            "begin": 27,
+            "end": 87,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 88,
+            "end": 104,
+            "name": "attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 105,
+            "end": 117,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 118,
+            "end": 122,
+            "name": "attack_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 123,
+            "end": 133,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 134,
+            "end": 158,
+            "name": "ex_start",
+            "kind": "once"
+        },
+        {
+            "begin": 159,
+            "end": 195,
+            "name": "ex_suction",
+            "kind": "once"
+        },
+        {
+            "begin": 196,
+            "end": 230,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/yakumono/se_yuremono_bubble_hit",
+            "begin": 160,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/water/se_water_short_splash",
+            "begin": 176,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/water/se_water_short_splash",
+            "begin": 196,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 14,
+                    "data": [
+                        {
+                            "x": 8.100000000000001,
+                            "y": -54.900000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 15,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 118,
+                    "data": [
+                        {
+                            "x": 3.9,
+                            "y": -51.900000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 119,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 5.4,
+                            "y": -81.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 196,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 8.7,
+                            "y": -274.79999999999995
+                        }
+                    ]
+                },
+                {
+                    "begin": 196,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 16,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": -81.6,
+                            "r": 46.798095703125
+                        }
+                    ]
+                },
+                {
+                    "begin": 196,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

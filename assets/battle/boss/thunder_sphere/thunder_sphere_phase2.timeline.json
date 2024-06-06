@@ -1,0 +1,551 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 101,
+            "name": "phase2_awakening_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 102,
+            "end": 202,
+            "name": "phase2_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 203,
+            "end": 223,
+            "name": "phase2_attack1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 224,
+            "end": 294,
+            "name": "phase2_attack1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 295,
+            "end": 301,
+            "name": "phase2_attack1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 302,
+            "end": 372,
+            "name": "phase2_attack1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 373,
+            "end": 389,
+            "name": "phase2_attack1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 390,
+            "end": 410,
+            "name": "phase2_attack2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 411,
+            "end": 481,
+            "name": "phase2_attack2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 482,
+            "end": 488,
+            "name": "phase2_attack2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 489,
+            "end": 559,
+            "name": "phase2_attack2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 560,
+            "end": 576,
+            "name": "phase2_attack2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 577,
+            "end": 597,
+            "name": "phase2_ex1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 598,
+            "end": 668,
+            "name": "phase2_ex1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 669,
+            "end": 675,
+            "name": "phase2_ex1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 676,
+            "end": 746,
+            "name": "phase2_ex1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 747,
+            "end": 763,
+            "name": "phase2_ex1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 764,
+            "end": 784,
+            "name": "phase2_ex2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 785,
+            "end": 855,
+            "name": "phase2_ex2_charge",
+            "kind": "goto",
+            "target": "phase2_ex1_charge"
+        },
+        {
+            "begin": 856,
+            "end": 862,
+            "name": "phase2_ex2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 863,
+            "end": 933,
+            "name": "phase2_ex2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 934,
+            "end": 950,
+            "name": "phase2_ex2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 951,
+            "end": 971,
+            "name": "phase2_skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 972,
+            "end": 1042,
+            "name": "phase2_skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1043,
+            "end": 1049,
+            "name": "phase2_skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1050,
+            "end": 1120,
+            "name": "phase2_skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1121,
+            "end": 1137,
+            "name": "phase2_skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1138,
+            "end": 1158,
+            "name": "phase2_skill2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1159,
+            "end": 1229,
+            "name": "phase2_skill2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1230,
+            "end": 1236,
+            "name": "phase2_skill2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1237,
+            "end": 1307,
+            "name": "phase2_skill2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1308,
+            "end": 1324,
+            "name": "phase2_skill2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1325,
+            "end": 1345,
+            "name": "phase2_skill3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1346,
+            "end": 1416,
+            "name": "phase2_skill3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1417,
+            "end": 1423,
+            "name": "phase2_skill3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1424,
+            "end": 1494,
+            "name": "phase2_skill3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1495,
+            "end": 1511,
+            "name": "phase2_skill3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1512,
+            "end": 1582,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 1583,
+            "end": 1653,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 1654,
+            "end": 1724,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 1725,
+            "end": 1795,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 1796,
+            "end": 1851,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 1852,
+            "end": 1959,
+            "name": "phase1_break",
+            "kind": "once"
+        },
+        {
+            "begin": 1960,
+            "end": 2060,
+            "name": "phase2_float",
+            "kind": "loop"
+        },
+        {
+            "begin": 2061,
+            "end": 2201,
+            "name": "phase2_wear",
+            "kind": "once"
+        },
+        {
+            "begin": 2202,
+            "end": 2315,
+            "name": "phase2_break",
+            "kind": "once"
+        },
+        {
+            "begin": 2316,
+            "end": 2416,
+            "name": "phase3_float",
+            "kind": "loop"
+        },
+        {
+            "begin": 2417,
+            "end": 2487,
+            "name": "phase3_purge",
+            "kind": "once"
+        },
+        {
+            "begin": 2488,
+            "end": 2588,
+            "name": "phase3_neutral",
+            "kind": "loop"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/element/se_magic_charge_medium",
+            "begin": 224,
+            "loop": -1,
+            "end": 295,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_big_wave_shot",
+            "begin": 295,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_medium",
+            "begin": 411,
+            "loop": -1,
+            "end": 482,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_big_wave_shot",
+            "begin": 482,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_big",
+            "begin": 598,
+            "loop": -1,
+            "end": 669,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_fire_laser",
+            "begin": 669,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_big",
+            "begin": 785,
+            "loop": -1,
+            "end": 856,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_fire_laser",
+            "begin": 856,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_big",
+            "begin": 972,
+            "loop": -1,
+            "end": 1043,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_fire_laser",
+            "begin": 1043,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_big",
+            "begin": 1159,
+            "loop": -1,
+            "end": 1230,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_fire_laser",
+            "begin": 1230,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_big",
+            "begin": 1346,
+            "loop": -1,
+            "end": 1417,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_fire_laser",
+            "begin": 1417,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 972,
+                    "data": [
+                        {
+                            "x": 86.1,
+                            "y": -337.20000000000005
+                        }
+                    ]
+                },
+                {
+                    "begin": 1043,
+                    "data": []
+                },
+                {
+                    "begin": 1159,
+                    "data": [
+                        {
+                            "x": 86.1,
+                            "y": -337.20000000000005
+                        }
+                    ]
+                },
+                {
+                    "begin": 1230,
+                    "data": []
+                },
+                {
+                    "begin": 1346,
+                    "data": [
+                        {
+                            "x": 86.1,
+                            "y": -337.20000000000005
+                        }
+                    ]
+                },
+                {
+                    "begin": 1417,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 102,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -179.7
+                        }
+                    ]
+                },
+                {
+                    "begin": 1796,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 102,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 48
+                        }
+                    ]
+                },
+                {
+                    "begin": 1796,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "weak_point_class1_11",
+            "frames": [
+                {
+                    "begin": 972,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 66,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 1043,
+                    "data": []
+                },
+                {
+                    "begin": 1159,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 66,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 1230,
+                    "data": []
+                },
+                {
+                    "begin": 1346,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 66,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 1417,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 102,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -188.1,
+                            "r": 106.0693359375
+                        }
+                    ]
+                },
+                {
+                    "begin": 1796,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

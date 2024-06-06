@@ -1,0 +1,45 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 39,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 40,
+            "end": 49,
+            "name": "charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 50,
+            "end": 65,
+            "name": "charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 66,
+            "end": 76,
+            "name": "charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 77,
+            "end": 102,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 103,
+            "end": 133,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

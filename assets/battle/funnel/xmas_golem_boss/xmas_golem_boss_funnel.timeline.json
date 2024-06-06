@@ -1,0 +1,49 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 37,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 38,
+            "end": 58,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 59,
+            "end": 79,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/yakumono/se_yuremono_dust_hit",
+            "begin": 6,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_hit_wall",
+            "begin": 25,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_yuremono_dust_hit",
+            "begin": 61,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

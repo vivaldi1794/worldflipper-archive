@@ -1,0 +1,57 @@
+[
+    "ActionDsl",
+    1,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "SubtractFeverPoint",
+                    [
+                        {
+                            "min": 999999,
+                            "max": 999999
+                        }
+                    ]
+                ]
+            ],
+            [
+                "Event",
+                [
+                    "Wait",
+                    5,
+                    "*",
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "AddFeverPoint",
+                                    [
+                                        {
+                                            "min": 1000,
+                                            "max": 1000
+                                        }
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

@@ -1,0 +1,146 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 21,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 22,
+            "end": 46,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 47,
+            "end": 71,
+            "name": "charge",
+            "kind": "once"
+        },
+        {
+            "begin": 72,
+            "end": 96,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 97,
+            "end": 121,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -216
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -3,
+                            "y": -84
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 97,
+                    "data": [
+                        {
+                            "x": -5.699999999999999,
+                            "y": -58.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 98,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 73,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -4.5
+                        }
+                    ]
+                },
+                {
+                    "begin": 74,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 97,
+                    "data": [
+                        {
+                            "x": -6,
+                            "y": -85.80000000000001
+                        }
+                    ]
+                },
+                {
+                    "begin": 98,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 22,
+                    "data": [
+                        {
+                            "x": -3,
+                            "y": -84,
+                            "r": 62.3990478515625
+                        }
+                    ]
+                },
+                {
+                    "begin": 97,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

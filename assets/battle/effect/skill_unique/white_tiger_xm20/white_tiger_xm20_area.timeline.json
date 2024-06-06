@@ -1,0 +1,43 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 40,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 41,
+            "end": 62,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/situation/se_impress_stabsword",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_impress_stabsword",
+            "begin": 22,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_impress_stabsword",
+            "begin": 42,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,84 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 31,
+            "name": "neutral1",
+            "kind": "loop"
+        },
+        {
+            "begin": 32,
+            "end": 62,
+            "name": "jump1",
+            "kind": "once"
+        },
+        {
+            "begin": 63,
+            "end": 93,
+            "name": "neutral2",
+            "kind": "loop"
+        },
+        {
+            "begin": 94,
+            "end": 124,
+            "name": "jump2",
+            "kind": "once"
+        },
+        {
+            "begin": 125,
+            "end": 166,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -132
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -48
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -48,
+                            "r": 62.3990478515625
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

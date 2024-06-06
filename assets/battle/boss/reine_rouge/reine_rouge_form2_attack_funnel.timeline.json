@@ -1,0 +1,102 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 36,
+            "name": "popup",
+            "kind": "pass"
+        },
+        {
+            "begin": 37,
+            "end": 72,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 73,
+            "end": 81,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 82,
+            "end": 111,
+            "name": "attack",
+            "kind": "pass"
+        },
+        {
+            "begin": 112,
+            "end": 116,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 117,
+            "end": 154,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 17,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -252.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 117,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 17,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90
+                        }
+                    ]
+                },
+                {
+                    "begin": 117,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 17,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90,
+                            "r": 43.675048828125
+                        }
+                    ]
+                },
+                {
+                    "begin": 117,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

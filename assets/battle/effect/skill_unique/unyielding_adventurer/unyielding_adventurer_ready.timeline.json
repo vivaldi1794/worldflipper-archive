@@ -1,0 +1,29 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 64,
+            "name": "neutral",
+            "kind": "pass"
+        },
+        {
+            "begin": 65,
+            "end": 89,
+            "name": "End",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/light/se_beam_blade_shot",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

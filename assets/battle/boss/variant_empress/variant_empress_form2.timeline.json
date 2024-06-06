@@ -1,0 +1,275 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 61,
+            "name": "phase2_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 62,
+            "end": 87,
+            "name": "phase2_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 88,
+            "end": 125,
+            "name": "phase2_attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 126,
+            "end": 164,
+            "name": "phase2_attack_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 165,
+            "end": 184,
+            "name": "phase2_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 185,
+            "end": 195,
+            "name": "phase2_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 196,
+            "end": 208,
+            "name": "shot_start_right",
+            "kind": "once"
+        },
+        {
+            "begin": 209,
+            "end": 217,
+            "name": "shot_charge_right",
+            "kind": "loop"
+        },
+        {
+            "begin": 218,
+            "end": 230,
+            "name": "shot_attack_right",
+            "kind": "once"
+        },
+        {
+            "begin": 231,
+            "end": 239,
+            "name": "shot_end_right",
+            "kind": "once"
+        },
+        {
+            "begin": 240,
+            "end": 252,
+            "name": "shot_start_left",
+            "kind": "once"
+        },
+        {
+            "begin": 253,
+            "end": 261,
+            "name": "shot_charge_left",
+            "kind": "loop"
+        },
+        {
+            "begin": 262,
+            "end": 274,
+            "name": "shot_attack_left",
+            "kind": "once"
+        },
+        {
+            "begin": 275,
+            "end": 283,
+            "name": "shot_end_left",
+            "kind": "once"
+        },
+        {
+            "begin": 284,
+            "end": 292,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 293,
+            "end": 325,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 326,
+            "end": 334,
+            "name": "shot2_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 335,
+            "end": 367,
+            "name": "shot2_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 368,
+            "end": 376,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 377,
+            "end": 401,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 402,
+            "end": 426,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 427,
+            "end": 429,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 430,
+            "end": 432,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 433,
+            "end": 435,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 436,
+            "end": 438,
+            "name": "phase2_warp_start",
+            "kind": "once"
+        },
+        {
+            "begin": 439,
+            "end": 482,
+            "name": "phase2_warp_in",
+            "kind": "once"
+        },
+        {
+            "begin": 483,
+            "end": 485,
+            "name": "phase2_warp",
+            "kind": "once"
+        },
+        {
+            "begin": 486,
+            "end": 540,
+            "name": "phase2_warp_end",
+            "kind": "once"
+        },
+        {
+            "begin": 541,
+            "end": 707,
+            "name": "fallen",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_dark_matter_hole_close",
+            "begin": 62,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 88,
+            "loop": -1,
+            "end": 126,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/wind/se_single_tornado",
+            "begin": 126,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 209,
+            "loop": -1,
+            "end": 218,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_dark_matter_arm_swing",
+            "begin": 218,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 253,
+            "loop": -1,
+            "end": 262,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_dark_matter_arm_swing",
+            "begin": 262,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 293,
+            "loop": -1,
+            "end": 326,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_dark_matter_arm_swing",
+            "begin": 332,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_warp_out",
+            "begin": 439,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_warp_in",
+            "begin": 488,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_aura",
+            "begin": 541,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_hard_flash_parry",
+            "begin": 630,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

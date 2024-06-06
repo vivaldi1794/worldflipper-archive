@@ -1,0 +1,2271 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 50,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 51,
+            "end": 128,
+            "name": "move",
+            "kind": "loop"
+        },
+        {
+            "begin": 129,
+            "end": 153,
+            "name": "lowbeam_start",
+            "kind": "once"
+        },
+        {
+            "begin": 154,
+            "end": 171,
+            "name": "lowbeam_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 172,
+            "end": 204,
+            "name": "lowbeam_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 205,
+            "end": 216,
+            "name": "lowbeam_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 217,
+            "end": 241,
+            "name": "lowbeam_end",
+            "kind": "once"
+        },
+        {
+            "begin": 242,
+            "end": 266,
+            "name": "beam_start",
+            "kind": "once"
+        },
+        {
+            "begin": 267,
+            "end": 285,
+            "name": "beam_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 286,
+            "end": 318,
+            "name": "beam_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 319,
+            "end": 351,
+            "name": "beam_attack_after",
+            "kind": "once"
+        },
+        {
+            "begin": 352,
+            "end": 362,
+            "name": "beam_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 363,
+            "end": 387,
+            "name": "beam_end",
+            "kind": "once"
+        },
+        {
+            "begin": 388,
+            "end": 412,
+            "name": "backfire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 413,
+            "end": 431,
+            "name": "backfire_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 432,
+            "end": 464,
+            "name": "backfire_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 465,
+            "end": 477,
+            "name": "backfire_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 478,
+            "end": 502,
+            "name": "backfire_end",
+            "kind": "once"
+        },
+        {
+            "begin": 503,
+            "end": 511,
+            "name": "wave_start",
+            "kind": "once"
+        },
+        {
+            "begin": 512,
+            "end": 520,
+            "name": "hammer_start",
+            "kind": "once"
+        },
+        {
+            "begin": 521,
+            "end": 534,
+            "name": "hammer_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 535,
+            "end": 567,
+            "name": "hammer_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 568,
+            "end": 604,
+            "name": "hammer_end",
+            "kind": "once"
+        },
+        {
+            "begin": 605,
+            "end": 613,
+            "name": "wave_start",
+            "kind": "once"
+        },
+        {
+            "begin": 614,
+            "end": 626,
+            "name": "wave_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 627,
+            "end": 659,
+            "name": "wave_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 660,
+            "end": 696,
+            "name": "wave_end",
+            "kind": "once"
+        },
+        {
+            "begin": 697,
+            "end": 706,
+            "name": "swamp_start",
+            "kind": "once"
+        },
+        {
+            "begin": 707,
+            "end": 720,
+            "name": "swamp_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 721,
+            "end": 745,
+            "name": "swamp_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 746,
+            "end": 770,
+            "name": "swamp_attack2",
+            "kind": "once"
+        },
+        {
+            "begin": 771,
+            "end": 795,
+            "name": "swamp_attack3",
+            "kind": "once"
+        },
+        {
+            "begin": 796,
+            "end": 820,
+            "name": "swamp_attack4",
+            "kind": "once"
+        },
+        {
+            "begin": 821,
+            "end": 845,
+            "name": "swamp_attack5",
+            "kind": "once"
+        },
+        {
+            "begin": 846,
+            "end": 870,
+            "name": "swamp_attack6",
+            "kind": "once"
+        },
+        {
+            "begin": 871,
+            "end": 874,
+            "name": "swamp_end",
+            "kind": "once"
+        },
+        {
+            "begin": 875,
+            "end": 883,
+            "name": "debuff_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 884,
+            "end": 892,
+            "name": "debuff_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 893,
+            "end": 906,
+            "name": "debuff_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 907,
+            "end": 920,
+            "name": "debuff_charge2",
+            "kind": "once"
+        },
+        {
+            "begin": 921,
+            "end": 925,
+            "name": "debuff_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 926,
+            "end": 930,
+            "name": "debuff_end2",
+            "kind": "once"
+        },
+        {
+            "begin": 931,
+            "end": 939,
+            "name": "atk_buff_start",
+            "kind": "once"
+        },
+        {
+            "begin": 940,
+            "end": 990,
+            "name": "atk_buff_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 991,
+            "end": 995,
+            "name": "atk_buff_end",
+            "kind": "once"
+        },
+        {
+            "begin": 996,
+            "end": 1004,
+            "name": "heal_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1005,
+            "end": 1055,
+            "name": "heal_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 1056,
+            "end": 1060,
+            "name": "heal_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1061,
+            "end": 1069,
+            "name": "neutral_debuff",
+            "kind": "once"
+        },
+        {
+            "begin": 1070,
+            "end": 1078,
+            "name": "special_start6",
+            "kind": "once"
+        },
+        {
+            "begin": 1079,
+            "end": 1083,
+            "name": "special_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1084,
+            "end": 1088,
+            "name": "special_end3",
+            "kind": "once"
+        },
+        {
+            "begin": 1089,
+            "end": 1097,
+            "name": "summon_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1098,
+            "end": 1106,
+            "name": "summon_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 1107,
+            "end": 1115,
+            "name": "summon_start3",
+            "kind": "once"
+        },
+        {
+            "begin": 1116,
+            "end": 1145,
+            "name": "summon_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1146,
+            "end": 1175,
+            "name": "summon_charge2",
+            "kind": "goto",
+            "target": "summon_charge"
+        },
+        {
+            "begin": 1176,
+            "end": 1201,
+            "name": "summon_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1202,
+            "end": 1223,
+            "name": "summon_end2",
+            "kind": "once"
+        },
+        {
+            "begin": 1224,
+            "end": 1232,
+            "name": "target_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1233,
+            "end": 1262,
+            "name": "target_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1263,
+            "end": 1319,
+            "name": "target_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1320,
+            "end": 1344,
+            "name": "target2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1345,
+            "end": 1358,
+            "name": "target2_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 1359,
+            "end": 1378,
+            "name": "target2_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 1379,
+            "end": 1390,
+            "name": "target2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1391,
+            "end": 1415,
+            "name": "target3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1416,
+            "end": 1466,
+            "name": "target3_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 1467,
+            "end": 1486,
+            "name": "target3_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 1487,
+            "end": 1498,
+            "name": "target3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1499,
+            "end": 1522,
+            "name": "skill1_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1523,
+            "end": 1587,
+            "name": "skill1_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1588,
+            "end": 1619,
+            "name": "skill1_fire1",
+            "kind": "once"
+        },
+        {
+            "begin": 1620,
+            "end": 1652,
+            "name": "skill1_fire1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1653,
+            "end": 1685,
+            "name": "skill1_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 1686,
+            "end": 1694,
+            "name": "skill2_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 1695,
+            "end": 1727,
+            "name": "skill2_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1728,
+            "end": 1738,
+            "name": "skill2_fire2",
+            "kind": "once"
+        },
+        {
+            "begin": 1739,
+            "end": 1771,
+            "name": "skill2_fire2_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1772,
+            "end": 1782,
+            "name": "skill2_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 1783,
+            "end": 1791,
+            "name": "sidefire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1792,
+            "end": 1824,
+            "name": "sidefire_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1825,
+            "end": 1835,
+            "name": "sidefire_left",
+            "kind": "once"
+        },
+        {
+            "begin": 1836,
+            "end": 1846,
+            "name": "sidefire_right",
+            "kind": "once"
+        },
+        {
+            "begin": 1847,
+            "end": 1857,
+            "name": "sidefire_double",
+            "kind": "once"
+        },
+        {
+            "begin": 1858,
+            "end": 1890,
+            "name": "sidefire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1891,
+            "end": 1900,
+            "name": "sidefire_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1901,
+            "end": 1910,
+            "name": "shot3_aiming_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1911,
+            "end": 1982,
+            "name": "shot3_aiming_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 1983,
+            "end": 2007,
+            "name": "shot3_aiming_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 2008,
+            "end": 2011,
+            "name": "shot3_aiming_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2012,
+            "end": 2021,
+            "name": "shot3_cannon_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2022,
+            "end": 2052,
+            "name": "shot3_cannon_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 2053,
+            "end": 2077,
+            "name": "shot3_cannon_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 2078,
+            "end": 2081,
+            "name": "shot3_cannon_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2082,
+            "end": 2124,
+            "name": "wince_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 2125,
+            "end": 2173,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 2174,
+            "end": 2204,
+            "name": "stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 2205,
+            "end": 2235,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 2236,
+            "end": 2332,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 1523,
+                    "data": [
+                        {
+                            "x": -144.60000000000002,
+                            "y": -269.1
+                        }
+                    ]
+                },
+                {
+                    "begin": 1588,
+                    "data": []
+                },
+                {
+                    "begin": 1695,
+                    "data": [
+                        {
+                            "x": 210,
+                            "y": -96
+                        }
+                    ]
+                },
+                {
+                    "begin": 1728,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action22",
+            "frames": [
+                {
+                    "begin": 196,
+                    "data": [
+                        {
+                            "x": -191.1,
+                            "y": -311.1
+                        }
+                    ]
+                },
+                {
+                    "begin": 197,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action25",
+            "frames": [
+                {
+                    "begin": 196,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": -132
+                        }
+                    ]
+                },
+                {
+                    "begin": 197,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action23",
+            "frames": [
+                {
+                    "begin": 196,
+                    "data": [
+                        {
+                            "x": 198.9,
+                            "y": -311.1
+                        }
+                    ]
+                },
+                {
+                    "begin": 197,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action41",
+            "frames": [
+                {
+                    "begin": 310,
+                    "data": [
+                        {
+                            "x": -192,
+                            "y": -180
+                        }
+                    ]
+                },
+                {
+                    "begin": 311,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action42",
+            "frames": [
+                {
+                    "begin": 310,
+                    "data": [
+                        {
+                            "x": 198,
+                            "y": -180
+                        }
+                    ]
+                },
+                {
+                    "begin": 311,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action43",
+            "frames": [
+                {
+                    "begin": 310,
+                    "data": [
+                        {
+                            "x": -186,
+                            "y": -294
+                        }
+                    ]
+                },
+                {
+                    "begin": 311,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action44",
+            "frames": [
+                {
+                    "begin": 310,
+                    "data": [
+                        {
+                            "x": 186,
+                            "y": -294
+                        }
+                    ]
+                },
+                {
+                    "begin": 311,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action01",
+            "frames": [
+                {
+                    "begin": 311,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -126
+                        }
+                    ]
+                },
+                {
+                    "begin": 312,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action45",
+            "frames": [
+                {
+                    "begin": 343,
+                    "data": [
+                        {
+                            "x": -192,
+                            "y": -180
+                        }
+                    ]
+                },
+                {
+                    "begin": 344,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action46",
+            "frames": [
+                {
+                    "begin": 343,
+                    "data": [
+                        {
+                            "x": 198,
+                            "y": -180
+                        }
+                    ]
+                },
+                {
+                    "begin": 344,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action47",
+            "frames": [
+                {
+                    "begin": 343,
+                    "data": [
+                        {
+                            "x": -186,
+                            "y": -294
+                        }
+                    ]
+                },
+                {
+                    "begin": 344,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action48",
+            "frames": [
+                {
+                    "begin": 343,
+                    "data": [
+                        {
+                            "x": 186,
+                            "y": -294
+                        }
+                    ]
+                },
+                {
+                    "begin": 344,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action04",
+            "frames": [
+                {
+                    "begin": 344,
+                    "data": [
+                        {
+                            "x": -0.6000000000000001,
+                            "y": -120
+                        }
+                    ]
+                },
+                {
+                    "begin": 345,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action49",
+            "frames": [
+                {
+                    "begin": 456,
+                    "data": [
+                        {
+                            "x": -179.10000000000002,
+                            "y": -203.1
+                        }
+                    ]
+                },
+                {
+                    "begin": 457,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action50",
+            "frames": [
+                {
+                    "begin": 456,
+                    "data": [
+                        {
+                            "x": 186,
+                            "y": -210
+                        }
+                    ]
+                },
+                {
+                    "begin": 457,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action27",
+            "frames": [
+                {
+                    "begin": 456,
+                    "data": [
+                        {
+                            "x": -185.1,
+                            "y": -335.1
+                        }
+                    ]
+                },
+                {
+                    "begin": 457,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action28",
+            "frames": [
+                {
+                    "begin": 456,
+                    "data": [
+                        {
+                            "x": 191.7,
+                            "y": -330
+                        }
+                    ]
+                },
+                {
+                    "begin": 457,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action06",
+            "frames": [
+                {
+                    "begin": 545,
+                    "data": [
+                        {
+                            "x": 5.699999999999999,
+                            "y": -36
+                        }
+                    ]
+                },
+                {
+                    "begin": 546,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action02",
+            "frames": [
+                {
+                    "begin": 637,
+                    "data": [
+                        {
+                            "x": 245.7,
+                            "y": 17.1
+                        },
+                        {
+                            "x": -240.3,
+                            "y": 18
+                        },
+                        {
+                            "x": 167.7,
+                            "y": -60
+                        },
+                        {
+                            "x": -162.3,
+                            "y": -60
+                        }
+                    ]
+                },
+                {
+                    "begin": 638,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action03",
+            "frames": [
+                {
+                    "begin": 721,
+                    "data": [
+                        {
+                            "x": 240,
+                            "y": -101.7
+                        },
+                        {
+                            "x": 408,
+                            "y": 78
+                        },
+                        {
+                            "x": -228,
+                            "y": -18
+                        }
+                    ]
+                },
+                {
+                    "begin": 722,
+                    "data": []
+                },
+                {
+                    "begin": 746,
+                    "data": [
+                        {
+                            "x": -396,
+                            "y": 168.3
+                        },
+                        {
+                            "x": -312,
+                            "y": -198
+                        },
+                        {
+                            "x": 300,
+                            "y": -102
+                        }
+                    ]
+                },
+                {
+                    "begin": 747,
+                    "data": []
+                },
+                {
+                    "begin": 771,
+                    "data": [
+                        {
+                            "x": -378,
+                            "y": -455.7000000000001
+                        },
+                        {
+                            "x": 444,
+                            "y": 303
+                        },
+                        {
+                            "x": 444,
+                            "y": -204
+                        }
+                    ]
+                },
+                {
+                    "begin": 772,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action05",
+            "frames": [
+                {
+                    "begin": 796,
+                    "data": [
+                        {
+                            "x": -276,
+                            "y": 438
+                        },
+                        {
+                            "x": 324,
+                            "y": -42
+                        }
+                    ]
+                },
+                {
+                    "begin": 797,
+                    "data": []
+                },
+                {
+                    "begin": 821,
+                    "data": [
+                        {
+                            "x": 270,
+                            "y": 192
+                        },
+                        {
+                            "x": -78,
+                            "y": 582
+                        }
+                    ]
+                },
+                {
+                    "begin": 822,
+                    "data": []
+                },
+                {
+                    "begin": 846,
+                    "data": [
+                        {
+                            "x": -582,
+                            "y": -18
+                        },
+                        {
+                            "x": 240,
+                            "y": 228
+                        }
+                    ]
+                },
+                {
+                    "begin": 847,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action31",
+            "frames": [
+                {
+                    "begin": 921,
+                    "data": [
+                        {
+                            "x": -0.8999999999999999,
+                            "y": 30
+                        }
+                    ]
+                },
+                {
+                    "begin": 922,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action32",
+            "frames": [
+                {
+                    "begin": 926,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 4.800000000000001
+                        }
+                    ]
+                },
+                {
+                    "begin": 927,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action33",
+            "frames": [
+                {
+                    "begin": 989,
+                    "data": [
+                        {
+                            "x": 2.4000000000000004,
+                            "y": -33.900000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 990,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action34",
+            "frames": [
+                {
+                    "begin": 1054,
+                    "data": [
+                        {
+                            "x": 2.4000000000000004,
+                            "y": -33.900000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1055,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action35",
+            "frames": [
+                {
+                    "begin": 1063,
+                    "data": [
+                        {
+                            "x": -5.699999999999999,
+                            "y": -78.30000000000001
+                        }
+                    ]
+                },
+                {
+                    "begin": 1064,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "eliminate_all_funnels",
+            "frames": [
+                {
+                    "begin": 1084,
+                    "data": [
+                        {
+                            "x": -6,
+                            "y": -60
+                        }
+                    ]
+                },
+                {
+                    "begin": 1085,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action21",
+            "frames": [
+                {
+                    "begin": 1176,
+                    "data": [
+                        {
+                            "x": -5.1,
+                            "y": -48
+                        }
+                    ]
+                },
+                {
+                    "begin": 1177,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action24",
+            "frames": [
+                {
+                    "begin": 1202,
+                    "data": [
+                        {
+                            "x": 6.8999999999999995,
+                            "y": -60
+                        }
+                    ]
+                },
+                {
+                    "begin": 1203,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action29",
+            "frames": [
+                {
+                    "begin": 1235,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -48
+                        }
+                    ]
+                },
+                {
+                    "begin": 1236,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action07",
+            "frames": [
+                {
+                    "begin": 1346,
+                    "data": [
+                        {
+                            "x": 360,
+                            "y": -72
+                        },
+                        {
+                            "x": -360,
+                            "y": -72
+                        },
+                        {
+                            "x": 222.3,
+                            "y": 114
+                        },
+                        {
+                            "x": -233.7,
+                            "y": 114
+                        },
+                        {
+                            "x": -114,
+                            "y": 270
+                        },
+                        {
+                            "x": 114,
+                            "y": 270
+                        },
+                        {
+                            "x": 210,
+                            "y": -276
+                        },
+                        {
+                            "x": -210,
+                            "y": -276
+                        },
+                        {
+                            "x": 0,
+                            "y": -432
+                        }
+                    ]
+                },
+                {
+                    "begin": 1347,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action15",
+            "frames": [
+                {
+                    "begin": 1426,
+                    "data": [
+                        {
+                            "x": 90,
+                            "y": 90
+                        },
+                        {
+                            "x": -90,
+                            "y": 90
+                        }
+                    ]
+                },
+                {
+                    "begin": 1427,
+                    "data": []
+                },
+                {
+                    "begin": 1441,
+                    "data": [
+                        {
+                            "x": -186,
+                            "y": 300
+                        },
+                        {
+                            "x": 6.6000000000000005,
+                            "y": 300
+                        },
+                        {
+                            "x": 186,
+                            "y": 300
+                        }
+                    ]
+                },
+                {
+                    "begin": 1442,
+                    "data": []
+                },
+                {
+                    "begin": 1456,
+                    "data": [
+                        {
+                            "x": -294,
+                            "y": 540
+                        },
+                        {
+                            "x": -95.4,
+                            "y": 540
+                        },
+                        {
+                            "x": 90.6,
+                            "y": 540
+                        },
+                        {
+                            "x": 312.6,
+                            "y": 540
+                        }
+                    ]
+                },
+                {
+                    "begin": 1457,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action13",
+            "frames": [
+                {
+                    "begin": 1610,
+                    "data": [
+                        {
+                            "x": -192,
+                            "y": -276
+                        }
+                    ]
+                },
+                {
+                    "begin": 1611,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action14",
+            "frames": [
+                {
+                    "begin": 1610,
+                    "data": [
+                        {
+                            "x": 191.4,
+                            "y": -275.70000000000005
+                        }
+                    ]
+                },
+                {
+                    "begin": 1611,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action11",
+            "frames": [
+                {
+                    "begin": 1611,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -54
+                        }
+                    ]
+                },
+                {
+                    "begin": 1612,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action12",
+            "frames": [
+                {
+                    "begin": 1728,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1729,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action16",
+            "frames": [
+                {
+                    "begin": 1825,
+                    "data": [
+                        {
+                            "x": -156,
+                            "y": -29.4
+                        }
+                    ]
+                },
+                {
+                    "begin": 1826,
+                    "data": []
+                },
+                {
+                    "begin": 1847,
+                    "data": [
+                        {
+                            "x": -174,
+                            "y": -11.7
+                        }
+                    ]
+                },
+                {
+                    "begin": 1848,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action17",
+            "frames": [
+                {
+                    "begin": 1825,
+                    "data": [
+                        {
+                            "x": -168,
+                            "y": -330
+                        }
+                    ]
+                },
+                {
+                    "begin": 1826,
+                    "data": []
+                },
+                {
+                    "begin": 1847,
+                    "data": [
+                        {
+                            "x": -186,
+                            "y": -294.29999999999995
+                        }
+                    ]
+                },
+                {
+                    "begin": 1848,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action18",
+            "frames": [
+                {
+                    "begin": 1836,
+                    "data": [
+                        {
+                            "x": 156,
+                            "y": -23.4
+                        }
+                    ]
+                },
+                {
+                    "begin": 1837,
+                    "data": []
+                },
+                {
+                    "begin": 1847,
+                    "data": [
+                        {
+                            "x": 156,
+                            "y": -23.4
+                        }
+                    ]
+                },
+                {
+                    "begin": 1848,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action19",
+            "frames": [
+                {
+                    "begin": 1836,
+                    "data": [
+                        {
+                            "x": 168,
+                            "y": -294
+                        }
+                    ]
+                },
+                {
+                    "begin": 1837,
+                    "data": []
+                },
+                {
+                    "begin": 1847,
+                    "data": [
+                        {
+                            "x": 168,
+                            "y": -294
+                        }
+                    ]
+                },
+                {
+                    "begin": 1848,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action36",
+            "frames": [
+                {
+                    "begin": 1921,
+                    "data": [
+                        {
+                            "x": 173.39999999999998,
+                            "y": -336.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 1922,
+                    "data": []
+                },
+                {
+                    "begin": 1941,
+                    "data": [
+                        {
+                            "x": -166.8,
+                            "y": -221.7
+                        }
+                    ]
+                },
+                {
+                    "begin": 1942,
+                    "data": []
+                },
+                {
+                    "begin": 1961,
+                    "data": [
+                        {
+                            "x": 161.7,
+                            "y": -234.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 1962,
+                    "data": []
+                },
+                {
+                    "begin": 1981,
+                    "data": [
+                        {
+                            "x": -168,
+                            "y": -336
+                        }
+                    ]
+                },
+                {
+                    "begin": 1982,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action10",
+            "frames": [
+                {
+                    "begin": 2032,
+                    "data": [
+                        {
+                            "x": -178.5,
+                            "y": -288
+                        },
+                        {
+                            "x": -180,
+                            "y": -168
+                        }
+                    ]
+                },
+                {
+                    "begin": 2033,
+                    "data": []
+                },
+                {
+                    "begin": 2042,
+                    "data": [
+                        {
+                            "x": 180,
+                            "y": -294
+                        },
+                        {
+                            "x": 168,
+                            "y": -186
+                        }
+                    ]
+                },
+                {
+                    "begin": 2043,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 129,
+                    "data": [
+                        {
+                            "x": 5.4,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 130,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin4",
+            "frames": [
+                {
+                    "begin": 242,
+                    "data": [
+                        {
+                            "x": 5.4,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 243,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin2",
+            "frames": [
+                {
+                    "begin": 388,
+                    "data": [
+                        {
+                            "x": 5.4,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 389,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 503,
+                    "data": [
+                        {
+                            "x": -1.7999999999999998,
+                            "y": -58.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 504,
+                    "data": []
+                },
+                {
+                    "begin": 605,
+                    "data": [
+                        {
+                            "x": -1.7999999999999998,
+                            "y": -58.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 606,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin5",
+            "frames": [
+                {
+                    "begin": 512,
+                    "data": [
+                        {
+                            "x": -1.7999999999999998,
+                            "y": -58.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 513,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 698,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -57.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 699,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin1",
+            "frames": [
+                {
+                    "begin": 875,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -47.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 876,
+                    "data": []
+                },
+                {
+                    "begin": 884,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -47.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 885,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin4",
+            "frames": [
+                {
+                    "begin": 931,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -47.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 932,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin3",
+            "frames": [
+                {
+                    "begin": 996,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -47.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 997,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin5",
+            "frames": [
+                {
+                    "begin": 1061,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -47.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1062,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin5",
+            "frames": [
+                {
+                    "begin": 1070,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -47.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1071,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin1",
+            "frames": [
+                {
+                    "begin": 1089,
+                    "data": [
+                        {
+                            "x": -5.1,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1090,
+                    "data": []
+                },
+                {
+                    "begin": 1098,
+                    "data": [
+                        {
+                            "x": -5.1,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1099,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin3",
+            "frames": [
+                {
+                    "begin": 1107,
+                    "data": [
+                        {
+                            "x": -5.1,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1108,
+                    "data": []
+                },
+                {
+                    "begin": 1391,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -17.4
+                        }
+                    ]
+                },
+                {
+                    "begin": 1392,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin4",
+            "frames": [
+                {
+                    "begin": 1224,
+                    "data": [
+                        {
+                            "x": -5.1,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1225,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin2",
+            "frames": [
+                {
+                    "begin": 1320,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -57.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 1321,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin1",
+            "frames": [
+                {
+                    "begin": 1499,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": -35.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1500,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin3",
+            "frames": [
+                {
+                    "begin": 1686,
+                    "data": [
+                        {
+                            "x": 11.4,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1687,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin4",
+            "frames": [
+                {
+                    "begin": 1783,
+                    "data": [
+                        {
+                            "x": 11.4,
+                            "y": -59.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1784,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin2",
+            "frames": [
+                {
+                    "begin": 1901,
+                    "data": [
+                        {
+                            "x": -5.699999999999999,
+                            "y": -53.400000000000006
+                        }
+                    ]
+                },
+                {
+                    "begin": 1902,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin5",
+            "frames": [
+                {
+                    "begin": 2012,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -69
+                        }
+                    ]
+                },
+                {
+                    "begin": 2013,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -126
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": 30
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body2",
+            "frames": [
+                {
+                    "begin": 1523,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -296.1,
+                            "r": 78
+                        }
+                    ]
+                },
+                {
+                    "begin": 1588,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class1_21",
+            "frames": [
+                {
+                    "begin": 1523,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -419.4,
+                            "r": 62.3990478515625
+                        }
+                    ]
+                },
+                {
+                    "begin": 1588,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class1_11",
+            "frames": [
+                {
+                    "begin": 1523,
+                    "data": [
+                        {
+                            "x": -234,
+                            "y": -108.9,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 1588,
+                    "data": []
+                },
+                {
+                    "begin": 1695,
+                    "data": [
+                        {
+                            "x": 252,
+                            "y": -341.70000000000005,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 1728,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class1_12",
+            "frames": [
+                {
+                    "begin": 1523,
+                    "data": [
+                        {
+                            "x": 222,
+                            "y": -126,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 1588,
+                    "data": []
+                },
+                {
+                    "begin": 1695,
+                    "data": [
+                        {
+                            "x": -240,
+                            "y": -344.70000000000005,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 1728,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class1_13",
+            "frames": [
+                {
+                    "begin": 1695,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 123.6,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 1728,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -125.4,
+                            "r": 124.798095703125
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

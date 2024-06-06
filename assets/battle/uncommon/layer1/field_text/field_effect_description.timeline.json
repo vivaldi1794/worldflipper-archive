@@ -1,0 +1,45 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 149,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 150,
+            "end": 279,
+            "name": "detail_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 280,
+            "end": 289,
+            "name": "detail_end",
+            "kind": "pass"
+        },
+        {
+            "begin": 290,
+            "end": 369,
+            "name": "release_start",
+            "kind": "once"
+        },
+        {
+            "begin": 370,
+            "end": 379,
+            "name": "release_end",
+            "kind": "pass"
+        },
+        {
+            "begin": 380,
+            "end": 409,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

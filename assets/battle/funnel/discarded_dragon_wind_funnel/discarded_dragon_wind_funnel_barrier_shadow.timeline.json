@@ -1,0 +1,63 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 57,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 58,
+            "end": 106,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 107,
+            "end": 131,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 132,
+            "end": 164,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 165,
+            "end": 201,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 202,
+            "end": 203,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 204,
+            "end": 205,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 206,
+            "end": 207,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 208,
+            "end": 209,
+            "name": "wince",
+            "kind": "loop"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

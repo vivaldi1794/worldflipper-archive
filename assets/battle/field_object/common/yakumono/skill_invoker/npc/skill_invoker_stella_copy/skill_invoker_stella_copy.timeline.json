@@ -1,0 +1,62 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 6,
+            "name": "deactivate",
+            "kind": "once"
+        },
+        {
+            "begin": 7,
+            "end": 28,
+            "name": "open",
+            "kind": "pass"
+        },
+        {
+            "begin": 29,
+            "end": 100,
+            "name": "activate",
+            "kind": "loop"
+        },
+        {
+            "begin": 101,
+            "end": 148,
+            "name": "touch",
+            "kind": "pass"
+        },
+        {
+            "begin": 149,
+            "end": 172,
+            "name": "off",
+            "kind": "once"
+        },
+        {
+            "begin": 173,
+            "end": 184,
+            "name": "close",
+            "kind": "goto",
+            "target": "deactivate"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [
+        {
+            "path": "shape",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42,
+                            "r": 53.9967041015625
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

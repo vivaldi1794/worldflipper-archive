@@ -1,0 +1,233 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 10,
+            "name": "deactivate1",
+            "kind": "once"
+        },
+        {
+            "begin": 11,
+            "end": 41,
+            "name": "open1",
+            "kind": "pass"
+        },
+        {
+            "begin": 42,
+            "end": 73,
+            "name": "activate1",
+            "kind": "loop"
+        },
+        {
+            "begin": 74,
+            "end": 83,
+            "name": "touch1",
+            "kind": "goto",
+            "target": "off1"
+        },
+        {
+            "begin": 84,
+            "end": 96,
+            "name": "close1",
+            "kind": "goto",
+            "target": "deactivate1"
+        },
+        {
+            "begin": 97,
+            "end": 114,
+            "name": "off1",
+            "kind": "goto",
+            "target": "deactivate1"
+        },
+        {
+            "begin": 115,
+            "end": 124,
+            "name": "deactivate2",
+            "kind": "once"
+        },
+        {
+            "begin": 125,
+            "end": 156,
+            "name": "open2",
+            "kind": "stop"
+        },
+        {
+            "begin": 157,
+            "end": 188,
+            "name": "activate2",
+            "kind": "loop"
+        },
+        {
+            "begin": 189,
+            "end": 198,
+            "name": "touch2",
+            "kind": "goto",
+            "target": "off2"
+        },
+        {
+            "begin": 199,
+            "end": 212,
+            "name": "close2",
+            "kind": "goto",
+            "target": "deactivate2"
+        },
+        {
+            "begin": 213,
+            "end": 230,
+            "name": "off2",
+            "kind": "once"
+        },
+        {
+            "begin": 231,
+            "end": 240,
+            "name": "deactivate3",
+            "kind": "pass"
+        },
+        {
+            "begin": 241,
+            "end": 272,
+            "name": "open3",
+            "kind": "once"
+        },
+        {
+            "begin": 273,
+            "end": 304,
+            "name": "activate3",
+            "kind": "loop"
+        },
+        {
+            "begin": 305,
+            "end": 314,
+            "name": "touch3",
+            "kind": "goto",
+            "target": "off3"
+        },
+        {
+            "begin": 315,
+            "end": 329,
+            "name": "close3",
+            "kind": "goto",
+            "target": "deactivate3"
+        },
+        {
+            "begin": 330,
+            "end": 346,
+            "name": "off3",
+            "kind": "once"
+        },
+        {
+            "begin": 347,
+            "end": 379,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 11,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -228
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 11,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 66
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 42,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 240
+                        }
+                    ]
+                },
+                {
+                    "begin": 43,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 11,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60,
+                            "r": 84.0179443359375
+                        }
+                    ]
+                },
+                {
+                    "begin": 115,
+                    "data": []
+                },
+                {
+                    "begin": 125,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60,
+                            "r": 84.00192260742188
+                        }
+                    ]
+                },
+                {
+                    "begin": 231,
+                    "data": []
+                },
+                {
+                    "begin": 241,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60,
+                            "r": 84.00192260742188
+                        }
+                    ]
+                },
+                {
+                    "begin": 349,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

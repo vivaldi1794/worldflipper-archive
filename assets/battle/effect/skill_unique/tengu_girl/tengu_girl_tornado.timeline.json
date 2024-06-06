@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 8,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 9,
+            "end": 68,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 69,
+            "end": 96,
+            "name": "end",
+            "kind": "pass"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/wind/se_single_tornado",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

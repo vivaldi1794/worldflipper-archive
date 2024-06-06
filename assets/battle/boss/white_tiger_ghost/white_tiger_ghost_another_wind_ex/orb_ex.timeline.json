@@ -1,0 +1,135 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 31,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 32,
+            "end": 63,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 64,
+            "end": 95,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 96,
+            "end": 127,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 128,
+            "end": 159,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 160,
+            "end": 194,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/yakumono/se_pot_break",
+            "begin": 160,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_pot_break",
+            "begin": 194,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -66.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 160,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -257.4
+                        }
+                    ]
+                },
+                {
+                    "begin": 160,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 101.7,
+                            "y": -26.4
+                        }
+                    ]
+                },
+                {
+                    "begin": 160,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -47.400000000000006,
+                            "r": 68.6356201171875
+                        }
+                    ]
+                },
+                {
+                    "begin": 160,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

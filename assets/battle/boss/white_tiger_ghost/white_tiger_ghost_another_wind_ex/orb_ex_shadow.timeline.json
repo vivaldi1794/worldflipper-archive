@@ -1,0 +1,45 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 31,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 32,
+            "end": 63,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 64,
+            "end": 95,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 96,
+            "end": 127,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 128,
+            "end": 159,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 160,
+            "end": 191,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,246 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 29,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 30,
+            "end": 58,
+            "name": "rage",
+            "kind": "loop"
+        },
+        {
+            "begin": 59,
+            "end": 87,
+            "name": "target",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 88,
+            "end": 116,
+            "name": "target_loop",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 117,
+            "end": 145,
+            "name": "target_end",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 146,
+            "end": 170,
+            "name": "torrent_start",
+            "kind": "once"
+        },
+        {
+            "begin": 171,
+            "end": 179,
+            "name": "torrent_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 180,
+            "end": 200,
+            "name": "torrent_shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 201,
+            "end": 211,
+            "name": "torrent_shot_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 212,
+            "end": 228,
+            "name": "torrent_shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 229,
+            "end": 253,
+            "name": "roar_start",
+            "kind": "once"
+        },
+        {
+            "begin": 254,
+            "end": 262,
+            "name": "roar_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 263,
+            "end": 283,
+            "name": "roar_shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 284,
+            "end": 294,
+            "name": "roar_shot_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 295,
+            "end": 311,
+            "name": "roar_shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 312,
+            "end": 336,
+            "name": "breathe_start",
+            "kind": "once"
+        },
+        {
+            "begin": 337,
+            "end": 345,
+            "name": "breathe_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 346,
+            "end": 366,
+            "name": "breathe_shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 367,
+            "end": 377,
+            "name": "breathe_shot_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 378,
+            "end": 394,
+            "name": "breathe_shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 395,
+            "end": 419,
+            "name": "storm_start",
+            "kind": "once"
+        },
+        {
+            "begin": 420,
+            "end": 428,
+            "name": "storm_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 429,
+            "end": 449,
+            "name": "storm_shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 450,
+            "end": 460,
+            "name": "storm_shot_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 461,
+            "end": 477,
+            "name": "storm_shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 478,
+            "end": 506,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 507,
+            "end": 523,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 524,
+            "end": 568,
+            "name": "skill_shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 569,
+            "end": 633,
+            "name": "skill_shot_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 634,
+            "end": 646,
+            "name": "skill_shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 647,
+            "end": 703,
+            "name": "move_in",
+            "kind": "once"
+        },
+        {
+            "begin": 704,
+            "end": 752,
+            "name": "move_out",
+            "kind": "once"
+        },
+        {
+            "begin": 753,
+            "end": 778,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 779,
+            "end": 793,
+            "name": "wince_ready",
+            "kind": "loop"
+        },
+        {
+            "begin": 794,
+            "end": 826,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 827,
+            "end": 859,
+            "name": "stun_ready",
+            "kind": "loop"
+        },
+        {
+            "begin": 860,
+            "end": 874,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 875,
+            "end": 1135,
+            "name": "fallen",
+            "kind": "once"
+        },
+        {
+            "begin": 1136,
+            "end": 1149,
+            "name": "move",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

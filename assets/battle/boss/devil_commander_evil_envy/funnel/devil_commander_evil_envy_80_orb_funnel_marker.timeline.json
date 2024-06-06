@@ -1,0 +1,229 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 59,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 60,
+            "end": 115,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 116,
+            "end": 171,
+            "name": "lost",
+            "kind": "once"
+        },
+        {
+            "begin": 172,
+            "end": 252,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 253,
+            "end": 257,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 258,
+            "end": 281,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 282,
+            "end": 287,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 288,
+            "end": 303,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 304,
+            "end": 323,
+            "name": "shot1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -180
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -66
+                        }
+                    ]
+                },
+                {
+                    "begin": 172,
+                    "data": []
+                },
+                {
+                    "begin": 253,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -66
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 116,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 90
+                        }
+                    ]
+                },
+                {
+                    "begin": 117,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 253,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 90
+                        }
+                    ]
+                },
+                {
+                    "begin": 254,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 288,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 90
+                        }
+                    ]
+                },
+                {
+                    "begin": 289,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 172,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90
+                        }
+                    ]
+                },
+                {
+                    "begin": 173,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 288,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -66
+                        }
+                    ]
+                },
+                {
+                    "begin": 289,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 60,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -66,
+                            "r": 40.5567626953125
+                        }
+                    ]
+                },
+                {
+                    "begin": 172,
+                    "data": []
+                },
+                {
+                    "begin": 253,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -66,
+                            "r": 40.5567626953125
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

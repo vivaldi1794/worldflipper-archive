@@ -1,0 +1,168 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 26,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 27,
+            "end": 75,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 76,
+            "end": 126,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 127,
+            "end": 139,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 140,
+            "end": 164,
+            "name": "shot1_charge",
+            "kind": "once"
+        },
+        {
+            "begin": 165,
+            "end": 181,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 182,
+            "end": 198,
+            "name": "shot1_fire_loop",
+            "kind": "once"
+        },
+        {
+            "begin": 199,
+            "end": 205,
+            "name": "shot1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 27,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -204
+                        }
+                    ]
+                },
+                {
+                    "begin": 76,
+                    "data": []
+                },
+                {
+                    "begin": 127,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -204
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 27,
+                    "data": [
+                        {
+                            "x": 2.4000000000000004,
+                            "y": -83.4
+                        }
+                    ]
+                },
+                {
+                    "begin": 76,
+                    "data": []
+                },
+                {
+                    "begin": 127,
+                    "data": [
+                        {
+                            "x": 2.4000000000000004,
+                            "y": -83.4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 165,
+                    "data": [
+                        {
+                            "x": 5.4,
+                            "y": -40.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 166,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 27,
+                    "data": [
+                        {
+                            "x": 2.4000000000000004,
+                            "y": -80.4,
+                            "r": 24.955810546875
+                        }
+                    ]
+                },
+                {
+                    "begin": 76,
+                    "data": []
+                },
+                {
+                    "begin": 127,
+                    "data": [
+                        {
+                            "x": 2.4000000000000004,
+                            "y": -80.4,
+                            "r": 31.1971435546875
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

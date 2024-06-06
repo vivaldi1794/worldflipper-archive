@@ -1,0 +1,62 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 48,
+            "name": "start",
+            "kind": "goto",
+            "target": "charge"
+        },
+        {
+            "begin": 49,
+            "end": 71,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 72,
+            "end": 95,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 96,
+            "end": 103,
+            "name": "attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 104,
+            "end": 155,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_start",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_charge",
+            "begin": 72,
+            "loop": -1,
+            "end": 96,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_shot_once",
+            "begin": 96,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

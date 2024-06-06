@@ -1,0 +1,105 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 100,
+            "name": "phase_change_aura_add_1",
+            "kind": "pass"
+        },
+        {
+            "begin": 101,
+            "end": 300,
+            "name": "phase_change_aura_loop_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 301,
+            "end": 400,
+            "name": "phase_change_aura_remove_1",
+            "kind": "once"
+        },
+        {
+            "begin": 401,
+            "end": 500,
+            "name": "phase_change_aura_add_2",
+            "kind": "pass"
+        },
+        {
+            "begin": 501,
+            "end": 700,
+            "name": "phase_change_aura_loop_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 701,
+            "end": 800,
+            "name": "phase_change_aura_remove_2",
+            "kind": "once"
+        },
+        {
+            "begin": 801,
+            "end": 900,
+            "name": "phase_change_aura_add_3",
+            "kind": "pass"
+        },
+        {
+            "begin": 901,
+            "end": 1100,
+            "name": "phase_change_aura_loop_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 1101,
+            "end": 1200,
+            "name": "phase_change_aura_remove_3",
+            "kind": "once"
+        },
+        {
+            "begin": 1201,
+            "end": 1204,
+            "name": "none",
+            "kind": "once"
+        },
+        {
+            "begin": 1205,
+            "end": 1304,
+            "name": "phase_change_aura_add_4",
+            "kind": "pass"
+        },
+        {
+            "begin": 1305,
+            "end": 1504,
+            "name": "phase_change_aura_loop_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 1505,
+            "end": 1604,
+            "name": "phase_change_aura_remove_4",
+            "kind": "once"
+        },
+        {
+            "begin": 1605,
+            "end": 1704,
+            "name": "phase_change_aura_add_5",
+            "kind": "pass"
+        },
+        {
+            "begin": 1705,
+            "end": 1904,
+            "name": "phase_change_aura_loop_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 1905,
+            "end": 2004,
+            "name": "phase_change_aura_remove_5",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

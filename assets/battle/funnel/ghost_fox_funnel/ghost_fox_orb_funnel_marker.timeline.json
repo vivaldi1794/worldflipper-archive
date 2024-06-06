@@ -1,0 +1,168 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 49,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 50,
+            "end": 98,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 99,
+            "end": 147,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 148,
+            "end": 196,
+            "name": "boss_resonance",
+            "kind": "once"
+        },
+        {
+            "begin": 197,
+            "end": 252,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 50,
+                    "data": [
+                        {
+                            "x": -1.2000000000000002,
+                            "y": -143.10000000000002
+                        }
+                    ]
+                },
+                {
+                    "begin": 197,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -66
+                        }
+                    ]
+                },
+                {
+                    "begin": 197,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot3",
+            "frames": [
+                {
+                    "begin": 2,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": 6
+                        }
+                    ]
+                },
+                {
+                    "begin": 3,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 32,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": 6
+                        }
+                    ]
+                },
+                {
+                    "begin": 33,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 148,
+                    "data": [
+                        {
+                            "x": 0.30000000000000004,
+                            "y": 30.299999999999997
+                        }
+                    ]
+                },
+                {
+                    "begin": 149,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 197,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": 6
+                        }
+                    ]
+                },
+                {
+                    "begin": 198,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 50,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -66,
+                            "r": 40.55914306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 197,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

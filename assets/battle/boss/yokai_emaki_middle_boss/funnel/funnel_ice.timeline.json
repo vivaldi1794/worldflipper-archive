@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 29,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 30,
+            "end": 90,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 91,
+            "end": 129,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/element/se_enfeebling_freeze_long",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,59 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 48,
+            "name": "start",
+            "kind": "goto",
+            "target": "charge"
+        },
+        {
+            "begin": 49,
+            "end": 71,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 72,
+            "end": 95,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 96,
+            "end": 103,
+            "name": "attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 104,
+            "end": 155,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 96,
+                    "data": [
+                        {
+                            "x": -6,
+                            "y": 24
+                        }
+                    ]
+                },
+                {
+                    "begin": 97,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

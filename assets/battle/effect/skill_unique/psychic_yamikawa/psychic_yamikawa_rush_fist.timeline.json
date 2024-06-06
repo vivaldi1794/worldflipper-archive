@@ -1,0 +1,49 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 9,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 10,
+            "end": 20,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 21,
+            "end": 26,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/situation/se_white_tiger_strike_heavy",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_white_tiger_strike_heavy",
+            "begin": 11,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_white_tiger_strike_heavy",
+            "begin": 22,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

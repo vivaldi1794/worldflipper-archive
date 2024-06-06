@@ -1,0 +1,29 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 80,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 81,
+            "end": 107,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/water/se_water_strike",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

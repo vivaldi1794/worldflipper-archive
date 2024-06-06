@@ -1,0 +1,110 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 36,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 37,
+            "end": 41,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 42,
+            "end": 158,
+            "name": "footwork",
+            "kind": "loop"
+        },
+        {
+            "begin": 159,
+            "end": 172,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 173,
+            "end": 197,
+            "name": "shot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 198,
+            "end": 216,
+            "name": "shot_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 217,
+            "end": 222,
+            "name": "damage",
+            "kind": "loop"
+        },
+        {
+            "begin": 223,
+            "end": 242,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 17,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -66
+                        }
+                    ]
+                },
+                {
+                    "begin": 223,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 17,
+                    "data": [
+                        {
+                            "x": 1.2000000000000002,
+                            "y": -8.7,
+                            "r": 62.36810302734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 223,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,45 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 29,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 30,
+            "end": 71,
+            "name": "landing",
+            "kind": "pass"
+        },
+        {
+            "begin": 72,
+            "end": 136,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 137,
+            "end": 201,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 202,
+            "end": 246,
+            "name": "attack",
+            "kind": "loop"
+        },
+        {
+            "begin": 247,
+            "end": 257,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

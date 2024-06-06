@@ -1,0 +1,287 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 61,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 62,
+            "end": 87,
+            "name": "attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 88,
+            "end": 113,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 114,
+            "end": 142,
+            "name": "attack_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 143,
+            "end": 171,
+            "name": "attack_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 172,
+            "end": 200,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 201,
+            "end": 225,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 226,
+            "end": 256,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 257,
+            "end": 263,
+            "name": "skill_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 264,
+            "end": 270,
+            "name": "skill_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 271,
+            "end": 287,
+            "name": "skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 288,
+            "end": 293,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 294,
+            "end": 299,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 300,
+            "end": 330,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 331,
+            "end": 361,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 362,
+            "end": 405,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 406,
+            "end": 416,
+            "name": "move_start",
+            "kind": "once"
+        },
+        {
+            "begin": 417,
+            "end": 422,
+            "name": "moving",
+            "kind": "loop"
+        },
+        {
+            "begin": 423,
+            "end": 433,
+            "name": "move_end",
+            "kind": "once"
+        },
+        {
+            "begin": 434,
+            "end": 454,
+            "name": "float",
+            "kind": "loop"
+        },
+        {
+            "begin": 455,
+            "end": 573,
+            "name": "wear",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 88,
+            "loop": -1,
+            "end": 114,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_shot_big",
+            "begin": 114,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_circle_charge",
+            "begin": 226,
+            "loop": -1,
+            "end": 257,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_shot_big",
+            "begin": 257,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_hard_flash_parry",
+            "begin": 368,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_release",
+            "begin": 456,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 226,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -188.7
+                        }
+                    ]
+                },
+                {
+                    "begin": 257,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -241.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 406,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "weak_point_class1_21",
+            "frames": [
+                {
+                    "begin": 226,
+                    "data": [
+                        {
+                            "x": 150,
+                            "y": 50.7,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 257,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class1_11",
+            "frames": [
+                {
+                    "begin": 226,
+                    "data": [
+                        {
+                            "x": -150,
+                            "y": 50.7,
+                            "r": 156
+                        }
+                    ]
+                },
+                {
+                    "begin": 257,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -89.69999999999999,
+                            "r": 56.15533447265625
+                        }
+                    ]
+                },
+                {
+                    "begin": 362,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

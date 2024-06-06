@@ -1,0 +1,97 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 26,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 27,
+            "end": 79,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 80,
+            "end": 84,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 85,
+            "end": 125,
+            "name": "attack",
+            "kind": "loop"
+        },
+        {
+            "begin": 126,
+            "end": 146,
+            "name": "special_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 147,
+            "end": 167,
+            "name": "special_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 168,
+            "end": 208,
+            "name": "special",
+            "kind": "loop"
+        },
+        {
+            "begin": 209,
+            "end": 217,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 218,
+            "end": 226,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 227,
+            "end": 255,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 256,
+            "end": 275,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/blow/se_woodpress",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_deck_hit",
+            "begin": 89,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bullet_continuous_big",
+            "begin": 172,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

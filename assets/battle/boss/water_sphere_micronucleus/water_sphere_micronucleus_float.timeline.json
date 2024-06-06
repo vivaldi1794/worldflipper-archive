@@ -1,0 +1,282 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 71,
+            "name": "entering",
+            "kind": "once"
+        },
+        {
+            "begin": 72,
+            "end": 200,
+            "name": "wear",
+            "kind": "once"
+        },
+        {
+            "begin": 201,
+            "end": 281,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 282,
+            "end": 302,
+            "name": "attack1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 303,
+            "end": 359,
+            "name": "attack1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 360,
+            "end": 366,
+            "name": "attack1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 367,
+            "end": 423,
+            "name": "attack1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 424,
+            "end": 440,
+            "name": "attack1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 441,
+            "end": 461,
+            "name": "link_attack1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 462,
+            "end": 518,
+            "name": "link_attack1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 519,
+            "end": 525,
+            "name": "link_attack1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 526,
+            "end": 582,
+            "name": "link_attack1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 583,
+            "end": 599,
+            "name": "link_attack1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 600,
+            "end": 615,
+            "name": "attack2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 616,
+            "end": 672,
+            "name": "attack2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 673,
+            "end": 677,
+            "name": "attack2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 678,
+            "end": 734,
+            "name": "attack2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 735,
+            "end": 755,
+            "name": "attack2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 756,
+            "end": 771,
+            "name": "link_attack2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 772,
+            "end": 828,
+            "name": "link_attack2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 829,
+            "end": 833,
+            "name": "link_attack2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 834,
+            "end": 890,
+            "name": "link_attack2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 891,
+            "end": 911,
+            "name": "link_attack2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 912,
+            "end": 927,
+            "name": "skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 928,
+            "end": 984,
+            "name": "skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 985,
+            "end": 989,
+            "name": "skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 990,
+            "end": 1046,
+            "name": "skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1047,
+            "end": 1067,
+            "name": "skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1068,
+            "end": 1083,
+            "name": "link_skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1084,
+            "end": 1140,
+            "name": "link_skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1141,
+            "end": 1145,
+            "name": "link_skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1146,
+            "end": 1202,
+            "name": "link_skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1203,
+            "end": 1223,
+            "name": "link_skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1224,
+            "end": 1229,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 1230,
+            "end": 1235,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 1236,
+            "end": 1266,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 1267,
+            "end": 1297,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 1298,
+            "end": 1361,
+            "name": "inactive_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1362,
+            "end": 1367,
+            "name": "inactive_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1368,
+            "end": 1373,
+            "name": "inactive_stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 1374,
+            "end": 1430,
+            "name": "inactive_dead",
+            "kind": "once"
+        },
+        {
+            "begin": 1431,
+            "end": 1479,
+            "name": "revive",
+            "kind": "once"
+        },
+        {
+            "begin": 1480,
+            "end": 1600,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/water/se_violent_swirling_water",
+            "begin": 76,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_yuremono_bubble_hit",
+            "begin": 95,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

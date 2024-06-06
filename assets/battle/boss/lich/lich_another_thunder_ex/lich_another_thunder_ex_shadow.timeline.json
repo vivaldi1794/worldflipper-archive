@@ -1,0 +1,123 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 61,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 62,
+            "end": 77,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 78,
+            "end": 105,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 106,
+            "end": 111,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 112,
+            "end": 116,
+            "name": "shot1_fire_loop",
+            "kind": "once"
+        },
+        {
+            "begin": 117,
+            "end": 131,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 132,
+            "end": 149,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 150,
+            "end": 159,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 160,
+            "end": 166,
+            "name": "shot2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 167,
+            "end": 197,
+            "name": "shot2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 198,
+            "end": 208,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 209,
+            "end": 257,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 258,
+            "end": 306,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 307,
+            "end": 355,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 356,
+            "end": 404,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 405,
+            "end": 485,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 486,
+            "end": 512,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 513,
+            "end": 561,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 562,
+            "end": 642,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

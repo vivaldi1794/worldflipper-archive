@@ -1,0 +1,47 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 66,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 67,
+            "end": 141,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 142,
+            "end": 163,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 164,
+            "end": 214,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 215,
+            "end": 308,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/weapon/se_bit_bullet_short",
+            "begin": 169,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

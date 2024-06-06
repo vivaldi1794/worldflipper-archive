@@ -1,0 +1,331 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 81,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 82,
+            "end": 108,
+            "name": "shot_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 109,
+            "end": 122,
+            "name": "shot_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 123,
+            "end": 140,
+            "name": "shot_attack_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 141,
+            "end": 157,
+            "name": "shot_attack_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 158,
+            "end": 188,
+            "name": "shot_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 189,
+            "end": 223,
+            "name": "shot_attack2",
+            "kind": "once"
+        },
+        {
+            "begin": 224,
+            "end": 228,
+            "name": "funnel_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 229,
+            "end": 285,
+            "name": "funnel_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 286,
+            "end": 292,
+            "name": "funnel_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 293,
+            "end": 382,
+            "name": "skill_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 383,
+            "end": 389,
+            "name": "skill_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 390,
+            "end": 394,
+            "name": "skill_attack1",
+            "kind": "pass"
+        },
+        {
+            "begin": 395,
+            "end": 399,
+            "name": "skill_attack_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 400,
+            "end": 431,
+            "name": "skill_attack_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 432,
+            "end": 468,
+            "name": "wince_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 469,
+            "end": 549,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 550,
+            "end": 586,
+            "name": "stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 587,
+            "end": 667,
+            "name": "stun",
+            "kind": "pass"
+        },
+        {
+            "begin": 668,
+            "end": 724,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "enemy_action01",
+            "frames": [
+                {
+                    "begin": 109,
+                    "data": [
+                        {
+                            "x": 0.30000000000000004,
+                            "y": 1.7999999999999998
+                        }
+                    ]
+                },
+                {
+                    "begin": 110,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action02",
+            "frames": [
+                {
+                    "begin": 213,
+                    "data": [
+                        {
+                            "x": -132,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "begin": 214,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_shot1",
+            "frames": [
+                {
+                    "begin": 287,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 288,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action11",
+            "frames": [
+                {
+                    "begin": 390,
+                    "data": [
+                        {
+                            "x": 5.699999999999999,
+                            "y": 20.700000000000003
+                        }
+                    ]
+                },
+                {
+                    "begin": 391,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 83,
+                    "data": [
+                        {
+                            "x": 5.699999999999999,
+                            "y": -96.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 84,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 159,
+                    "data": [
+                        {
+                            "x": 5.699999999999999,
+                            "y": -95.7
+                        }
+                    ]
+                },
+                {
+                    "begin": 160,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin1",
+            "frames": [
+                {
+                    "begin": 225,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 226,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin1",
+            "frames": [
+                {
+                    "begin": 297,
+                    "data": [
+                        {
+                            "x": 11.7,
+                            "y": -92.7
+                        }
+                    ]
+                },
+                {
+                    "begin": 298,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 383,
+                    "data": [
+                        {
+                            "x": 180,
+                            "y": -204
+                        }
+                    ]
+                },
+                {
+                    "begin": 390,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "weak_point_class1_11",
+            "frames": [
+                {
+                    "begin": 383,
+                    "data": [
+                        {
+                            "x": -113.7,
+                            "y": 7.5,
+                            "r": 15.59857177734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 390,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point_class1_12",
+            "frames": [
+                {
+                    "begin": 383,
+                    "data": [
+                        {
+                            "x": 101.7,
+                            "y": 5.699999999999999,
+                            "r": 15.59857177734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 390,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

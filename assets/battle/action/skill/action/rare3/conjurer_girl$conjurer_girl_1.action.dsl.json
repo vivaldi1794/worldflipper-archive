@@ -1,0 +1,254 @@
+[
+    "ActionDsl",
+    1,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "CreateHitArea",
+                    "*",
+                    -18,
+                    [
+                        "AB"
+                    ],
+                    0,
+                    0,
+                    0,
+                    true,
+                    false,
+                    [
+                        "Circle",
+                        [
+                            {
+                                "min": 200,
+                                "max": 200
+                            }
+                        ]
+                    ],
+                    [
+                        "Center"
+                    ],
+                    [
+                        "Center"
+                    ],
+                    [
+                        "Single"
+                    ],
+                    [
+                        "SpecifyHitAreaLifetimeDirectly",
+                        300
+                    ],
+                    [
+                        "CalculatedUsingMaxNumOfHits",
+                        24
+                    ],
+                    [
+                        "Some",
+                        [
+                            {
+                                "min": 24,
+                                "max": 24
+                            }
+                        ]
+                    ],
+                    false,
+                    true,
+                    [
+                        "None"
+                    ],
+                    0,
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "ShowEffect",
+                                    "攻撃演出",
+                                    [
+                                        "ResolveByElement",
+                                        "battle/effect/skill_general/area/bit_circle",
+                                        3
+                                    ],
+                                    0,
+                                    [
+                                        "ForesideOfCharacter"
+                                    ],
+                                    [
+                                        "UntilTargetTerminates"
+                                    ],
+                                    [
+                                        "AB"
+                                    ],
+                                    0,
+                                    0,
+                                    0,
+                                    true,
+                                    true,
+                                    [
+                                        "Some",
+                                        [
+                                            {
+                                                "min": 4,
+                                                "max": 4
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ],
+                    1,
+                    2,
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "ShakeCamera",
+                                    1
+                                ]
+                            ],
+                            [
+                                "Command",
+                                [
+                                    "CreateNormalAttack",
+                                    2,
+                                    3,
+                                    [],
+                                    [],
+                                    6,
+                                    [
+                                        {
+                                            "min": 0.6666666666666666,
+                                            "max": 0.6666666666666666
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "min": 0,
+                                            "max": 0
+                                        }
+                                    ],
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    [
+                                        {
+                                            "min": 0.5,
+                                            "max": 0.5
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    [
+                                        "Fine"
+                                    ],
+                                    true
+                                ]
+                            ]
+                        ]
+                    ],
+                    0,
+                    0,
+                    [
+                        "None"
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "FindAllSubjects",
+                    3,
+                    33,
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        "DoNothing"
+                    ],
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "CreateCondition",
+                                    3,
+                                    [
+                                        [
+                                            "ACPowerFlipDamage",
+                                            [
+                                                {
+                                                    "min": 600,
+                                                    "max": 600
+                                                }
+                                            ],
+                                            [
+                                                {
+                                                    "min": 0.4,
+                                                    "max": 0.4
+                                                }
+                                            ],
+                                            [
+                                                {
+                                                    "min": 1,
+                                                    "max": 1
+                                                }
+                                            ]
+                                        ]
+                                    ],
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    [
+                                        "GenericConditionHitEffect"
+                                    ],
+                                    true,
+                                    false,
+                                    "",
+                                    null,
+                                    false,
+                                    3,
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    false
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

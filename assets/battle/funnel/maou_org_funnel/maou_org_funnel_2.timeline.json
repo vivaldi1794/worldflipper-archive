@@ -1,0 +1,87 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 46,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 47,
+            "end": 87,
+            "name": "move_start",
+            "kind": "once"
+        },
+        {
+            "begin": 88,
+            "end": 93,
+            "name": "move",
+            "kind": "loop"
+        },
+        {
+            "begin": 94,
+            "end": 139,
+            "name": "move_end",
+            "kind": "once"
+        },
+        {
+            "begin": 140,
+            "end": 220,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 221,
+            "end": 241,
+            "name": "attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 242,
+            "end": 282,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 283,
+            "end": 315,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 316,
+            "end": 332,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 333,
+            "end": 349,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 350,
+            "end": 382,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 383,
+            "end": 415,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 416,
+            "end": 458,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

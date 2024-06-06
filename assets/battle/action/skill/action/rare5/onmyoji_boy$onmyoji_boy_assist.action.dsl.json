@@ -1,0 +1,257 @@
+[
+    "ActionDsl",
+    1,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "ShowEffect",
+                    "スキルエフェクト",
+                    [
+                        "SpecifyEffectDirectly",
+                        "battle/effect/skill_unique/onmyoji_boy/onmyoji_boy"
+                    ],
+                    -18,
+                    [
+                        "BacksideOfCharacter"
+                    ],
+                    [
+                        "SpecifyEffectLifetimeDirectly",
+                        603
+                    ],
+                    [
+                        "AB"
+                    ],
+                    0,
+                    0,
+                    0,
+                    true,
+                    true,
+                    [
+                        "Some",
+                        [
+                            {
+                                "min": 4,
+                                "max": 4
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "ShakeCamera",
+                    3
+                ]
+            ],
+            [
+                "Event",
+                [
+                    "Wait",
+                    3,
+                    "*",
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "CreateHitArea",
+                                    "*",
+                                    -18,
+                                    [
+                                        "AB"
+                                    ],
+                                    0,
+                                    0,
+                                    0,
+                                    true,
+                                    true,
+                                    [
+                                        "Circle",
+                                        [
+                                            {
+                                                "min": 200,
+                                                "max": 200
+                                            }
+                                        ]
+                                    ],
+                                    [
+                                        "Center"
+                                    ],
+                                    [
+                                        "Center"
+                                    ],
+                                    [
+                                        "Single"
+                                    ],
+                                    [
+                                        "SpecifyHitAreaLifetimeDirectly",
+                                        600
+                                    ],
+                                    [
+                                        "CalculatedUsingMaxNumOfHits",
+                                        10
+                                    ],
+                                    [
+                                        "Some",
+                                        [
+                                            {
+                                                "min": 10,
+                                                "max": 10
+                                            }
+                                        ]
+                                    ],
+                                    false,
+                                    true,
+                                    [
+                                        "None"
+                                    ],
+                                    0,
+                                    [
+                                        "Block",
+                                        []
+                                    ],
+                                    1,
+                                    2,
+                                    [
+                                        "Block",
+                                        [
+                                            [
+                                                "Command",
+                                                [
+                                                    "CreateNormalAttack",
+                                                    2,
+                                                    255,
+                                                    [],
+                                                    [],
+                                                    7,
+                                                    [
+                                                        {
+                                                            "min": 0.7000000000000001,
+                                                            "max": 0.7000000000000001
+                                                        }
+                                                    ],
+                                                    [
+                                                        {
+                                                            "min": 0,
+                                                            "max": 0
+                                                        }
+                                                    ],
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    false,
+                                                    [
+                                                        {
+                                                            "min": 2,
+                                                            "max": 2
+                                                        }
+                                                    ],
+                                                    [
+                                                        {
+                                                            "min": 2.5,
+                                                            "max": 2.5
+                                                        }
+                                                    ],
+                                                    [
+                                                        "SpecifyHitEffectDirectly",
+                                                        [
+                                                            "SpecifyEffectDirectly",
+                                                            "battle/effect/skill_unique/onmyoji_boy/onmyoji_boy_hit"
+                                                        ],
+                                                        false
+                                                    ],
+                                                    true
+                                                ]
+                                            ],
+                                            [
+                                                "Command",
+                                                [
+                                                    "CreateCondition",
+                                                    2,
+                                                    [
+                                                        [
+                                                            "ACPoison",
+                                                            [
+                                                                {
+                                                                    "min": 2400,
+                                                                    "max": 2400
+                                                                }
+                                                            ],
+                                                            [
+                                                                {
+                                                                    "min": 3750,
+                                                                    "max": 7500
+                                                                }
+                                                            ],
+                                                            [
+                                                                {
+                                                                    "min": 1,
+                                                                    "max": 1
+                                                                }
+                                                            ]
+                                                        ]
+                                                    ],
+                                                    [
+                                                        {
+                                                            "min": 1,
+                                                            "max": 1
+                                                        }
+                                                    ],
+                                                    [
+                                                        "GenericConditionHitEffect"
+                                                    ],
+                                                    true,
+                                                    false,
+                                                    "",
+                                                    null,
+                                                    false,
+                                                    3,
+                                                    [
+                                                        {
+                                                            "min": 1,
+                                                            "max": 1
+                                                        }
+                                                    ],
+                                                    false
+                                                ]
+                                            ],
+                                            [
+                                                "Command",
+                                                [
+                                                    "ShakeCamera",
+                                                    1
+                                                ]
+                                            ]
+                                        ]
+                                    ],
+                                    0,
+                                    0,
+                                    [
+                                        "None"
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

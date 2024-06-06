@@ -1,0 +1,108 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 36,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 37,
+            "end": 152,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 153,
+            "end": 170,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/yakumono/se_yuremono_dust_hit",
+            "begin": 6,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_hit_wall",
+            "begin": 25,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_yuremono_dust_hit",
+            "begin": 155,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -180
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 1.5,
+                            "y": -64.5
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 25,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -60,
+                            "r": 87.3453369140625
+                        }
+                    ]
+                },
+                {
+                    "begin": 37,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -59.7,
+                            "r": 74.86505126953125
+                        }
+                    ]
+                },
+                {
+                    "begin": 153,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

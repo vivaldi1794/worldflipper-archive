@@ -1,0 +1,43 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 120,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 121,
+            "end": 160,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/water/se_wave_splash",
+            "begin": 6,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_shine",
+            "begin": 11,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_release",
+            "begin": 122,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

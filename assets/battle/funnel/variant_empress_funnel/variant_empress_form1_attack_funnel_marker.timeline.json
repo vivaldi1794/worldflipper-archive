@@ -1,0 +1,181 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 64,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 65,
+            "end": 106,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 107,
+            "end": 114,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 115,
+            "end": 122,
+            "name": "charge2",
+            "kind": "goto",
+            "target": "charge"
+        },
+        {
+            "begin": 123,
+            "end": 208,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 209,
+            "end": 294,
+            "name": "attack2",
+            "kind": "once"
+        },
+        {
+            "begin": 295,
+            "end": 374,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 13,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90
+                        }
+                    ]
+                },
+                {
+                    "begin": 295,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 13,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": -240
+                        }
+                    ]
+                },
+                {
+                    "begin": 295,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 107,
+                    "data": [
+                        {
+                            "x": -1.5,
+                            "y": -8.399999999999999
+                        }
+                    ]
+                },
+                {
+                    "begin": 108,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 115,
+                    "data": [
+                        {
+                            "x": -1.5,
+                            "y": -8.399999999999999
+                        }
+                    ]
+                },
+                {
+                    "begin": 116,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 165,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 12
+                        }
+                    ]
+                },
+                {
+                    "begin": 166,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 251,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 12
+                        }
+                    ]
+                },
+                {
+                    "begin": 252,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 13,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -90,
+                            "r": 77.99761962890625
+                        }
+                    ]
+                },
+                {
+                    "begin": 295,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,506 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 85,
+            "name": "attack_pod_start",
+            "kind": "once"
+        },
+        {
+            "begin": 86,
+            "end": 91,
+            "name": "attack_pod_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 92,
+            "end": 168,
+            "name": "attack_pod_remove",
+            "kind": "once"
+        },
+        {
+            "begin": 169,
+            "end": 289,
+            "name": "parts_dead",
+            "kind": "once"
+        },
+        {
+            "begin": 290,
+            "end": 366,
+            "name": "parts_dead_remove",
+            "kind": "once"
+        },
+        {
+            "begin": 367,
+            "end": 444,
+            "name": "attack_pod_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 445,
+            "end": 469,
+            "name": "attack_pod_attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 470,
+            "end": 542,
+            "name": "attack_pod_attack_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 543,
+            "end": 584,
+            "name": "attack_pod_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 585,
+            "end": 667,
+            "name": "attack_pod_skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 668,
+            "end": 692,
+            "name": "attack_pod_skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 693,
+            "end": 765,
+            "name": "attack_pod_skill_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 766,
+            "end": 807,
+            "name": "attack_pod_skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 808,
+            "end": 824,
+            "name": "dead_stun",
+            "kind": "once"
+        },
+        {
+            "begin": 825,
+            "end": 841,
+            "name": "attack_pod_stun1",
+            "kind": "loop"
+        },
+        {
+            "begin": 842,
+            "end": 858,
+            "name": "attack_pod_stun2",
+            "kind": "loop"
+        },
+        {
+            "begin": 859,
+            "end": 943,
+            "name": "support_start",
+            "kind": "once"
+        },
+        {
+            "begin": 944,
+            "end": 994,
+            "name": "support_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 995,
+            "end": 1071,
+            "name": "support_remove",
+            "kind": "once"
+        },
+        {
+            "begin": 1072,
+            "end": 1088,
+            "name": "support_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1089,
+            "end": 1105,
+            "name": "support_attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1106,
+            "end": 1122,
+            "name": "support_attack_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 1123,
+            "end": 1128,
+            "name": "support_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1129,
+            "end": 1184,
+            "name": "support_skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1185,
+            "end": 1201,
+            "name": "support_skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1202,
+            "end": 1218,
+            "name": "support_skill_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 1219,
+            "end": 1269,
+            "name": "support_skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1270,
+            "end": 1286,
+            "name": "support_stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 1287,
+            "end": 1303,
+            "name": "support_stun1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1304,
+            "end": 1320,
+            "name": "support_stun2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1321,
+            "end": 1405,
+            "name": "funnel_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1406,
+            "end": 1411,
+            "name": "funnel_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 1412,
+            "end": 1488,
+            "name": "funnel_remove",
+            "kind": "once"
+        },
+        {
+            "begin": 1489,
+            "end": 1529,
+            "name": "funnel_attack_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 1530,
+            "end": 1554,
+            "name": "funnel_attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1555,
+            "end": 1620,
+            "name": "funnel_attack_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 1621,
+            "end": 1665,
+            "name": "funnel_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1666,
+            "end": 1711,
+            "name": "funnel_skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1712,
+            "end": 1736,
+            "name": "funnel_skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1737,
+            "end": 1802,
+            "name": "funnel_skill_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 1803,
+            "end": 1847,
+            "name": "funnel_skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1848,
+            "end": 1864,
+            "name": "funnel_stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 1865,
+            "end": 1881,
+            "name": "funnel_stun1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1882,
+            "end": 1898,
+            "name": "funnel_stun2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1899,
+            "end": 1983,
+            "name": "wave_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1984,
+            "end": 2082,
+            "name": "wave_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 2083,
+            "end": 2159,
+            "name": "wave_remove",
+            "kind": "once"
+        },
+        {
+            "begin": 2160,
+            "end": 2164,
+            "name": "wave_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2165,
+            "end": 2173,
+            "name": "wave_attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2174,
+            "end": 2178,
+            "name": "wave_attack_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2179,
+            "end": 2195,
+            "name": "wave_attack_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 2196,
+            "end": 2200,
+            "name": "wave_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2201,
+            "end": 2225,
+            "name": "wave_skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2226,
+            "end": 2234,
+            "name": "wave_skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2235,
+            "end": 2239,
+            "name": "wave_skill_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2240,
+            "end": 2256,
+            "name": "wave_skill_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 2257,
+            "end": 2261,
+            "name": "wave_skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2262,
+            "end": 2278,
+            "name": "wave_stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 2279,
+            "end": 2295,
+            "name": "wave_stun1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2296,
+            "end": 2312,
+            "name": "wave_stun2",
+            "kind": "loop"
+        },
+        {
+            "begin": 2313,
+            "end": 2318,
+            "name": "none",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -354.29999999999995,
+                            "y": -536.0999999999999
+                        }
+                    ]
+                },
+                {
+                    "begin": 2313,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -234,
+                            "y": -420
+                        }
+                    ]
+                },
+                {
+                    "begin": 169,
+                    "data": []
+                },
+                {
+                    "begin": 367,
+                    "data": [
+                        {
+                            "x": -234,
+                            "y": -420
+                        }
+                    ]
+                },
+                {
+                    "begin": 2313,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "weak_point_class1_11",
+            "frames": [
+                {
+                    "begin": 585,
+                    "data": [
+                        {
+                            "x": -375.2999999999999,
+                            "y": -366.6,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 693,
+                    "data": []
+                },
+                {
+                    "begin": 1129,
+                    "data": [
+                        {
+                            "x": -375.2999999999999,
+                            "y": -366.6,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 1202,
+                    "data": []
+                },
+                {
+                    "begin": 1666,
+                    "data": [
+                        {
+                            "x": -375.2999999999999,
+                            "y": -366.6,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 1737,
+                    "data": []
+                },
+                {
+                    "begin": 2201,
+                    "data": [
+                        {
+                            "x": -375.2999999999999,
+                            "y": -366.6,
+                            "r": 93.6009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 2235,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -228.3,
+                            "y": -336,
+                            "r": 77.9952392578125
+                        }
+                    ]
+                },
+                {
+                    "begin": 2313,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

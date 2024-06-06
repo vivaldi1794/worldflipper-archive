@@ -1,0 +1,36 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 200,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 201,
+            "end": 215,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/wind/se_wind_large_explosion",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/wind/se_wind_bang_down",
+            "begin": 202,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

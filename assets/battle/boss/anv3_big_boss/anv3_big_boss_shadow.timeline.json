@@ -1,0 +1,195 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 140,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 141,
+            "end": 252,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 253,
+            "end": 364,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 365,
+            "end": 476,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 477,
+            "end": 588,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 589,
+            "end": 756,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 757,
+            "end": 772,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 773,
+            "end": 784,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 785,
+            "end": 820,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 821,
+            "end": 856,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 857,
+            "end": 862,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 863,
+            "end": 883,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 884,
+            "end": 911,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 912,
+            "end": 932,
+            "name": "shot2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 933,
+            "end": 953,
+            "name": "shot2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 954,
+            "end": 974,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 975,
+            "end": 981,
+            "name": "shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 982,
+            "end": 1037,
+            "name": "shot3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1038,
+            "end": 1065,
+            "name": "shot3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1066,
+            "end": 1121,
+            "name": "shot3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1122,
+            "end": 1142,
+            "name": "shot3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1143,
+            "end": 1171,
+            "name": "skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1172,
+            "end": 1192,
+            "name": "skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1193,
+            "end": 1206,
+            "name": "skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1207,
+            "end": 1262,
+            "name": "skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1263,
+            "end": 1284,
+            "name": "skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1285,
+            "end": 1313,
+            "name": "skill2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1314,
+            "end": 1369,
+            "name": "skill2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1370,
+            "end": 1395,
+            "name": "skill2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1396,
+            "end": 1437,
+            "name": "skill2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1438,
+            "end": 1470,
+            "name": "skill2_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

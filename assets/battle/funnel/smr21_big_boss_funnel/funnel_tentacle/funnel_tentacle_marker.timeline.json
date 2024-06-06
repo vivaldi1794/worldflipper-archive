@@ -1,0 +1,527 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 31,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 32,
+            "end": 72,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 73,
+            "end": 113,
+            "name": "neutral2",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 114,
+            "end": 154,
+            "name": "neutral3",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 155,
+            "end": 159,
+            "name": "shot1_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 160,
+            "end": 176,
+            "name": "shot1_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 177,
+            "end": 195,
+            "name": "shot1_fire_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 196,
+            "end": 212,
+            "name": "shot1_fire_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 213,
+            "end": 227,
+            "name": "shot1_fire_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 228,
+            "end": 232,
+            "name": "shot1_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 233,
+            "end": 249,
+            "name": "shot1_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 250,
+            "end": 268,
+            "name": "shot1_fire_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 269,
+            "end": 285,
+            "name": "shot1_fire_loop2",
+            "kind": "loop"
+        },
+        {
+            "begin": 286,
+            "end": 300,
+            "name": "shot1_fire_end2",
+            "kind": "once"
+        },
+        {
+            "begin": 301,
+            "end": 305,
+            "name": "shot2_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 306,
+            "end": 314,
+            "name": "shot2_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 315,
+            "end": 327,
+            "name": "shot2_fire_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 328,
+            "end": 372,
+            "name": "shot2_fire_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 373,
+            "end": 381,
+            "name": "shot2_fire_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 382,
+            "end": 386,
+            "name": "shot2_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 387,
+            "end": 395,
+            "name": "shot2_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 396,
+            "end": 408,
+            "name": "shot2_fire_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 409,
+            "end": 453,
+            "name": "shot2_fire_loop2",
+            "kind": "loop"
+        },
+        {
+            "begin": 454,
+            "end": 462,
+            "name": "shot2_fire_end2",
+            "kind": "once"
+        },
+        {
+            "begin": 463,
+            "end": 472,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 473,
+            "end": 513,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 514,
+            "end": 523,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 524,
+            "end": 564,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 565,
+            "end": 604,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 605,
+            "end": 644,
+            "name": "dead2",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -24
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -6,
+                            "y": -120
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin5",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 74,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 68.4
+                        }
+                    ]
+                },
+                {
+                    "begin": 75,
+                    "data": []
+                },
+                {
+                    "begin": 566,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 84
+                        }
+                    ]
+                },
+                {
+                    "begin": 567,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin6",
+            "frames": [
+                {
+                    "begin": 115,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 72
+                        }
+                    ]
+                },
+                {
+                    "begin": 116,
+                    "data": []
+                },
+                {
+                    "begin": 606,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 72
+                        }
+                    ]
+                },
+                {
+                    "begin": 607,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 156,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 74.1
+                        }
+                    ]
+                },
+                {
+                    "begin": 157,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 229,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 74.1
+                        }
+                    ]
+                },
+                {
+                    "begin": 230,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 302,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 72
+                        }
+                    ]
+                },
+                {
+                    "begin": 303,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin4",
+            "frames": [
+                {
+                    "begin": 383,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 72
+                        }
+                    ]
+                },
+                {
+                    "begin": 384,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 196,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -345.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 197,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot3",
+            "frames": [
+                {
+                    "begin": 232,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -285.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 233,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 327,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 328,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot4",
+            "frames": [
+                {
+                    "begin": 408,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 409,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot5",
+            "frames": [
+                {
+                    "begin": 566,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -24
+                        }
+                    ]
+                },
+                {
+                    "begin": 567,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot6",
+            "frames": [
+                {
+                    "begin": 606,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -24
+                        }
+                    ]
+                },
+                {
+                    "begin": 607,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hit_count_check",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 77.69999999999999,
+                            "y": -48.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 387,
+                    "data": [
+                        {
+                            "x": 83.69999999999999,
+                            "y": -48.3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 387,
+                    "data": [
+                        {
+                            "x": 84,
+                            "y": -48
+                        }
+                    ]
+                },
+                {
+                    "begin": 396,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 32,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -22.200000000000003,
+                            "r": 49.5164794921875
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

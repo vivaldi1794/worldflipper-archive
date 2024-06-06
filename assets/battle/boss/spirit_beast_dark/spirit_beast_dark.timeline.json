@@ -1,0 +1,590 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 88,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 89,
+            "end": 106,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 107,
+            "end": 166,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 167,
+            "end": 184,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 185,
+            "end": 244,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 245,
+            "end": 367,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 368,
+            "end": 400,
+            "name": "move_in",
+            "kind": "once"
+        },
+        {
+            "begin": 401,
+            "end": 460,
+            "name": "move",
+            "kind": "loop"
+        },
+        {
+            "begin": 461,
+            "end": 532,
+            "name": "move_out",
+            "kind": "once"
+        },
+        {
+            "begin": 533,
+            "end": 538,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 539,
+            "end": 550,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 551,
+            "end": 560,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 561,
+            "end": 595,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 596,
+            "end": 600,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 601,
+            "end": 606,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 607,
+            "end": 618,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 619,
+            "end": 623,
+            "name": "shot2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 624,
+            "end": 635,
+            "name": "shot2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 636,
+            "end": 645,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 646,
+            "end": 651,
+            "name": "shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 652,
+            "end": 663,
+            "name": "shot3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 664,
+            "end": 671,
+            "name": "shot3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 672,
+            "end": 689,
+            "name": "shot3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 690,
+            "end": 694,
+            "name": "shot3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 695,
+            "end": 700,
+            "name": "shot4_start",
+            "kind": "once"
+        },
+        {
+            "begin": 701,
+            "end": 712,
+            "name": "shot4_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 713,
+            "end": 722,
+            "name": "shot4_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 723,
+            "end": 734,
+            "name": "shot4_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 735,
+            "end": 757,
+            "name": "shot4_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/wind/se_wind_medium_size_swing",
+            "begin": 488,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_medium",
+            "begin": 539,
+            "loop": -1,
+            "end": 551,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_effect_skill_fire",
+            "begin": 563,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_medium",
+            "begin": 607,
+            "loop": -1,
+            "end": 619,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_scream1",
+            "begin": 619,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_medium",
+            "begin": 652,
+            "loop": -1,
+            "end": 664,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/fire/se_flare_up",
+            "begin": 673,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_charge_big",
+            "begin": 701,
+            "loop": -1,
+            "end": 713,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/fire/se_fire_continuous_explosion",
+            "begin": 713,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hit_count_check",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": 9.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 368,
+                    "data": []
+                },
+                {
+                    "begin": 377,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": 9.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 401,
+                    "data": []
+                },
+                {
+                    "begin": 461,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": 9.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 497,
+                    "data": []
+                },
+                {
+                    "begin": 533,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": 9.6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 539,
+                    "data": [
+                        {
+                            "x": 189,
+                            "y": -184.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 551,
+                    "data": []
+                },
+                {
+                    "begin": 607,
+                    "data": [
+                        {
+                            "x": 189,
+                            "y": -184.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 619,
+                    "data": []
+                },
+                {
+                    "begin": 652,
+                    "data": [
+                        {
+                            "x": 189,
+                            "y": -184.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 664,
+                    "data": []
+                },
+                {
+                    "begin": 701,
+                    "data": [
+                        {
+                            "x": 189,
+                            "y": -184.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 713,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -420
+                        }
+                    ]
+                },
+                {
+                    "begin": 95,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -312
+                        }
+                    ]
+                },
+                {
+                    "begin": 167,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -420
+                        }
+                    ]
+                },
+                {
+                    "begin": 173,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -312
+                        }
+                    ]
+                },
+                {
+                    "begin": 245,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -420
+                        }
+                    ]
+                },
+                {
+                    "begin": 368,
+                    "data": []
+                },
+                {
+                    "begin": 377,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -420
+                        }
+                    ]
+                },
+                {
+                    "begin": 401,
+                    "data": []
+                },
+                {
+                    "begin": 461,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -420
+                        }
+                    ]
+                },
+                {
+                    "begin": 497,
+                    "data": []
+                },
+                {
+                    "begin": 533,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -420
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -138
+                        }
+                    ]
+                },
+                {
+                    "begin": 368,
+                    "data": []
+                },
+                {
+                    "begin": 377,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -138
+                        }
+                    ]
+                },
+                {
+                    "begin": 401,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -1650.3000000000002
+                        }
+                    ]
+                },
+                {
+                    "begin": 461,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -138
+                        }
+                    ]
+                },
+                {
+                    "begin": 497,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -180
+                        }
+                    ]
+                },
+                {
+                    "begin": 500,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -762.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 504,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -1650.3000000000002
+                        }
+                    ]
+                },
+                {
+                    "begin": 533,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -138
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -138,
+                            "r": 124.798095703125
+                        }
+                    ]
+                },
+                {
+                    "begin": 368,
+                    "data": []
+                },
+                {
+                    "begin": 377,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -138,
+                            "r": 124.798095703125
+                        }
+                    ]
+                },
+                {
+                    "begin": 401,
+                    "data": []
+                },
+                {
+                    "begin": 461,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -138,
+                            "r": 124.798095703125
+                        }
+                    ]
+                },
+                {
+                    "begin": 497,
+                    "data": []
+                },
+                {
+                    "begin": 533,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -138,
+                            "r": 124.798095703125
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,49 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 34,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 35,
+            "end": 50,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 51,
+            "end": 62,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/situation/se_sword_clash_short",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_thunderbolt_single",
+            "begin": 3,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_special/se_thunder_skill_chain_attack_large",
+            "begin": 36,
+            "loop": -1,
+            "end": 63,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

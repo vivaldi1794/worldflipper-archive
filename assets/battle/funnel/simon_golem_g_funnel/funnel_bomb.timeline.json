@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 60,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 61,
+            "end": 95,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 96,
+            "end": 99,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/water/se_water_short_splash",
+            "begin": 61,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

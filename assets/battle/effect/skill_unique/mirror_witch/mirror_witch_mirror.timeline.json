@@ -1,0 +1,42 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 44,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 45,
+            "end": 75,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 76,
+            "end": 93,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/light/se_space_sparkle_explosion",
+            "begin": 1,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_fever_time_yakumono_shine",
+            "begin": 40,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

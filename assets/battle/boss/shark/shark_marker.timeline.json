@@ -1,0 +1,110 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 5,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 6,
+            "end": 10,
+            "name": "funnel_kill",
+            "kind": "once"
+        },
+        {
+            "begin": 11,
+            "end": 15,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 16,
+            "end": 20,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 21,
+            "end": 25,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 26,
+            "end": 30,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 31,
+            "end": 35,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 36,
+            "end": 40,
+            "name": "body",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 31,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action01",
+            "frames": [
+                {
+                    "begin": 6,
+                    "data": [
+                        {
+                            "x": -54,
+                            "y": 300.29999999999995
+                        }
+                    ]
+                },
+                {
+                    "begin": 7,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 36,
+                    "data": [
+                        {
+                            "x": 24,
+                            "y": 30.299999999999997,
+                            "r": 156
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,97 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 41,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 42,
+            "end": 74,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 75,
+            "end": 103,
+            "name": "charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 104,
+            "end": 124,
+            "name": "charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 125,
+            "end": 149,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 150,
+            "end": 199,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 200,
+            "end": 212,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 213,
+            "end": 243,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 244,
+            "end": 250,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 251,
+            "end": 268,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 269,
+            "end": 275,
+            "name": "shot1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/water/se_splash_slam",
+            "begin": 7,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/water/se_snap_splash",
+            "begin": 128,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/water/se_water_short_splash",
+            "begin": 154,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

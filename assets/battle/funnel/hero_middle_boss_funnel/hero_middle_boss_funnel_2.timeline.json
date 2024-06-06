@@ -1,0 +1,96 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 60,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 61,
+            "end": 120,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 121,
+            "end": 195,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 196,
+            "end": 243,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 244,
+            "end": 279,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 280,
+            "end": 309,
+            "name": "explosion_charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 310,
+            "end": 327,
+            "name": "explosion",
+            "kind": "once"
+        },
+        {
+            "begin": 328,
+            "end": 336,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 337,
+            "end": 366,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 367,
+            "end": 374,
+            "name": "shot1_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 375,
+            "end": 382,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 383,
+            "end": 398,
+            "name": "shot1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_admin_gauge_charge",
+            "begin": 280,
+            "loop": -1,
+            "end": 310,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_shot_once",
+            "begin": 375,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

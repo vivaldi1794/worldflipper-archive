@@ -1,0 +1,275 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 88,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 89,
+            "end": 169,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 170,
+            "end": 207,
+            "name": "charge_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 208,
+            "end": 280,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 281,
+            "end": 314,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 315,
+            "end": 336,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 337,
+            "end": 385,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_sf_warp",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -60.599999999999994
+                        }
+                    ]
+                },
+                {
+                    "begin": 198,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -102.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 281,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -72.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 291,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -60.599999999999994
+                        }
+                    ]
+                },
+                {
+                    "begin": 296,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -72.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 301,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -96.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 305,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -108.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 325,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -96.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 337,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -231.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 337,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot10",
+            "frames": [
+                {
+                    "begin": 40,
+                    "data": [
+                        {
+                            "x": -6,
+                            "y": 222
+                        }
+                    ]
+                },
+                {
+                    "begin": 41,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 306,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -84
+                        }
+                    ]
+                },
+                {
+                    "begin": 307,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 40,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -72,
+                            "r": 68.59039306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 198,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -108,
+                            "r": 68.59039306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 281,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -84,
+                            "r": 68.59039306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 291,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -66,
+                            "r": 68.59039306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 296,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -84,
+                            "r": 68.59039306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 301,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -108,
+                            "r": 68.59039306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 325,
+                    "data": [
+                        {
+                            "x": 3,
+                            "y": -96,
+                            "r": 68.59039306640625
+                        }
+                    ]
+                },
+                {
+                    "begin": 337,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

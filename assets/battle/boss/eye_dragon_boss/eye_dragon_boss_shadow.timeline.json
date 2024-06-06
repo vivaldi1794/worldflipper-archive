@@ -1,0 +1,573 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 154,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 155,
+            "end": 251,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 252,
+            "end": 276,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 277,
+            "end": 301,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 302,
+            "end": 326,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 327,
+            "end": 351,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 352,
+            "end": 376,
+            "name": "p2_wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 377,
+            "end": 401,
+            "name": "p2_wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 402,
+            "end": 426,
+            "name": "p2_stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 427,
+            "end": 451,
+            "name": "p2_stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 452,
+            "end": 476,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 477,
+            "end": 495,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 496,
+            "end": 512,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 513,
+            "end": 525,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 526,
+            "end": 538,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 539,
+            "end": 551,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 552,
+            "end": 558,
+            "name": "ex1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 559,
+            "end": 575,
+            "name": "ex1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 576,
+            "end": 579,
+            "name": "ex1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 580,
+            "end": 591,
+            "name": "ex1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 592,
+            "end": 598,
+            "name": "ex1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 599,
+            "end": 611,
+            "name": "skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 612,
+            "end": 632,
+            "name": "skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 633,
+            "end": 645,
+            "name": "skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 646,
+            "end": 658,
+            "name": "skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 659,
+            "end": 683,
+            "name": "skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 684,
+            "end": 696,
+            "name": "skill2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 697,
+            "end": 717,
+            "name": "skill2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 718,
+            "end": 730,
+            "name": "skill2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 731,
+            "end": 743,
+            "name": "skill2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 744,
+            "end": 768,
+            "name": "skill2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 769,
+            "end": 781,
+            "name": "skill3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 782,
+            "end": 802,
+            "name": "skill3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 803,
+            "end": 815,
+            "name": "skill3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 816,
+            "end": 828,
+            "name": "skill3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 829,
+            "end": 853,
+            "name": "skill3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 854,
+            "end": 866,
+            "name": "skill4_start",
+            "kind": "once"
+        },
+        {
+            "begin": 867,
+            "end": 887,
+            "name": "skill4_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 888,
+            "end": 900,
+            "name": "skill4_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 901,
+            "end": 913,
+            "name": "skill4_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 914,
+            "end": 938,
+            "name": "skill4_end",
+            "kind": "once"
+        },
+        {
+            "begin": 939,
+            "end": 951,
+            "name": "skill5_start",
+            "kind": "once"
+        },
+        {
+            "begin": 952,
+            "end": 972,
+            "name": "skill5_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 973,
+            "end": 985,
+            "name": "skill5_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 986,
+            "end": 998,
+            "name": "skill5_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 999,
+            "end": 1023,
+            "name": "skill5_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1024,
+            "end": 1036,
+            "name": "skill6_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1037,
+            "end": 1057,
+            "name": "skill6_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1058,
+            "end": 1070,
+            "name": "skill6_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1071,
+            "end": 1083,
+            "name": "skill6_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1084,
+            "end": 1108,
+            "name": "skill6_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1109,
+            "end": 1241,
+            "name": "down_neutral_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1242,
+            "end": 1338,
+            "name": "down_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 1339,
+            "end": 1457,
+            "name": "down_neutral_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1458,
+            "end": 1470,
+            "name": "down_shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1471,
+            "end": 1487,
+            "name": "down_shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1488,
+            "end": 1500,
+            "name": "down_shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1501,
+            "end": 1513,
+            "name": "down_shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1514,
+            "end": 1520,
+            "name": "down_shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1521,
+            "end": 1545,
+            "name": "down_ex1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1546,
+            "end": 1562,
+            "name": "down_ex1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1563,
+            "end": 1579,
+            "name": "down_ex1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1580,
+            "end": 1596,
+            "name": "down_ex1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1597,
+            "end": 1627,
+            "name": "down_ex1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1628,
+            "end": 1640,
+            "name": "down_skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1641,
+            "end": 1665,
+            "name": "down_skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1666,
+            "end": 1678,
+            "name": "down_skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1679,
+            "end": 1691,
+            "name": "down_skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1692,
+            "end": 1698,
+            "name": "down_skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1699,
+            "end": 1705,
+            "name": "down_skill2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1706,
+            "end": 1730,
+            "name": "down_skill2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1731,
+            "end": 1743,
+            "name": "down_skill2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1744,
+            "end": 1756,
+            "name": "down_skill2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1757,
+            "end": 1763,
+            "name": "down_skill2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1764,
+            "end": 1776,
+            "name": "down_skill3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1777,
+            "end": 1801,
+            "name": "down_skill3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1802,
+            "end": 1814,
+            "name": "down_skill3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1815,
+            "end": 1827,
+            "name": "down_skill3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1828,
+            "end": 1834,
+            "name": "down_skill3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1835,
+            "end": 1841,
+            "name": "down_skill4_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1842,
+            "end": 1866,
+            "name": "down_skill4_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1867,
+            "end": 1879,
+            "name": "down_skill4_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1880,
+            "end": 1892,
+            "name": "down_skill4_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1893,
+            "end": 1899,
+            "name": "down_skill4_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1900,
+            "end": 1906,
+            "name": "down_skill5_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1907,
+            "end": 1927,
+            "name": "down_skill5_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1928,
+            "end": 1940,
+            "name": "down_skill5_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1941,
+            "end": 1953,
+            "name": "down_skill5_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1954,
+            "end": 1960,
+            "name": "down_skill5_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1961,
+            "end": 1967,
+            "name": "down_skill6_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1968,
+            "end": 1988,
+            "name": "down_skill6_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1989,
+            "end": 2001,
+            "name": "down_skill6_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2002,
+            "end": 2014,
+            "name": "down_skill6_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 2015,
+            "end": 2021,
+            "name": "down_skill6_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

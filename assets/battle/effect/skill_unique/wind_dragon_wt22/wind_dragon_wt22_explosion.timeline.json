@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 19,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 20,
+            "end": 39,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 40,
+            "end": 90,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/wind/se_swirling_wind_stick",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

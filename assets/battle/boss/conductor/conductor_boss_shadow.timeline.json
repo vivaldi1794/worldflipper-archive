@@ -1,0 +1,165 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 41,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 42,
+            "end": 59,
+            "name": "shot_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 60,
+            "end": 80,
+            "name": "shot_attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 81,
+            "end": 106,
+            "name": "shot_attack_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 107,
+            "end": 127,
+            "name": "shot_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 128,
+            "end": 147,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 148,
+            "end": 168,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 169,
+            "end": 187,
+            "name": "skill_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 188,
+            "end": 208,
+            "name": "skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 209,
+            "end": 219,
+            "name": "funnel_start",
+            "kind": "once"
+        },
+        {
+            "begin": 220,
+            "end": 226,
+            "name": "funnel_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 227,
+            "end": 242,
+            "name": "funnel_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 243,
+            "end": 250,
+            "name": "funnel_end",
+            "kind": "once"
+        },
+        {
+            "begin": 251,
+            "end": 299,
+            "name": "move_start",
+            "kind": "once"
+        },
+        {
+            "begin": 300,
+            "end": 348,
+            "name": "move_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 349,
+            "end": 389,
+            "name": "move_end",
+            "kind": "once"
+        },
+        {
+            "begin": 390,
+            "end": 438,
+            "name": "skill_move_start",
+            "kind": "once"
+        },
+        {
+            "begin": 439,
+            "end": 487,
+            "name": "skill_move_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 488,
+            "end": 504,
+            "name": "skill_move_fire_loop_start",
+            "kind": "once"
+        },
+        {
+            "begin": 505,
+            "end": 521,
+            "name": "skill_move_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 522,
+            "end": 562,
+            "name": "skill_move_end",
+            "kind": "once"
+        },
+        {
+            "begin": 563,
+            "end": 595,
+            "name": "wince_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 596,
+            "end": 628,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 629,
+            "end": 661,
+            "name": "stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 662,
+            "end": 694,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 695,
+            "end": 711,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

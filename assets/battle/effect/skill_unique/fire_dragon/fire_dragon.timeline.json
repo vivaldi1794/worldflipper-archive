@@ -1,0 +1,29 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 20,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 21,
+            "end": 200,
+            "name": "loop",
+            "kind": "loop"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/element/se_fire_laser_no_burn",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

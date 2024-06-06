@@ -1,0 +1,39 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 31,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 32,
+            "end": 62,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 63,
+            "end": 123,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 124,
+            "end": 164,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 165,
+            "end": 208,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

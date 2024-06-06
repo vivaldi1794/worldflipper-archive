@@ -1,0 +1,159 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 36,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 37,
+            "end": 189,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 190,
+            "end": 212,
+            "name": "move_in",
+            "kind": "once"
+        },
+        {
+            "begin": 213,
+            "end": 218,
+            "name": "move",
+            "kind": "loop"
+        },
+        {
+            "begin": 219,
+            "end": 249,
+            "name": "move_out",
+            "kind": "once"
+        },
+        {
+            "begin": 250,
+            "end": 274,
+            "name": "start1",
+            "kind": "once"
+        },
+        {
+            "begin": 275,
+            "end": 299,
+            "name": "charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 300,
+            "end": 310,
+            "name": "attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 311,
+            "end": 321,
+            "name": "attack_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 322,
+            "end": 342,
+            "name": "attack_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 343,
+            "end": 373,
+            "name": "start2",
+            "kind": "once"
+        },
+        {
+            "begin": 374,
+            "end": 404,
+            "name": "charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 405,
+            "end": 420,
+            "name": "attack2",
+            "kind": "once"
+        },
+        {
+            "begin": 421,
+            "end": 437,
+            "name": "attack_loop2",
+            "kind": "loop"
+        },
+        {
+            "begin": 438,
+            "end": 448,
+            "name": "attack_end2",
+            "kind": "once"
+        },
+        {
+            "begin": 449,
+            "end": 479,
+            "name": "start3",
+            "kind": "once"
+        },
+        {
+            "begin": 480,
+            "end": 510,
+            "name": "charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 511,
+            "end": 526,
+            "name": "attack3",
+            "kind": "once"
+        },
+        {
+            "begin": 527,
+            "end": 543,
+            "name": "attack_loop3",
+            "kind": "loop"
+        },
+        {
+            "begin": 544,
+            "end": 554,
+            "name": "attack_end3",
+            "kind": "once"
+        },
+        {
+            "begin": 555,
+            "end": 565,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 566,
+            "end": 576,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 577,
+            "end": 607,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 608,
+            "end": 638,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 639,
+            "end": 689,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

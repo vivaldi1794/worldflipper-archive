@@ -1,0 +1,183 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 26,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 27,
+            "end": 79,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 80,
+            "end": 84,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 85,
+            "end": 125,
+            "name": "attack",
+            "kind": "loop"
+        },
+        {
+            "begin": 126,
+            "end": 146,
+            "name": "special_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 147,
+            "end": 167,
+            "name": "special_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 168,
+            "end": 208,
+            "name": "special",
+            "kind": "loop"
+        },
+        {
+            "begin": 209,
+            "end": 217,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 218,
+            "end": 226,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 227,
+            "end": 255,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 256,
+            "end": 275,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -360
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 91,
+                    "data": [
+                        {
+                            "x": -138.3,
+                            "y": 126.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 92,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_shot1",
+            "frames": [
+                {
+                    "begin": 172,
+                    "data": [
+                        {
+                            "x": -138.3,
+                            "y": 126.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 173,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -9.6,
+                            "r": 47.9095458984375
+                        }
+                    ]
+                },
+                {
+                    "begin": 227,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point11",
+            "frames": [
+                {
+                    "begin": 126,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 150
+                        }
+                    ]
+                },
+                {
+                    "begin": 168,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

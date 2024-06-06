@@ -1,0 +1,315 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 49,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 50,
+            "end": 82,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 83,
+            "end": 103,
+            "name": "charge_start",
+            "kind": "once"
+        },
+        {
+            "begin": 104,
+            "end": 113,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 114,
+            "end": 123,
+            "name": "charge2",
+            "kind": "goto",
+            "target": "charge"
+        },
+        {
+            "begin": 124,
+            "end": 133,
+            "name": "charge3",
+            "kind": "goto",
+            "target": "charge"
+        },
+        {
+            "begin": 134,
+            "end": 143,
+            "name": "charge4",
+            "kind": "goto",
+            "target": "charge"
+        },
+        {
+            "begin": 144,
+            "end": 153,
+            "name": "charge5",
+            "kind": "goto",
+            "target": "charge"
+        },
+        {
+            "begin": 154,
+            "end": 168,
+            "name": "end",
+            "kind": "once"
+        },
+        {
+            "begin": 169,
+            "end": 214,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 215,
+            "end": 243,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_sf_warp",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_effect_skill_heal",
+            "begin": 180,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -162
+                        }
+                    ]
+                },
+                {
+                    "begin": 215,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": -3,
+                            "y": -66
+                        }
+                    ]
+                },
+                {
+                    "begin": 104,
+                    "data": [
+                        {
+                            "x": -3,
+                            "y": -108
+                        }
+                    ]
+                },
+                {
+                    "begin": 154,
+                    "data": [
+                        {
+                            "x": -3,
+                            "y": -66
+                        }
+                    ]
+                },
+                {
+                    "begin": 215,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 83,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 30
+                        }
+                    ]
+                },
+                {
+                    "begin": 84,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 114,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -12
+                        }
+                    ]
+                },
+                {
+                    "begin": 115,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 124,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -12
+                        }
+                    ]
+                },
+                {
+                    "begin": 125,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin4",
+            "frames": [
+                {
+                    "begin": 134,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -12
+                        }
+                    ]
+                },
+                {
+                    "begin": 135,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin5",
+            "frames": [
+                {
+                    "begin": 144,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -12
+                        }
+                    ]
+                },
+                {
+                    "begin": 145,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin6",
+            "frames": [
+                {
+                    "begin": 169,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 30
+                        }
+                    ]
+                },
+                {
+                    "begin": 170,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 196,
+                    "data": [
+                        {
+                            "x": -6,
+                            "y": -162
+                        }
+                    ]
+                },
+                {
+                    "begin": 197,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 50,
+                    "data": [
+                        {
+                            "x": -3,
+                            "y": -66,
+                            "r": 62.999725341796875
+                        }
+                    ]
+                },
+                {
+                    "begin": 104,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -102,
+                            "r": 62.999725341796875
+                        }
+                    ]
+                },
+                {
+                    "begin": 154,
+                    "data": [
+                        {
+                            "x": -3,
+                            "y": -66,
+                            "r": 62.999725341796875
+                        }
+                    ]
+                },
+                {
+                    "begin": 215,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

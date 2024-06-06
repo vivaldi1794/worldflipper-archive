@@ -1,0 +1,376 @@
+[
+    "ActionDsl",
+    2,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "StopBall",
+                    -18,
+                    30,
+                    [
+                        "Stop"
+                    ],
+                    [
+                        "AB"
+                    ],
+                    0
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "CreateReferencePoint",
+                    -18,
+                    [
+                        "AB"
+                    ],
+                    0,
+                    -300,
+                    0,
+                    false,
+                    false,
+                    [
+                        "Single"
+                    ],
+                    110,
+                    0,
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "ShowEffect",
+                                    "回転演出",
+                                    [
+                                        "SpecifyEffectDirectly",
+                                        "battle/effect/skill_unique/holysword_girl/holysword_girl_rotation"
+                                    ],
+                                    0,
+                                    [
+                                        "ForesideOfCharacter"
+                                    ],
+                                    [
+                                        "PlayOnlyFirstSequence"
+                                    ],
+                                    [
+                                        "AB"
+                                    ],
+                                    0,
+                                    0,
+                                    0,
+                                    false,
+                                    false,
+                                    [
+                                        "Some",
+                                        [
+                                            {
+                                                "min": 2.5,
+                                                "max": 2.5
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ],
+                            [
+                                "Event",
+                                [
+                                    "Wait",
+                                    59,
+                                    "*",
+                                    [
+                                        "Block",
+                                        [
+                                            [
+                                                "Command",
+                                                [
+                                                    "ShowEffect",
+                                                    "攻撃演出",
+                                                    [
+                                                        "SpecifyEffectDirectly",
+                                                        "battle/effect/skill_unique/holysword_girl/holysword_girl_attack"
+                                                    ],
+                                                    0,
+                                                    [
+                                                        "ForesideOfCharacter"
+                                                    ],
+                                                    [
+                                                        "PlayOnlyFirstSequence"
+                                                    ],
+                                                    [
+                                                        "AB"
+                                                    ],
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    true,
+                                                    false,
+                                                    [
+                                                        "Some",
+                                                        [
+                                                            {
+                                                                "min": 2.5,
+                                                                "max": 2.5
+                                                            }
+                                                        ]
+                                                    ]
+                                                ]
+                                            ],
+                                            [
+                                                "Command",
+                                                [
+                                                    "CreateHitArea",
+                                                    "*",
+                                                    0,
+                                                    [
+                                                        "AB"
+                                                    ],
+                                                    0,
+                                                    0,
+                                                    0,
+                                                    false,
+                                                    false,
+                                                    [
+                                                        "Circle",
+                                                        [
+                                                            {
+                                                                "min": 150,
+                                                                "max": 150
+                                                            }
+                                                        ]
+                                                    ],
+                                                    [
+                                                        "Center"
+                                                    ],
+                                                    [
+                                                        "Center"
+                                                    ],
+                                                    [
+                                                        "Single"
+                                                    ],
+                                                    [
+                                                        "SpecifyHitAreaLifetimeDirectly",
+                                                        30
+                                                    ],
+                                                    [
+                                                        "CalculatedUsingMaxNumOfHits",
+                                                        1
+                                                    ],
+                                                    [
+                                                        "None"
+                                                    ],
+                                                    false,
+                                                    true,
+                                                    [
+                                                        "None"
+                                                    ],
+                                                    1,
+                                                    [
+                                                        "Block",
+                                                        [
+                                                            [
+                                                                "Command",
+                                                                [
+                                                                    "ShakeCamera",
+                                                                    2
+                                                                ]
+                                                            ]
+                                                        ]
+                                                    ],
+                                                    2,
+                                                    3,
+                                                    [
+                                                        "Block",
+                                                        [
+                                                            [
+                                                                "Command",
+                                                                [
+                                                                    "CreateNormalAttack",
+                                                                    3,
+                                                                    255,
+                                                                    [],
+                                                                    [],
+                                                                    187,
+                                                                    [
+                                                                        {
+                                                                            "min": 18.7,
+                                                                            "max": 18.7
+                                                                        }
+                                                                    ],
+                                                                    [
+                                                                        {
+                                                                            "min": 0,
+                                                                            "max": 0
+                                                                        }
+                                                                    ],
+                                                                    false,
+                                                                    false,
+                                                                    false,
+                                                                    false,
+                                                                    false,
+                                                                    [
+                                                                        {
+                                                                            "min": 10,
+                                                                            "max": 10
+                                                                        }
+                                                                    ],
+                                                                    [
+                                                                        {
+                                                                            "min": 10,
+                                                                            "max": 10
+                                                                        }
+                                                                    ],
+                                                                    [
+                                                                        "Coarse"
+                                                                    ],
+                                                                    true
+                                                                ]
+                                                            ]
+                                                        ]
+                                                    ],
+                                                    0,
+                                                    0,
+                                                    [
+                                                        "None"
+                                                    ]
+                                                ]
+                                            ]
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "CreateCondition",
+                    -17,
+                    [
+                        [
+                            "ACAttackPoint",
+                            [
+                                {
+                                    "min": 480,
+                                    "max": 480
+                                }
+                            ],
+                            [
+                                {
+                                    "min": 1,
+                                    "max": 1,
+                                    "alv_min": 0.75,
+                                    "alv_max": 1.5,
+                                    "alv2_min": 0.225,
+                                    "alv2_max": 0.45
+                                }
+                            ],
+                            [
+                                {
+                                    "min": 1,
+                                    "max": 1
+                                }
+                            ]
+                        ]
+                    ],
+                    [
+                        {
+                            "min": 1,
+                            "max": 1
+                        }
+                    ],
+                    [
+                        "GenericConditionHitEffect"
+                    ],
+                    true,
+                    false,
+                    "",
+                    null,
+                    false,
+                    3,
+                    [
+                        {
+                            "min": 1,
+                            "max": 1
+                        }
+                    ],
+                    false
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "CreateCondition",
+                    -17,
+                    [
+                        [
+                            "ACSkillDamage",
+                            [
+                                {
+                                    "min": 480,
+                                    "max": 480
+                                }
+                            ],
+                            [
+                                {
+                                    "min": 1,
+                                    "max": 1,
+                                    "alv_min": 0.75,
+                                    "alv_max": 1.5,
+                                    "alv3_min": 0.3,
+                                    "alv3_max": 0.6,
+                                    "alv4_min": 0.3,
+                                    "alv4_max": 0.6
+                                }
+                            ],
+                            [
+                                {
+                                    "min": 1,
+                                    "max": 1
+                                }
+                            ]
+                        ]
+                    ],
+                    [
+                        {
+                            "min": 1,
+                            "max": 1
+                        }
+                    ],
+                    [
+                        "GenericConditionHitEffect"
+                    ],
+                    true,
+                    false,
+                    "",
+                    null,
+                    false,
+                    3,
+                    [
+                        {
+                            "min": 1,
+                            "max": 1
+                        }
+                    ],
+                    false
+                ]
+            ]
+        ]
+    ]
+]

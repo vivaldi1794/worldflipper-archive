@@ -1,0 +1,153 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 25,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 26,
+            "end": 71,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 72,
+            "end": 92,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 93,
+            "end": 96,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 97,
+            "end": 107,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 108,
+            "end": 111,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 112,
+            "end": 118,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 119,
+            "end": 122,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 123,
+            "end": 126,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 127,
+            "end": 151,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 152,
+            "end": 155,
+            "name": "shot2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 156,
+            "end": 162,
+            "name": "shot2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 163,
+            "end": 166,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 167,
+            "end": 175,
+            "name": "shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 176,
+            "end": 182,
+            "name": "shot3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 183,
+            "end": 191,
+            "name": "shot3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 192,
+            "end": 198,
+            "name": "shot3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 199,
+            "end": 203,
+            "name": "shot3_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_energy_suck",
+            "begin": 5,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_fall_damage",
+            "begin": 73,
+            "loop": -1,
+            "end": 109,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/slash/se_line_shot",
+            "begin": 109,
+            "loop": -1,
+            "end": 153,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_laser_shot",
+            "begin": 153,
+            "loop": -1,
+            "end": 184,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_gravity_beast",
+            "begin": 184,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

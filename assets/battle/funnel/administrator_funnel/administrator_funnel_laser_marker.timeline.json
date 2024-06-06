@@ -1,0 +1,64 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 33,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 34,
+            "end": 52,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 53,
+            "end": 71,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 72,
+            "end": 76,
+            "name": "attack",
+            "kind": "pass"
+        },
+        {
+            "begin": 77,
+            "end": 81,
+            "name": "attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 82,
+            "end": 107,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 72,
+                    "data": [
+                        {
+                            "x": -2.4000000000000004,
+                            "y": -60
+                        }
+                    ]
+                },
+                {
+                    "begin": 73,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

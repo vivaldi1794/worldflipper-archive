@@ -1,0 +1,120 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 81,
+            "name": "neutral5",
+            "kind": "loop"
+        },
+        {
+            "begin": 82,
+            "end": 162,
+            "name": "next5",
+            "kind": "pass"
+        },
+        {
+            "begin": 163,
+            "end": 243,
+            "name": "neutral4",
+            "kind": "loop"
+        },
+        {
+            "begin": 244,
+            "end": 324,
+            "name": "next4",
+            "kind": "pass"
+        },
+        {
+            "begin": 325,
+            "end": 405,
+            "name": "neutral3",
+            "kind": "loop"
+        },
+        {
+            "begin": 406,
+            "end": 486,
+            "name": "next3",
+            "kind": "pass"
+        },
+        {
+            "begin": 487,
+            "end": 567,
+            "name": "neutral2",
+            "kind": "loop"
+        },
+        {
+            "begin": 568,
+            "end": 648,
+            "name": "next2",
+            "kind": "pass"
+        },
+        {
+            "begin": 649,
+            "end": 729,
+            "name": "neutral1",
+            "kind": "loop"
+        },
+        {
+            "begin": 730,
+            "end": 751,
+            "name": "next1",
+            "kind": "pass"
+        },
+        {
+            "begin": 752,
+            "end": 835,
+            "name": "neutral0",
+            "kind": "once"
+        },
+        {
+            "begin": 836,
+            "end": 938,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 939,
+            "end": 969,
+            "name": "skill_charge1",
+            "kind": "pass"
+        },
+        {
+            "begin": 970,
+            "end": 1000,
+            "name": "skill_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1001,
+            "end": 1007,
+            "name": "skill_shot",
+            "kind": "loop"
+        },
+        {
+            "begin": 1008,
+            "end": 1075,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_orochi_body_in",
+            "begin": 836,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_orochi_body_charge",
+            "begin": 939,
+            "loop": -1,
+            "end": 1001,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

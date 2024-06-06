@@ -1,0 +1,2094 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 2,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 3,
+            "end": 82,
+            "name": "start_2",
+            "kind": "once"
+        },
+        {
+            "begin": 83,
+            "end": 125,
+            "name": "yell_start",
+            "kind": "once"
+        },
+        {
+            "begin": 126,
+            "end": 197,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 198,
+            "end": 216,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 217,
+            "end": 230,
+            "name": "shot_front",
+            "kind": "once"
+        },
+        {
+            "begin": 231,
+            "end": 270,
+            "name": "shot_right",
+            "kind": "once"
+        },
+        {
+            "begin": 271,
+            "end": 305,
+            "name": "shot_left",
+            "kind": "once"
+        },
+        {
+            "begin": 306,
+            "end": 324,
+            "name": "shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 325,
+            "end": 343,
+            "name": "debuff_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 344,
+            "end": 357,
+            "name": "debuff_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 358,
+            "end": 376,
+            "name": "debuff_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 377,
+            "end": 395,
+            "name": "check_end2",
+            "kind": "once"
+        },
+        {
+            "begin": 396,
+            "end": 414,
+            "name": "wave_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 415,
+            "end": 428,
+            "name": "wave_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 429,
+            "end": 447,
+            "name": "wave_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 448,
+            "end": 489,
+            "name": "tracking_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 490,
+            "end": 514,
+            "name": "tracking_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 515,
+            "end": 516,
+            "name": "tracking_fire1",
+            "kind": "pass"
+        },
+        {
+            "begin": 517,
+            "end": 533,
+            "name": "tracking_fire1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 534,
+            "end": 561,
+            "name": "tracking_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 562,
+            "end": 603,
+            "name": "target1_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 604,
+            "end": 628,
+            "name": "target1_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 629,
+            "end": 630,
+            "name": "target1_fire1",
+            "kind": "pass"
+        },
+        {
+            "begin": 631,
+            "end": 647,
+            "name": "target1_fire1_loop",
+            "kind": "goto",
+            "target": "target2_fire1_loop"
+        },
+        {
+            "begin": 648,
+            "end": 675,
+            "name": "target1_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 676,
+            "end": 717,
+            "name": "target2_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 718,
+            "end": 742,
+            "name": "target2_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 743,
+            "end": 744,
+            "name": "target2_fire1",
+            "kind": "pass"
+        },
+        {
+            "begin": 745,
+            "end": 761,
+            "name": "target2_fire1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 762,
+            "end": 789,
+            "name": "target2_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 790,
+            "end": 831,
+            "name": "target3_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 832,
+            "end": 856,
+            "name": "target3_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 857,
+            "end": 858,
+            "name": "target3_fire1",
+            "kind": "pass"
+        },
+        {
+            "begin": 859,
+            "end": 875,
+            "name": "target3_fire1_loop",
+            "kind": "goto",
+            "target": "target2_fire1_loop"
+        },
+        {
+            "begin": 876,
+            "end": 903,
+            "name": "target3_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 904,
+            "end": 946,
+            "name": "laser_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 947,
+            "end": 970,
+            "name": "laser_charge1",
+            "kind": "once"
+        },
+        {
+            "begin": 971,
+            "end": 972,
+            "name": "laser_fire1",
+            "kind": "pass"
+        },
+        {
+            "begin": 973,
+            "end": 1007,
+            "name": "laser_fire1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1008,
+            "end": 1035,
+            "name": "laser_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 1036,
+            "end": 1078,
+            "name": "solo_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1079,
+            "end": 1102,
+            "name": "solo_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1103,
+            "end": 1104,
+            "name": "solo_fire1",
+            "kind": "goto",
+            "target": "laser_fire1_loop"
+        },
+        {
+            "begin": 1105,
+            "end": 1121,
+            "name": "solo_fire1_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1122,
+            "end": 1149,
+            "name": "solo_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 1150,
+            "end": 1192,
+            "name": "main_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1193,
+            "end": 1216,
+            "name": "main_charge1",
+            "kind": "goto",
+            "target": "solo_charge1"
+        },
+        {
+            "begin": 1217,
+            "end": 1218,
+            "name": "main_fire1",
+            "kind": "goto",
+            "target": "laser_fire1_loop"
+        },
+        {
+            "begin": 1219,
+            "end": 1235,
+            "name": "main_fire1_loop",
+            "kind": "goto",
+            "target": "solo_fire1_loop"
+        },
+        {
+            "begin": 1236,
+            "end": 1263,
+            "name": "main_end1",
+            "kind": "once"
+        },
+        {
+            "begin": 1264,
+            "end": 1306,
+            "name": "laser_start2",
+            "kind": "once"
+        },
+        {
+            "begin": 1307,
+            "end": 1330,
+            "name": "laser_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1331,
+            "end": 1332,
+            "name": "laser_fire2",
+            "kind": "pass"
+        },
+        {
+            "begin": 1333,
+            "end": 1349,
+            "name": "laser_fire2_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1350,
+            "end": 1377,
+            "name": "laser_end2",
+            "kind": "once"
+        },
+        {
+            "begin": 1378,
+            "end": 1420,
+            "name": "lasershot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1421,
+            "end": 1445,
+            "name": "lasershot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1446,
+            "end": 1447,
+            "name": "lasershot",
+            "kind": "pass"
+        },
+        {
+            "begin": 1448,
+            "end": 1464,
+            "name": "lasershot_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1465,
+            "end": 1492,
+            "name": "lasershot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1493,
+            "end": 1506,
+            "name": "check_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1507,
+            "end": 1531,
+            "name": "check_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1532,
+            "end": 1586,
+            "name": "check_fire1",
+            "kind": "once"
+        },
+        {
+            "begin": 1587,
+            "end": 1600,
+            "name": "attackup_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1601,
+            "end": 1625,
+            "name": "attackup_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1626,
+            "end": 1680,
+            "name": "attackup_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 1681,
+            "end": 1694,
+            "name": "moveattack_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1695,
+            "end": 1719,
+            "name": "moveattack_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1720,
+            "end": 1774,
+            "name": "moveattack_attack1",
+            "kind": "pass"
+        },
+        {
+            "begin": 1775,
+            "end": 1829,
+            "name": "moveattack_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1830,
+            "end": 1843,
+            "name": "funnel1_start1",
+            "kind": "once"
+        },
+        {
+            "begin": 1844,
+            "end": 1868,
+            "name": "funnel1_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1869,
+            "end": 1923,
+            "name": "funnel1_attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 1924,
+            "end": 1978,
+            "name": "funnel1_shot2",
+            "kind": "once"
+        },
+        {
+            "begin": 1979,
+            "end": 2033,
+            "name": "funnel1_shot3",
+            "kind": "once"
+        },
+        {
+            "begin": 2034,
+            "end": 2047,
+            "name": "funnel2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2048,
+            "end": 2072,
+            "name": "funnel2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2073,
+            "end": 2127,
+            "name": "funnel2_shot1",
+            "kind": "once"
+        },
+        {
+            "begin": 2128,
+            "end": 2141,
+            "name": "funnel3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2142,
+            "end": 2166,
+            "name": "funnel3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2167,
+            "end": 2221,
+            "name": "funnel3_shot1",
+            "kind": "once"
+        },
+        {
+            "begin": 2222,
+            "end": 2263,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2264,
+            "end": 2280,
+            "name": "headattack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2281,
+            "end": 2297,
+            "name": "headattack_charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 2298,
+            "end": 2314,
+            "name": "headattack_charge_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 2315,
+            "end": 2374,
+            "name": "headattack_shot",
+            "kind": "once"
+        },
+        {
+            "begin": 2375,
+            "end": 2378,
+            "name": "moving",
+            "kind": "once"
+        },
+        {
+            "begin": 2379,
+            "end": 2415,
+            "name": "falling",
+            "kind": "once"
+        },
+        {
+            "begin": 2416,
+            "end": 2425,
+            "name": "diving",
+            "kind": "once"
+        },
+        {
+            "begin": 2426,
+            "end": 2473,
+            "name": "appearance",
+            "kind": "once"
+        },
+        {
+            "begin": 2474,
+            "end": 2582,
+            "name": "wince_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 2583,
+            "end": 2691,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 2692,
+            "end": 2800,
+            "name": "stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 2801,
+            "end": 2909,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 2910,
+            "end": 3018,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 3019,
+            "end": 3061,
+            "name": "normalshot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3062,
+            "end": 3086,
+            "name": "normalshot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 3087,
+            "end": 3103,
+            "name": "normalshot1",
+            "kind": "loop"
+        },
+        {
+            "begin": 3104,
+            "end": 3131,
+            "name": "normalshot1_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 515,
+            "loop": -1,
+            "end": 517,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 629,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 743,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 857,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_short",
+            "begin": 971,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 1103,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 1217,
+            "loop": -1,
+            "end": 1219,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_short",
+            "begin": 1331,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_short",
+            "begin": 1446,
+            "loop": -1,
+            "end": 1448,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_cannon",
+            "begin": 3087,
+            "loop": -1,
+            "end": 3104,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hit_count_check",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 72
+                        }
+                    ]
+                },
+                {
+                    "begin": 2053,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 150
+                        }
+                    ]
+                },
+                {
+                    "begin": 2829,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 120
+                        }
+                    ]
+                },
+                {
+                    "begin": 2910,
+                    "data": []
+                },
+                {
+                    "begin": 3019,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 150
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 2222,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -117
+                        }
+                    ]
+                },
+                {
+                    "begin": 2331,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -198.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 2335,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -282
+                        }
+                    ]
+                },
+                {
+                    "begin": 2339,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -328.79999999999995
+                        }
+                    ]
+                },
+                {
+                    "begin": 2343,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -402
+                        }
+                    ]
+                },
+                {
+                    "begin": 2347,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -460.7999999999999
+                        }
+                    ]
+                },
+                {
+                    "begin": 2351,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -504
+                        }
+                    ]
+                },
+                {
+                    "begin": 2355,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -564
+                        }
+                    ]
+                },
+                {
+                    "begin": 2359,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -637.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 2363,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -690
+                        }
+                    ]
+                },
+                {
+                    "begin": 2367,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -756.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 2371,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -809.0999999999999
+                        }
+                    ]
+                },
+                {
+                    "begin": 2375,
+                    "data": []
+                },
+                {
+                    "begin": 2379,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -756.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 2382,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -576
+                        }
+                    ]
+                },
+                {
+                    "begin": 2385,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -396
+                        }
+                    ]
+                },
+                {
+                    "begin": 2388,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -216
+                        }
+                    ]
+                },
+                {
+                    "begin": 2391,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -48
+                        }
+                    ]
+                },
+                {
+                    "begin": 2416,
+                    "data": []
+                },
+                {
+                    "begin": 2426,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -48
+                        }
+                    ]
+                },
+                {
+                    "begin": 2442,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 2910,
+                    "data": []
+                },
+                {
+                    "begin": 3019,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -60
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 83,
+                    "data": [
+                        {
+                            "x": -6,
+                            "y": -150
+                        }
+                    ]
+                },
+                {
+                    "begin": 126,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -150
+                        }
+                    ]
+                },
+                {
+                    "begin": 2222,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -348
+                        }
+                    ]
+                },
+                {
+                    "begin": 2331,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -429.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 2335,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -492.6
+                        }
+                    ]
+                },
+                {
+                    "begin": 2339,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -539.4000000000001
+                        }
+                    ]
+                },
+                {
+                    "begin": 2343,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -602.0999999999999
+                        }
+                    ]
+                },
+                {
+                    "begin": 2347,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -660.9000000000001
+                        }
+                    ]
+                },
+                {
+                    "begin": 2351,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -725.7
+                        }
+                    ]
+                },
+                {
+                    "begin": 2355,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -785.6999999999999
+                        }
+                    ]
+                },
+                {
+                    "begin": 2359,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -838.5
+                        }
+                    ]
+                },
+                {
+                    "begin": 2363,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -891.3000000000001
+                        }
+                    ]
+                },
+                {
+                    "begin": 2367,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -988.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 2371,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -1041
+                        }
+                    ]
+                },
+                {
+                    "begin": 2375,
+                    "data": []
+                },
+                {
+                    "begin": 2379,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -988.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 2382,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -774
+                        }
+                    ]
+                },
+                {
+                    "begin": 2385,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -594.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 2388,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -414.2999999999999
+                        }
+                    ]
+                },
+                {
+                    "begin": 2391,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -225
+                        }
+                    ]
+                },
+                {
+                    "begin": 2416,
+                    "data": []
+                },
+                {
+                    "begin": 2426,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -225
+                        }
+                    ]
+                },
+                {
+                    "begin": 2430,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -303.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 2438,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -366.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 2442,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -405.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 2465,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -150
+                        }
+                    ]
+                },
+                {
+                    "begin": 2910,
+                    "data": []
+                },
+                {
+                    "begin": 3019,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -150
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 1421,
+                    "data": [
+                        {
+                            "x": 69.6,
+                            "y": -18
+                        }
+                    ]
+                },
+                {
+                    "begin": 1446,
+                    "data": []
+                },
+                {
+                    "begin": 2264,
+                    "data": [
+                        {
+                            "x": 120,
+                            "y": -72
+                        }
+                    ]
+                },
+                {
+                    "begin": 2281,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -246
+                        }
+                    ]
+                },
+                {
+                    "begin": 2315,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot6",
+            "frames": [
+                {
+                    "begin": 217,
+                    "data": [
+                        {
+                            "x": -120,
+                            "y": -96
+                        },
+                        {
+                            "x": 108,
+                            "y": -96
+                        }
+                    ]
+                },
+                {
+                    "begin": 218,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot7",
+            "frames": [
+                {
+                    "begin": 244,
+                    "data": [
+                        {
+                            "x": -125.7,
+                            "y": -138.3
+                        },
+                        {
+                            "x": 54,
+                            "y": -90
+                        }
+                    ]
+                },
+                {
+                    "begin": 245,
+                    "data": []
+                },
+                {
+                    "begin": 1217,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1218,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot8",
+            "frames": [
+                {
+                    "begin": 284,
+                    "data": [
+                        {
+                            "x": -54,
+                            "y": -72
+                        },
+                        {
+                            "x": 108,
+                            "y": -144
+                        }
+                    ]
+                },
+                {
+                    "begin": 285,
+                    "data": []
+                },
+                {
+                    "begin": 832,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 833,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 344,
+                    "data": [
+                        {
+                            "x": -3.5999999999999996,
+                            "y": -45
+                        }
+                    ]
+                },
+                {
+                    "begin": 345,
+                    "data": []
+                },
+                {
+                    "begin": 1532,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1533,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 379,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 380,
+                    "data": []
+                },
+                {
+                    "begin": 415,
+                    "data": [
+                        {
+                            "x": -3.5999999999999996,
+                            "y": -45
+                        }
+                    ]
+                },
+                {
+                    "begin": 416,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action01",
+            "frames": [
+                {
+                    "begin": 490,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 491,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action04",
+            "frames": [
+                {
+                    "begin": 562,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 563,
+                    "data": []
+                },
+                {
+                    "begin": 604,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 605,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action05",
+            "frames": [
+                {
+                    "begin": 718,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -46.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 719,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot3",
+            "frames": [
+                {
+                    "begin": 947,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42
+                        }
+                    ]
+                },
+                {
+                    "begin": 948,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot9",
+            "frames": [
+                {
+                    "begin": 1103,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1104,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot4",
+            "frames": [
+                {
+                    "begin": 1331,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1332,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action41",
+            "frames": [
+                {
+                    "begin": 1626,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1627,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action32",
+            "frames": [
+                {
+                    "begin": 1720,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1721,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_action21",
+            "frames": [
+                {
+                    "begin": 1869,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1870,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot5",
+            "frames": [
+                {
+                    "begin": 2394,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 2395,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot10",
+            "frames": [
+                {
+                    "begin": 2911,
+                    "data": [
+                        {
+                            "x": 30,
+                            "y": 102
+                        }
+                    ]
+                },
+                {
+                    "begin": 2912,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin11",
+            "frames": [
+                {
+                    "begin": 83,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 84,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin6",
+            "frames": [
+                {
+                    "begin": 198,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 199,
+                    "data": []
+                },
+                {
+                    "begin": 790,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 791,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin1",
+            "frames": [
+                {
+                    "begin": 325,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 326,
+                    "data": []
+                },
+                {
+                    "begin": 448,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 449,
+                    "data": []
+                },
+                {
+                    "begin": 3019,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 3020,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin10",
+            "frames": [
+                {
+                    "begin": 378,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 379,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin2",
+            "frames": [
+                {
+                    "begin": 396,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 397,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin5",
+            "frames": [
+                {
+                    "begin": 676,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 677,
+                    "data": []
+                },
+                {
+                    "begin": 2222,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 2223,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin3",
+            "frames": [
+                {
+                    "begin": 904,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 905,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin7",
+            "frames": [
+                {
+                    "begin": 1036,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 1037,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin8",
+            "frames": [
+                {
+                    "begin": 1150,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 1151,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin4",
+            "frames": [
+                {
+                    "begin": 1264,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 1265,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin1",
+            "frames": [
+                {
+                    "begin": 1378,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 1379,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_cutin9",
+            "frames": [
+                {
+                    "begin": 1493,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 1494,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin2",
+            "frames": [
+                {
+                    "begin": 1587,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 1588,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "extra_cutin3",
+            "frames": [
+                {
+                    "begin": 1681,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 1682,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin1",
+            "frames": [
+                {
+                    "begin": 1830,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 60
+                        }
+                    ]
+                },
+                {
+                    "begin": 1831,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin2",
+            "frames": [
+                {
+                    "begin": 2034,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 2035,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin3",
+            "frames": [
+                {
+                    "begin": 2128,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 2129,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "weak_point11",
+            "frames": [
+                {
+                    "begin": 1421,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 43.5,
+                            "r": 75
+                        }
+                    ]
+                },
+                {
+                    "begin": 1446,
+                    "data": []
+                },
+                {
+                    "begin": 2264,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 48,
+                            "r": 90.00091552734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 2281,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point13",
+            "frames": [
+                {
+                    "begin": 2281,
+                    "data": [
+                        {
+                            "x": 132,
+                            "y": -222,
+                            "r": 90.00091552734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 2298,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point12",
+            "frames": [
+                {
+                    "begin": 2298,
+                    "data": [
+                        {
+                            "x": -132,
+                            "y": -222,
+                            "r": 90.00091552734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 2315,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 83,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -60,
+                            "r": 66.0003662109375
+                        }
+                    ]
+                },
+                {
+                    "begin": 2331,
+                    "data": []
+                },
+                {
+                    "begin": 2391,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -54,
+                            "r": 66.0003662109375
+                        }
+                    ]
+                },
+                {
+                    "begin": 2416,
+                    "data": []
+                },
+                {
+                    "begin": 2426,
+                    "data": [
+                        {
+                            "x": 0.30000000000000004,
+                            "y": -53.7,
+                            "r": 65.899658203125
+                        }
+                    ]
+                },
+                {
+                    "begin": 2438,
+                    "data": []
+                },
+                {
+                    "begin": 2465,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": 0,
+                            "r": 66.0003662109375
+                        }
+                    ]
+                },
+                {
+                    "begin": 2910,
+                    "data": []
+                },
+                {
+                    "begin": 3019,
+                    "data": [
+                        {
+                            "x": 0.6000000000000001,
+                            "y": -60,
+                            "r": 66.0003662109375
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

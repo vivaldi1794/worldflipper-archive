@@ -1,0 +1,129 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 69,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 70,
+            "end": 150,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 151,
+            "end": 237,
+            "name": "opening_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 238,
+            "end": 291,
+            "name": "gravity_start",
+            "kind": "once"
+        },
+        {
+            "begin": 292,
+            "end": 322,
+            "name": "gravity_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 323,
+            "end": 346,
+            "name": "gravity_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 347,
+            "end": 400,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 401,
+            "end": 431,
+            "name": "shot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 432,
+            "end": 455,
+            "name": "shot_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 456,
+            "end": 507,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 508,
+            "end": 544,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 545,
+            "end": 587,
+            "name": "skill_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 588,
+            "end": 633,
+            "name": "skill_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 634,
+            "end": 644,
+            "name": "skill_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 645,
+            "end": 725,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 726,
+            "end": 806,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 807,
+            "end": 887,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 888,
+            "end": 968,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 969,
+            "end": 1058,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 1059,
+            "end": 1127,
+            "name": "change",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

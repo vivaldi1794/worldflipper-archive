@@ -1,0 +1,174 @@
+[
+    "ActionDsl",
+    1,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "ShowEffect",
+                    "画面全体用の演出",
+                    [
+                        "SpecifyEffectDirectly",
+                        "battle/effect/enemy_unique/enemy_shot_arck_evil/enemy_shot_arck_evil"
+                    ],
+                    -1,
+                    [
+                        "ForesideOfCharacter"
+                    ],
+                    [
+                        "PlayOnlyFirstSequence"
+                    ],
+                    [
+                        "AB"
+                    ],
+                    0,
+                    0,
+                    0,
+                    false,
+                    false,
+                    [
+                        "Some",
+                        [
+                            {
+                                "min": 1,
+                                "max": 1
+                            }
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "CreateHitArea",
+                    "*",
+                    -1,
+                    [
+                        "AB"
+                    ],
+                    0,
+                    0,
+                    0,
+                    false,
+                    false,
+                    [
+                        "Rectangle",
+                        [
+                            {
+                                "min": 1500,
+                                "max": 1500
+                            }
+                        ],
+                        [
+                            {
+                                "min": 2000,
+                                "max": 2000
+                            }
+                        ]
+                    ],
+                    [
+                        "Center"
+                    ],
+                    [
+                        "Center"
+                    ],
+                    [
+                        "Single"
+                    ],
+                    [
+                        "SpecifyHitAreaLifetimeDirectly",
+                        60
+                    ],
+                    [
+                        "CalculatedUsingMaxNumOfHits",
+                        1
+                    ],
+                    [
+                        "Some",
+                        [
+                            {
+                                "min": 1,
+                                "max": 1
+                            }
+                        ]
+                    ],
+                    false,
+                    true,
+                    [
+                        "None"
+                    ],
+                    0,
+                    [
+                        "Block",
+                        []
+                    ],
+                    1,
+                    2,
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "CreateCondition",
+                                    2,
+                                    [
+                                        [
+                                            "ACSilence",
+                                            [
+                                                {
+                                                    "min": 1200,
+                                                    "max": 1200
+                                                }
+                                            ]
+                                        ]
+                                    ],
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    [
+                                        "None"
+                                    ],
+                                    true,
+                                    false,
+                                    "",
+                                    null,
+                                    false,
+                                    3,
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    false
+                                ]
+                            ]
+                        ]
+                    ],
+                    0,
+                    0,
+                    [
+                        "None"
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

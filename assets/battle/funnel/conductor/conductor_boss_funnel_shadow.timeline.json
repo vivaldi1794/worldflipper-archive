@@ -1,0 +1,51 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 29,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 30,
+            "end": 70,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 71,
+            "end": 91,
+            "name": "attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 92,
+            "end": 112,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 113,
+            "end": 133,
+            "name": "attack_fire",
+            "kind": "loop"
+        },
+        {
+            "begin": 134,
+            "end": 158,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 159,
+            "end": 182,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

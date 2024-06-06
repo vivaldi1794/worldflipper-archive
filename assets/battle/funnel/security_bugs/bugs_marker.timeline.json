@@ -1,0 +1,284 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "neutral",
+            "kind": "stop"
+        },
+        {
+            "begin": 2,
+            "end": 2,
+            "name": "walk_back",
+            "kind": "stop"
+        },
+        {
+            "begin": 3,
+            "end": 3,
+            "name": "walk_front",
+            "kind": "stop"
+        },
+        {
+            "begin": 4,
+            "end": 4,
+            "name": "wince_ready",
+            "kind": "stop"
+        },
+        {
+            "begin": 5,
+            "end": 5,
+            "name": "stun_ready",
+            "kind": "stop"
+        },
+        {
+            "begin": 6,
+            "end": 6,
+            "name": "shot_start",
+            "kind": "stop"
+        },
+        {
+            "begin": 7,
+            "end": 7,
+            "name": "shot_charge",
+            "kind": "stop"
+        },
+        {
+            "begin": 8,
+            "end": 8,
+            "name": "shot_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 9,
+            "end": 11,
+            "name": "shot_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 12,
+            "end": 14,
+            "name": "shot_fire2",
+            "kind": "once"
+        },
+        {
+            "begin": 15,
+            "end": 17,
+            "name": "invincible",
+            "kind": "once"
+        },
+        {
+            "begin": 18,
+            "end": 18,
+            "name": "into_coffin",
+            "kind": "stop"
+        },
+        {
+            "begin": 19,
+            "end": 19,
+            "name": "ghost_raise",
+            "kind": "stop"
+        },
+        {
+            "begin": 20,
+            "end": 20,
+            "name": "ghost_neutral",
+            "kind": "stop"
+        },
+        {
+            "begin": 21,
+            "end": 21,
+            "name": "revive",
+            "kind": "stop"
+        },
+        {
+            "begin": 22,
+            "end": 22,
+            "name": "dead",
+            "kind": "stop"
+        },
+        {
+            "begin": 23,
+            "end": 23,
+            "name": "special_land",
+            "kind": "stop"
+        },
+        {
+            "begin": 24,
+            "end": 24,
+            "name": "special_pose",
+            "kind": "stop"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -111
+                        }
+                    ]
+                },
+                {
+                    "begin": 9,
+                    "data": [
+                        {
+                            "x": -2.7,
+                            "y": -111
+                        }
+                    ]
+                },
+                {
+                    "begin": 12,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -111
+                        }
+                    ]
+                },
+                {
+                    "begin": 18,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -111.6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -24
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 9,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "begin": 11,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot3",
+            "frames": [
+                {
+                    "begin": 12,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "begin": 14,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 15,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30
+                        }
+                    ]
+                },
+                {
+                    "begin": 17,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -24,
+                            "r": 47.998809814453125
+                        }
+                    ]
+                },
+                {
+                    "begin": 22,
+                    "data": []
+                },
+                {
+                    "begin": 23,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -24,
+                            "r": 47.998809814453125
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "weak_point11",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 7,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -150,
+                            "r": 54.000091552734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 8,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

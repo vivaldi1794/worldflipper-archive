@@ -1,0 +1,74 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "hidden",
+            "kind": "stop"
+        },
+        {
+            "begin": 2,
+            "end": 15,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 16,
+            "end": 16,
+            "name": "loop",
+            "kind": "stop"
+        },
+        {
+            "begin": 17,
+            "end": 31,
+            "name": "open",
+            "kind": "pass"
+        },
+        {
+            "begin": 32,
+            "end": 32,
+            "name": "open_loop",
+            "kind": "stop"
+        },
+        {
+            "begin": 33,
+            "end": 50,
+            "name": "close",
+            "kind": "goto",
+            "target": "loop"
+        },
+        {
+            "begin": 51,
+            "end": 60,
+            "name": "remove_open",
+            "kind": "goto",
+            "target": "hidden"
+        },
+        {
+            "begin": 61,
+            "end": 70,
+            "name": "remove_close",
+            "kind": "goto",
+            "target": "hidden"
+        },
+        {
+            "begin": 71,
+            "end": 80,
+            "name": "hide_close",
+            "kind": "goto",
+            "target": "hidden"
+        },
+        {
+            "begin": 81,
+            "end": 90,
+            "name": "hide_open",
+            "kind": "goto",
+            "target": "hidden"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

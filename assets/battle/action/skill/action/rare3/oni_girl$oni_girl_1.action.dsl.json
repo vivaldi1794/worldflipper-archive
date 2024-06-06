@@ -1,0 +1,193 @@
+[
+    "ActionDsl",
+    1,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "AddFeverPoint",
+                    [
+                        {
+                            "min": 25,
+                            "max": 25
+                        }
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "CreateHitArea",
+                    "*",
+                    -18,
+                    [
+                        "AB"
+                    ],
+                    0,
+                    0,
+                    0,
+                    true,
+                    true,
+                    [
+                        "Circle",
+                        [
+                            {
+                                "min": 200,
+                                "max": 200
+                            }
+                        ]
+                    ],
+                    [
+                        "Center"
+                    ],
+                    [
+                        "Center"
+                    ],
+                    [
+                        "Single"
+                    ],
+                    [
+                        "SpecifyHitAreaLifetimeDirectly",
+                        600
+                    ],
+                    [
+                        "CalculatedUsingMaxNumOfHits",
+                        20
+                    ],
+                    [
+                        "Some",
+                        [
+                            {
+                                "min": 18,
+                                "max": 18
+                            }
+                        ]
+                    ],
+                    false,
+                    true,
+                    [
+                        "None"
+                    ],
+                    0,
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "ShowEffect",
+                                    "纏雷演出",
+                                    [
+                                        "ResolveByElement",
+                                        "battle/effect/skill_general/area/bit_circle",
+                                        255
+                                    ],
+                                    0,
+                                    [
+                                        "ForesideOfCharacter"
+                                    ],
+                                    [
+                                        "UntilTargetTerminates"
+                                    ],
+                                    [
+                                        "AB"
+                                    ],
+                                    0,
+                                    0,
+                                    0,
+                                    true,
+                                    true,
+                                    [
+                                        "Some",
+                                        [
+                                            {
+                                                "min": 4,
+                                                "max": 4
+                                            }
+                                        ]
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ],
+                    1,
+                    2,
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "CreateNormalAttack",
+                                    2,
+                                    255,
+                                    [],
+                                    [],
+                                    10,
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "min": 0,
+                                            "max": 0
+                                        }
+                                    ],
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    [
+                                        "ThunderSmall"
+                                    ],
+                                    true
+                                ]
+                            ],
+                            [
+                                "Command",
+                                [
+                                    "ShakeCamera",
+                                    1
+                                ]
+                            ]
+                        ]
+                    ],
+                    0,
+                    0,
+                    [
+                        "None"
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

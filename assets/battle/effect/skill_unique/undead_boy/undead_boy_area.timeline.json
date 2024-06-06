@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 36,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 37,
+            "end": 117,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 118,
+            "end": 149,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/dark/se_sink_force_incidence",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

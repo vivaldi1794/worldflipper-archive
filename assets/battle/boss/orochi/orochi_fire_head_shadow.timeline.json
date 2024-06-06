@@ -1,0 +1,105 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 69,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 70,
+            "end": 150,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 151,
+            "end": 207,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 208,
+            "end": 210,
+            "name": "shot_attack_loop1",
+            "kind": "loop"
+        },
+        {
+            "begin": 211,
+            "end": 235,
+            "name": "shot_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 236,
+            "end": 286,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 287,
+            "end": 323,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 324,
+            "end": 366,
+            "name": "skill_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 367,
+            "end": 412,
+            "name": "skill_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 413,
+            "end": 423,
+            "name": "skill_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 424,
+            "end": 504,
+            "name": "wince_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 505,
+            "end": 585,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 586,
+            "end": 666,
+            "name": "stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 667,
+            "end": 747,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 748,
+            "end": 837,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 838,
+            "end": 906,
+            "name": "change",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

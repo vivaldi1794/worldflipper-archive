@@ -1,0 +1,177 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 129,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 130,
+            "end": 210,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 211,
+            "end": 264,
+            "name": "funnel1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 265,
+            "end": 267,
+            "name": "funnel1_charge",
+            "kind": "pass"
+        },
+        {
+            "begin": 268,
+            "end": 291,
+            "name": "funnel1_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 292,
+            "end": 345,
+            "name": "funnel2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 346,
+            "end": 348,
+            "name": "funnel2_charge",
+            "kind": "pass"
+        },
+        {
+            "begin": 349,
+            "end": 372,
+            "name": "funnel2_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 373,
+            "end": 426,
+            "name": "funnel3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 427,
+            "end": 430,
+            "name": "funnel3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 431,
+            "end": 454,
+            "name": "funnel3_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 455,
+            "end": 506,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 507,
+            "end": 543,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 544,
+            "end": 586,
+            "name": "skill_attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 587,
+            "end": 632,
+            "name": "skill_attack_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 633,
+            "end": 643,
+            "name": "skill_attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 644,
+            "end": 724,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 725,
+            "end": 805,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 806,
+            "end": 886,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 887,
+            "end": 967,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 968,
+            "end": 1057,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 1058,
+            "end": 1126,
+            "name": "change",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_orochi_head_in",
+            "begin": 62,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_ghost",
+            "begin": 268,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_ghost",
+            "begin": 349,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_ghost",
+            "begin": 431,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_orochi_head_dead",
+            "begin": 968,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

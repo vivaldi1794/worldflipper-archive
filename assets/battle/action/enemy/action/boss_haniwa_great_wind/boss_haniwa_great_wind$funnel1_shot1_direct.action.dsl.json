@@ -1,0 +1,207 @@
+[
+    "ActionDsl",
+    1,
+    [
+        "None"
+    ],
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    0,
+    [
+        "Block",
+        [
+            [
+                "Command",
+                [
+                    "FindAllSubjects",
+                    0,
+                    33,
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [
+                        "DoNothing"
+                    ],
+                    [
+                        "Block",
+                        [
+                            [
+                                "Command",
+                                [
+                                    "CreateCondition",
+                                    0,
+                                    [
+                                        [
+                                            "ACComboRestriction",
+                                            [
+                                                {
+                                                    "min": 9999999,
+                                                    "max": 9999999
+                                                }
+                                            ],
+                                            [
+                                                {
+                                                    "min": 40,
+                                                    "max": 40
+                                                }
+                                            ]
+                                        ]
+                                    ],
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    [
+                                        "GenericConditionHitEffect"
+                                    ],
+                                    false,
+                                    false,
+                                    "",
+                                    null,
+                                    false,
+                                    3,
+                                    [
+                                        {
+                                            "min": 1,
+                                            "max": 1
+                                        }
+                                    ],
+                                    false
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "SpawnFunnel",
+                    [
+                        "Funnel",
+                        "funnel_haniwa_great_wind_turretA_direct"
+                    ],
+                    1,
+                    [
+                        "FunnelGroup",
+                        1
+                    ],
+                    [
+                        [
+                            "ACDirectAttackDamageResistance",
+                            [
+                                {
+                                    "min": 999999,
+                                    "max": 999999
+                                }
+                            ],
+                            [
+                                {
+                                    "min": -9,
+                                    "max": -9
+                                }
+                            ],
+                            [
+                                {
+                                    "min": 1,
+                                    "max": 1
+                                }
+                            ]
+                        ],
+                        [
+                            "ACToleranceOfElement",
+                            [
+                                {
+                                    "min": 999999,
+                                    "max": 999999
+                                }
+                            ],
+                            1,
+                            [
+                                {
+                                    "min": -2,
+                                    "max": -2
+                                }
+                            ],
+                            [
+                                {
+                                    "min": 1,
+                                    "max": 1
+                                }
+                            ]
+                        ]
+                    ]
+                ]
+            ],
+            [
+                "Command",
+                [
+                    "SpawnFunnel",
+                    [
+                        "Funnel",
+                        "funnel_haniwa_great_wind_turretB_direct"
+                    ],
+                    1,
+                    [
+                        "FunnelGroup",
+                        2
+                    ],
+                    [
+                        [
+                            "ACDirectAttackDamageResistance",
+                            [
+                                {
+                                    "min": 999999,
+                                    "max": 999999
+                                }
+                            ],
+                            [
+                                {
+                                    "min": -9,
+                                    "max": -9
+                                }
+                            ],
+                            [
+                                {
+                                    "min": 1,
+                                    "max": 1
+                                }
+                            ]
+                        ],
+                        [
+                            "ACToleranceOfElement",
+                            [
+                                {
+                                    "min": 999999,
+                                    "max": 999999
+                                }
+                            ],
+                            1,
+                            [
+                                {
+                                    "min": -2,
+                                    "max": -2
+                                }
+                            ],
+                            [
+                                {
+                                    "min": 1,
+                                    "max": 1
+                                }
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+]

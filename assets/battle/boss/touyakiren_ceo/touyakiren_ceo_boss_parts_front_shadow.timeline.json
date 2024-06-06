@@ -1,0 +1,915 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 85,
+            "name": "cannon_start",
+            "kind": "once"
+        },
+        {
+            "begin": 86,
+            "end": 91,
+            "name": "cannon_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 92,
+            "end": 168,
+            "name": "cannon_remove",
+            "kind": "once"
+        },
+        {
+            "begin": 169,
+            "end": 289,
+            "name": "parts_dead",
+            "kind": "loop"
+        },
+        {
+            "begin": 290,
+            "end": 366,
+            "name": "parts_dead_remove",
+            "kind": "once"
+        },
+        {
+            "begin": 367,
+            "end": 379,
+            "name": "cannon_turn_right",
+            "kind": "once"
+        },
+        {
+            "begin": 380,
+            "end": 392,
+            "name": "cannon_turn_left",
+            "kind": "once"
+        },
+        {
+            "begin": 393,
+            "end": 405,
+            "name": "cannon_turn_center_1",
+            "kind": "once"
+        },
+        {
+            "begin": 406,
+            "end": 418,
+            "name": "cannon_turn_center_2",
+            "kind": "once"
+        },
+        {
+            "begin": 419,
+            "end": 424,
+            "name": "cannon_attack_start_1",
+            "kind": "once"
+        },
+        {
+            "begin": 425,
+            "end": 449,
+            "name": "cannon_attack_charge_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 450,
+            "end": 472,
+            "name": "cannon_attack_fire_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 473,
+            "end": 478,
+            "name": "cannon_attack_end_1",
+            "kind": "once"
+        },
+        {
+            "begin": 479,
+            "end": 484,
+            "name": "cannon_attack_start_2",
+            "kind": "once"
+        },
+        {
+            "begin": 485,
+            "end": 509,
+            "name": "cannon_attack_charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 510,
+            "end": 532,
+            "name": "cannon_attack_fire_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 533,
+            "end": 538,
+            "name": "cannon_attack_end_2",
+            "kind": "once"
+        },
+        {
+            "begin": 539,
+            "end": 544,
+            "name": "cannon_attack_start_3",
+            "kind": "once"
+        },
+        {
+            "begin": 545,
+            "end": 569,
+            "name": "cannon_attack_charge_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 570,
+            "end": 592,
+            "name": "cannon_attack_fire_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 593,
+            "end": 598,
+            "name": "cannon_attack_end_3",
+            "kind": "once"
+        },
+        {
+            "begin": 599,
+            "end": 604,
+            "name": "cannon_attack_start_4",
+            "kind": "once"
+        },
+        {
+            "begin": 605,
+            "end": 629,
+            "name": "cannon_attack_charge_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 630,
+            "end": 652,
+            "name": "cannon_attack_fire_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 653,
+            "end": 658,
+            "name": "cannon_attack_end_4",
+            "kind": "once"
+        },
+        {
+            "begin": 659,
+            "end": 664,
+            "name": "cannon_attack_start_5",
+            "kind": "once"
+        },
+        {
+            "begin": 665,
+            "end": 689,
+            "name": "cannon_attack_charge_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 690,
+            "end": 712,
+            "name": "cannon_attack_fire_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 713,
+            "end": 718,
+            "name": "cannon_attack_end_5",
+            "kind": "once"
+        },
+        {
+            "begin": 719,
+            "end": 748,
+            "name": "cannon_skill_start_1",
+            "kind": "once"
+        },
+        {
+            "begin": 749,
+            "end": 773,
+            "name": "cannon_skill_charge_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 774,
+            "end": 796,
+            "name": "cannon_skill_fire_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 797,
+            "end": 802,
+            "name": "cannon_skill_end_1",
+            "kind": "once"
+        },
+        {
+            "begin": 803,
+            "end": 832,
+            "name": "cannon_skill_start_2",
+            "kind": "once"
+        },
+        {
+            "begin": 833,
+            "end": 857,
+            "name": "cannon_skill_charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 858,
+            "end": 880,
+            "name": "cannon_skill_fire_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 881,
+            "end": 886,
+            "name": "cannon_skill_end_2",
+            "kind": "once"
+        },
+        {
+            "begin": 887,
+            "end": 916,
+            "name": "cannon_skill_start_3",
+            "kind": "once"
+        },
+        {
+            "begin": 917,
+            "end": 941,
+            "name": "cannon_skill_charge_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 942,
+            "end": 964,
+            "name": "cannon_skill_fire_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 965,
+            "end": 970,
+            "name": "cannon_skill_end_3",
+            "kind": "once"
+        },
+        {
+            "begin": 971,
+            "end": 1000,
+            "name": "cannon_skill_start_4",
+            "kind": "once"
+        },
+        {
+            "begin": 1001,
+            "end": 1025,
+            "name": "cannon_skill_charge_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 1026,
+            "end": 1048,
+            "name": "cannon_skill_fire_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 1049,
+            "end": 1054,
+            "name": "cannon_skill_end_4",
+            "kind": "once"
+        },
+        {
+            "begin": 1055,
+            "end": 1084,
+            "name": "cannon_skill_start_5",
+            "kind": "once"
+        },
+        {
+            "begin": 1085,
+            "end": 1109,
+            "name": "cannon_skill_charge_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 1110,
+            "end": 1132,
+            "name": "cannon_skill_fire_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 1133,
+            "end": 1138,
+            "name": "cannon_skill_end_5",
+            "kind": "once"
+        },
+        {
+            "begin": 1139,
+            "end": 1155,
+            "name": "cannon_stun1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1156,
+            "end": 1172,
+            "name": "cannon_stun2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1173,
+            "end": 1189,
+            "name": "dead_stun",
+            "kind": "once"
+        },
+        {
+            "begin": 1190,
+            "end": 1274,
+            "name": "gatling_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1275,
+            "end": 1280,
+            "name": "gatling_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 1281,
+            "end": 1357,
+            "name": "gatling_remove",
+            "kind": "once"
+        },
+        {
+            "begin": 1358,
+            "end": 1370,
+            "name": "gatling_turn_right",
+            "kind": "once"
+        },
+        {
+            "begin": 1371,
+            "end": 1383,
+            "name": "gatling_turn_left",
+            "kind": "once"
+        },
+        {
+            "begin": 1384,
+            "end": 1396,
+            "name": "gatling_turn_center_1",
+            "kind": "once"
+        },
+        {
+            "begin": 1397,
+            "end": 1409,
+            "name": "gatling_turn_center_2",
+            "kind": "once"
+        },
+        {
+            "begin": 1410,
+            "end": 1415,
+            "name": "gatling_attack_start_1",
+            "kind": "once"
+        },
+        {
+            "begin": 1416,
+            "end": 1422,
+            "name": "gatling_attack_charge_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1423,
+            "end": 1429,
+            "name": "gatling_attack_fire_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1430,
+            "end": 1452,
+            "name": "gatling_attack_end_1",
+            "kind": "once"
+        },
+        {
+            "begin": 1453,
+            "end": 1458,
+            "name": "gatling_attack_start_2",
+            "kind": "once"
+        },
+        {
+            "begin": 1459,
+            "end": 1465,
+            "name": "gatling_attack_charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1466,
+            "end": 1472,
+            "name": "gatling_attack_fire_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1473,
+            "end": 1495,
+            "name": "gatling_attack_end_2",
+            "kind": "once"
+        },
+        {
+            "begin": 1496,
+            "end": 1501,
+            "name": "gatling_attack_start_3",
+            "kind": "once"
+        },
+        {
+            "begin": 1502,
+            "end": 1508,
+            "name": "gatling_attack_charge_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 1509,
+            "end": 1515,
+            "name": "gatling_attack_fire_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 1516,
+            "end": 1538,
+            "name": "gatling_attack_end_3",
+            "kind": "once"
+        },
+        {
+            "begin": 1539,
+            "end": 1544,
+            "name": "gatling_attack_start_4",
+            "kind": "once"
+        },
+        {
+            "begin": 1545,
+            "end": 1551,
+            "name": "gatling_attack_charge_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 1552,
+            "end": 1558,
+            "name": "gatling_attack_fire_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 1559,
+            "end": 1581,
+            "name": "gatling_attack_end_4",
+            "kind": "once"
+        },
+        {
+            "begin": 1582,
+            "end": 1587,
+            "name": "gatling_attack_start_5",
+            "kind": "once"
+        },
+        {
+            "begin": 1588,
+            "end": 1594,
+            "name": "gatling_attack_charge_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 1595,
+            "end": 1601,
+            "name": "gatling_attack_fire_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 1602,
+            "end": 1624,
+            "name": "gatling_attack_end_5",
+            "kind": "once"
+        },
+        {
+            "begin": 1625,
+            "end": 1650,
+            "name": "gatling_skill_start_1",
+            "kind": "once"
+        },
+        {
+            "begin": 1651,
+            "end": 1657,
+            "name": "gatling_skill_charge_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1658,
+            "end": 1664,
+            "name": "gatling_skill_fire_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1665,
+            "end": 1687,
+            "name": "gatling_skill_end_1",
+            "kind": "once"
+        },
+        {
+            "begin": 1688,
+            "end": 1713,
+            "name": "gatling_skill_start_2",
+            "kind": "once"
+        },
+        {
+            "begin": 1714,
+            "end": 1720,
+            "name": "gatling_skill_charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1721,
+            "end": 1727,
+            "name": "gatling_skill_fire_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1728,
+            "end": 1750,
+            "name": "gatling_skill_end_2",
+            "kind": "once"
+        },
+        {
+            "begin": 1751,
+            "end": 1776,
+            "name": "gatling_skill_start_3",
+            "kind": "once"
+        },
+        {
+            "begin": 1777,
+            "end": 1783,
+            "name": "gatling_skill_charge_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 1784,
+            "end": 1790,
+            "name": "gatling_skill_fire_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 1791,
+            "end": 1813,
+            "name": "gatling_skill_end_3",
+            "kind": "once"
+        },
+        {
+            "begin": 1814,
+            "end": 1839,
+            "name": "gatling_skill_start_4",
+            "kind": "once"
+        },
+        {
+            "begin": 1840,
+            "end": 1846,
+            "name": "gatling_skill_charge_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 1847,
+            "end": 1853,
+            "name": "gatling_skill_fire_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 1854,
+            "end": 1876,
+            "name": "gatling_skill_end_4",
+            "kind": "once"
+        },
+        {
+            "begin": 1877,
+            "end": 1902,
+            "name": "gatling_skill_start_5",
+            "kind": "once"
+        },
+        {
+            "begin": 1903,
+            "end": 1909,
+            "name": "gatling_skill_charge_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 1910,
+            "end": 1916,
+            "name": "gatling_skill_fire_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 1917,
+            "end": 1939,
+            "name": "gatling_skill_end_5",
+            "kind": "once"
+        },
+        {
+            "begin": 1940,
+            "end": 1956,
+            "name": "gatling_stun1",
+            "kind": "loop"
+        },
+        {
+            "begin": 1957,
+            "end": 1973,
+            "name": "gatling_stun2",
+            "kind": "loop"
+        },
+        {
+            "begin": 1974,
+            "end": 2058,
+            "name": "laser_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2059,
+            "end": 2064,
+            "name": "laser_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 2065,
+            "end": 2141,
+            "name": "laser_remove",
+            "kind": "once"
+        },
+        {
+            "begin": 2142,
+            "end": 2154,
+            "name": "laser_turn_right",
+            "kind": "once"
+        },
+        {
+            "begin": 2155,
+            "end": 2167,
+            "name": "laser_turn_left",
+            "kind": "once"
+        },
+        {
+            "begin": 2168,
+            "end": 2180,
+            "name": "laser_turn_center_1",
+            "kind": "once"
+        },
+        {
+            "begin": 2181,
+            "end": 2193,
+            "name": "laser_turn_center_2",
+            "kind": "once"
+        },
+        {
+            "begin": 2194,
+            "end": 2199,
+            "name": "laser_attack_start_1",
+            "kind": "once"
+        },
+        {
+            "begin": 2200,
+            "end": 2220,
+            "name": "laser_attack_charge_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2221,
+            "end": 2227,
+            "name": "laser_attack_fire_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2228,
+            "end": 2233,
+            "name": "laser_attack_end_1",
+            "kind": "once"
+        },
+        {
+            "begin": 2234,
+            "end": 2239,
+            "name": "laser_attack_start_2",
+            "kind": "once"
+        },
+        {
+            "begin": 2240,
+            "end": 2260,
+            "name": "laser_attack_charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 2261,
+            "end": 2267,
+            "name": "laser_attack_fire_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 2268,
+            "end": 2273,
+            "name": "laser_attack_end_2",
+            "kind": "once"
+        },
+        {
+            "begin": 2274,
+            "end": 2279,
+            "name": "laser_attack_start_3",
+            "kind": "once"
+        },
+        {
+            "begin": 2280,
+            "end": 2300,
+            "name": "laser_attack_charge_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 2301,
+            "end": 2307,
+            "name": "laser_attack_fire_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 2308,
+            "end": 2313,
+            "name": "laser_attack_end_3",
+            "kind": "once"
+        },
+        {
+            "begin": 2314,
+            "end": 2319,
+            "name": "laser_attack_start_4",
+            "kind": "once"
+        },
+        {
+            "begin": 2320,
+            "end": 2340,
+            "name": "laser_attack_charge_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 2341,
+            "end": 2347,
+            "name": "laser_attack_fire_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 2348,
+            "end": 2353,
+            "name": "laser_attack_end_4",
+            "kind": "once"
+        },
+        {
+            "begin": 2354,
+            "end": 2359,
+            "name": "laser_attack_start_5",
+            "kind": "once"
+        },
+        {
+            "begin": 2360,
+            "end": 2380,
+            "name": "laser_attack_charge_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 2381,
+            "end": 2387,
+            "name": "laser_attack_fire_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 2388,
+            "end": 2393,
+            "name": "laser_attack_end_5",
+            "kind": "once"
+        },
+        {
+            "begin": 2394,
+            "end": 2419,
+            "name": "laser_skill_start_1",
+            "kind": "once"
+        },
+        {
+            "begin": 2420,
+            "end": 2440,
+            "name": "laser_skill_charge_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2441,
+            "end": 2447,
+            "name": "laser_skill_fire_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2448,
+            "end": 2468,
+            "name": "laser_skill_end_1",
+            "kind": "once"
+        },
+        {
+            "begin": 2469,
+            "end": 2494,
+            "name": "laser_skill_start_2",
+            "kind": "once"
+        },
+        {
+            "begin": 2495,
+            "end": 2515,
+            "name": "laser_skill_charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 2516,
+            "end": 2522,
+            "name": "laser_skill_fire_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 2523,
+            "end": 2543,
+            "name": "laser_skill_end_2",
+            "kind": "once"
+        },
+        {
+            "begin": 2544,
+            "end": 2569,
+            "name": "laser_skill_start_3",
+            "kind": "once"
+        },
+        {
+            "begin": 2570,
+            "end": 2590,
+            "name": "laser_skill_charge_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 2591,
+            "end": 2597,
+            "name": "laser_skill_fire_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 2598,
+            "end": 2617,
+            "name": "laser_skill_end_3",
+            "kind": "once"
+        },
+        {
+            "begin": 2618,
+            "end": 2643,
+            "name": "laser_skill_start_4",
+            "kind": "once"
+        },
+        {
+            "begin": 2644,
+            "end": 2664,
+            "name": "laser_skill_charge_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 2665,
+            "end": 2671,
+            "name": "laser_skill_fire_4",
+            "kind": "loop"
+        },
+        {
+            "begin": 2672,
+            "end": 2692,
+            "name": "laser_skill_end_4",
+            "kind": "once"
+        },
+        {
+            "begin": 2693,
+            "end": 2718,
+            "name": "laser_skill_start_5",
+            "kind": "once"
+        },
+        {
+            "begin": 2719,
+            "end": 2739,
+            "name": "laser_skill_charge_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 2740,
+            "end": 2746,
+            "name": "laser_skill_fire_5",
+            "kind": "loop"
+        },
+        {
+            "begin": 2747,
+            "end": 2766,
+            "name": "laser_skill_end_5",
+            "kind": "once"
+        },
+        {
+            "begin": 2767,
+            "end": 2783,
+            "name": "laser_stun1",
+            "kind": "loop"
+        },
+        {
+            "begin": 2784,
+            "end": 2800,
+            "name": "laser_stun2",
+            "kind": "loop"
+        },
+        {
+            "begin": 2801,
+            "end": 2806,
+            "name": "none",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

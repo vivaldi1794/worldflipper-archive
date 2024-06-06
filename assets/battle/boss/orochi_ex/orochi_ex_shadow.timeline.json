@@ -1,0 +1,123 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 16,
+            "name": "none",
+            "kind": "once"
+        },
+        {
+            "begin": 17,
+            "end": 103,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 104,
+            "end": 119,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 120,
+            "end": 150,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 151,
+            "end": 181,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 182,
+            "end": 182,
+            "name": "skill_fire_start",
+            "kind": "stop"
+        },
+        {
+            "begin": 183,
+            "end": 189,
+            "name": "skill_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 190,
+            "end": 190,
+            "name": "skill_end",
+            "kind": "stop"
+        },
+        {
+            "begin": 191,
+            "end": 221,
+            "name": "final_start",
+            "kind": "once"
+        },
+        {
+            "begin": 222,
+            "end": 252,
+            "name": "final_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 253,
+            "end": 253,
+            "name": "final_fire_start",
+            "kind": "stop"
+        },
+        {
+            "begin": 254,
+            "end": 260,
+            "name": "final_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 261,
+            "end": 261,
+            "name": "final_end",
+            "kind": "stop"
+        },
+        {
+            "begin": 262,
+            "end": 263,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 264,
+            "end": 265,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 266,
+            "end": 267,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 268,
+            "end": 269,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 270,
+            "end": 337,
+            "name": "phase_change",
+            "kind": "once"
+        },
+        {
+            "begin": 338,
+            "end": 405,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

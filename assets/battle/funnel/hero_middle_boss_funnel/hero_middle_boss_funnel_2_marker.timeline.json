@@ -1,0 +1,163 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 60,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 61,
+            "end": 120,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 121,
+            "end": 168,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 169,
+            "end": 204,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 205,
+            "end": 234,
+            "name": "explosion_charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 235,
+            "end": 252,
+            "name": "explosion",
+            "kind": "once"
+        },
+        {
+            "begin": 253,
+            "end": 261,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 262,
+            "end": 291,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 292,
+            "end": 299,
+            "name": "shot1_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 300,
+            "end": 307,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 308,
+            "end": 323,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 324,
+            "end": 398,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/sf/se_admin_gauge_charge",
+            "begin": 205,
+            "loop": -1,
+            "end": 235,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_shot_once",
+            "begin": 300,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 244,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42
+                        }
+                    ]
+                },
+                {
+                    "begin": 245,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -180
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 61,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42,
+                            "r": 62.3990478515625
+                        }
+                    ]
+                },
+                {
+                    "begin": 324,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

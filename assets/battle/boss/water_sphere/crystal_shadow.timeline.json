@@ -1,0 +1,135 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 61,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 62,
+            "end": 87,
+            "name": "attack_start",
+            "kind": "once"
+        },
+        {
+            "begin": 88,
+            "end": 113,
+            "name": "attack_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 114,
+            "end": 142,
+            "name": "attack_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 143,
+            "end": 171,
+            "name": "attack_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 172,
+            "end": 200,
+            "name": "attack_end",
+            "kind": "once"
+        },
+        {
+            "begin": 201,
+            "end": 225,
+            "name": "skill_start",
+            "kind": "once"
+        },
+        {
+            "begin": 226,
+            "end": 256,
+            "name": "skill_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 257,
+            "end": 263,
+            "name": "skill_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 264,
+            "end": 270,
+            "name": "skill_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 271,
+            "end": 287,
+            "name": "skill_end",
+            "kind": "once"
+        },
+        {
+            "begin": 288,
+            "end": 293,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 294,
+            "end": 299,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 300,
+            "end": 330,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 331,
+            "end": 361,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 362,
+            "end": 405,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 406,
+            "end": 416,
+            "name": "move_start",
+            "kind": "once"
+        },
+        {
+            "begin": 417,
+            "end": 422,
+            "name": "moving",
+            "kind": "loop"
+        },
+        {
+            "begin": 423,
+            "end": 433,
+            "name": "move_end",
+            "kind": "once"
+        },
+        {
+            "begin": 434,
+            "end": 454,
+            "name": "float",
+            "kind": "loop"
+        },
+        {
+            "begin": 455,
+            "end": 573,
+            "name": "wear",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

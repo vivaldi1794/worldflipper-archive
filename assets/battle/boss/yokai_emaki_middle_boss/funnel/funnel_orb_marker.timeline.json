@@ -1,0 +1,110 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 61,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 62,
+            "end": 126,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 127,
+            "end": 152,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 153,
+            "end": 183,
+            "name": "attack",
+            "kind": "loop"
+        },
+        {
+            "begin": 184,
+            "end": 239,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -248.1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -18
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 153,
+                    "data": [
+                        {
+                            "x": 0.8999999999999999,
+                            "y": -15.9
+                        }
+                    ]
+                },
+                {
+                    "begin": 154,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 51,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -30,
+                            "r": 56.16009521484375
+                        }
+                    ]
+                },
+                {
+                    "begin": 184,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

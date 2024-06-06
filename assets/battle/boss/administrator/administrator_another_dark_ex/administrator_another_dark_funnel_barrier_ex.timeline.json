@@ -1,0 +1,47 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 50,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 51,
+            "end": 106,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 107,
+            "end": 111,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 51,
+                    "data": [
+                        {
+                            "x": -0.30000000000000004,
+                            "y": -30.299999999999997,
+                            "r": 46.82666015625
+                        }
+                    ]
+                },
+                {
+                    "begin": 107,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

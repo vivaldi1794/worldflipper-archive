@@ -1,0 +1,73 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 60,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 61,
+            "end": 76,
+            "name": "landing",
+            "kind": "once"
+        },
+        {
+            "begin": 77,
+            "end": 137,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 138,
+            "end": 166,
+            "name": "charge_start",
+            "kind": "once"
+        },
+        {
+            "begin": 167,
+            "end": 171,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 172,
+            "end": 204,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 205,
+            "end": 234,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/yakumono/se_hit_wood",
+            "begin": 57,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_grenade",
+            "begin": 173,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_enemy_death",
+            "begin": 213,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

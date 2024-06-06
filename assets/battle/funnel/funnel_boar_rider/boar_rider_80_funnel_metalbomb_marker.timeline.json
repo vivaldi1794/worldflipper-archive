@@ -1,0 +1,124 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 39,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 40,
+            "end": 49,
+            "name": "charge_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 50,
+            "end": 65,
+            "name": "charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 66,
+            "end": 76,
+            "name": "charge_3",
+            "kind": "loop"
+        },
+        {
+            "begin": 77,
+            "end": 102,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 103,
+            "end": 133,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/weapon/se_boar_rider_bomb_single",
+            "begin": 77,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -180
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -36
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 77,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -36
+                        }
+                    ]
+                },
+                {
+                    "begin": 78,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 31,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -36,
+                            "r": 37.4384765625
+                        }
+                    ]
+                },
+                {
+                    "begin": 77,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,246 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 60,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 61,
+            "end": 133,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 134,
+            "end": 225,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 226,
+            "end": 234,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 235,
+            "end": 270,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 271,
+            "end": 278,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 279,
+            "end": 286,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 287,
+            "end": 304,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 305,
+            "end": 313,
+            "name": "action1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 314,
+            "end": 349,
+            "name": "action1_charge",
+            "kind": "goto",
+            "target": "shot1_charge"
+        },
+        {
+            "begin": 350,
+            "end": 357,
+            "name": "action1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 358,
+            "end": 365,
+            "name": "action1_fire_loop",
+            "kind": "goto",
+            "target": "shot1_fire_loop"
+        },
+        {
+            "begin": 366,
+            "end": 383,
+            "name": "action1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 384,
+            "end": 437,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 438,
+            "end": 485,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 486,
+            "end": 521,
+            "name": "explosion_charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 522,
+            "end": 569,
+            "name": "explosion_fire",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -192
+                        }
+                    ]
+                },
+                {
+                    "begin": 134,
+                    "data": []
+                },
+                {
+                    "begin": 226,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -192
+                        }
+                    ]
+                },
+                {
+                    "begin": 530,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -39.599999999999994
+                        }
+                    ]
+                },
+                {
+                    "begin": 134,
+                    "data": []
+                },
+                {
+                    "begin": 226,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -39.599999999999994
+                        }
+                    ]
+                },
+                {
+                    "begin": 530,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 350,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                {
+                    "begin": 351,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 533,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -4.800000000000001
+                        }
+                    ]
+                },
+                {
+                    "begin": 534,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -41.099999999999994,
+                            "r": 37.428955078125
+                        }
+                    ]
+                },
+                {
+                    "begin": 134,
+                    "data": []
+                },
+                {
+                    "begin": 226,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -41.099999999999994,
+                            "r": 37.428955078125
+                        }
+                    ]
+                },
+                {
+                    "begin": 530,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,47 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 61,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 62,
+            "end": 126,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 127,
+            "end": 152,
+            "name": "charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 153,
+            "end": 183,
+            "name": "attack",
+            "kind": "loop"
+        },
+        {
+            "begin": 184,
+            "end": 239,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/element/se_magic_shot_wind2",
+            "begin": 153,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

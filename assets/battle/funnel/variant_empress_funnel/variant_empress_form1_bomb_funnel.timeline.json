@@ -1,0 +1,61 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 20,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 21,
+            "end": 80,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 81,
+            "end": 104,
+            "name": "charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 105,
+            "end": 124,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 125,
+            "end": 199,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_scream2",
+            "begin": 1,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_charge",
+            "begin": 81,
+            "loop": -1,
+            "end": 105,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/fire/se_big_cannon_shot",
+            "begin": 114,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

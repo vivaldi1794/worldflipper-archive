@@ -1,0 +1,534 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 93,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 94,
+            "end": 149,
+            "name": "tackle_180_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 150,
+            "end": 192,
+            "name": "tackle_180_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 193,
+            "end": 211,
+            "name": "tackle_180",
+            "kind": "pass"
+        },
+        {
+            "begin": 212,
+            "end": 230,
+            "name": "tackle_180_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 231,
+            "end": 284,
+            "name": "tackle_180_end",
+            "kind": "once"
+        },
+        {
+            "begin": 285,
+            "end": 340,
+            "name": "tackle_135_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 341,
+            "end": 383,
+            "name": "tackle_135_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 384,
+            "end": 402,
+            "name": "tackle_135",
+            "kind": "pass"
+        },
+        {
+            "begin": 403,
+            "end": 421,
+            "name": "tackle_135_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 422,
+            "end": 475,
+            "name": "tackle_135_end",
+            "kind": "once"
+        },
+        {
+            "begin": 476,
+            "end": 531,
+            "name": "tackle_225_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 532,
+            "end": 574,
+            "name": "tackle_225_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 575,
+            "end": 593,
+            "name": "tackle_225",
+            "kind": "pass"
+        },
+        {
+            "begin": 594,
+            "end": 612,
+            "name": "tackle_225_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 613,
+            "end": 666,
+            "name": "tackle_225_end",
+            "kind": "once"
+        },
+        {
+            "begin": 667,
+            "end": 722,
+            "name": "tackle_90_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 723,
+            "end": 765,
+            "name": "tackle_90_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 766,
+            "end": 784,
+            "name": "tackle_90",
+            "kind": "pass"
+        },
+        {
+            "begin": 785,
+            "end": 803,
+            "name": "tackle_90_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 804,
+            "end": 857,
+            "name": "tackle_90_end",
+            "kind": "once"
+        },
+        {
+            "begin": 858,
+            "end": 913,
+            "name": "tackle_270_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 914,
+            "end": 956,
+            "name": "tackle_270_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 957,
+            "end": 975,
+            "name": "tackle_270",
+            "kind": "pass"
+        },
+        {
+            "begin": 976,
+            "end": 994,
+            "name": "tackle_270_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 995,
+            "end": 1048,
+            "name": "tackle_270_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1049,
+            "end": 1104,
+            "name": "tackle_45_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 1105,
+            "end": 1147,
+            "name": "tackle_45_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1148,
+            "end": 1168,
+            "name": "tackle_45",
+            "kind": "pass"
+        },
+        {
+            "begin": 1169,
+            "end": 1187,
+            "name": "tackle_45_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1188,
+            "end": 1237,
+            "name": "tackle_45_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1238,
+            "end": 1293,
+            "name": "tackle_315_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 1294,
+            "end": 1336,
+            "name": "tackle_315_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1337,
+            "end": 1355,
+            "name": "tackle_315",
+            "kind": "pass"
+        },
+        {
+            "begin": 1356,
+            "end": 1374,
+            "name": "tackle_315_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1375,
+            "end": 1426,
+            "name": "tackle_315_end",
+            "kind": "pass"
+        },
+        {
+            "begin": 1427,
+            "end": 1427,
+            "name": "tackle_315_no_end",
+            "kind": "stop"
+        },
+        {
+            "begin": 1428,
+            "end": 1434,
+            "name": "turn_no_45",
+            "kind": "once"
+        },
+        {
+            "begin": 1435,
+            "end": 1441,
+            "name": "turn_no_90",
+            "kind": "once"
+        },
+        {
+            "begin": 1442,
+            "end": 1448,
+            "name": "turn_no_135",
+            "kind": "once"
+        },
+        {
+            "begin": 1449,
+            "end": 1455,
+            "name": "turn_no_180",
+            "kind": "once"
+        },
+        {
+            "begin": 1456,
+            "end": 1462,
+            "name": "turn_no_225",
+            "kind": "once"
+        },
+        {
+            "begin": 1463,
+            "end": 1469,
+            "name": "turn_no_270",
+            "kind": "once"
+        },
+        {
+            "begin": 1470,
+            "end": 1476,
+            "name": "turn_no_315",
+            "kind": "once"
+        },
+        {
+            "begin": 1477,
+            "end": 1483,
+            "name": "turn_no_0",
+            "kind": "once"
+        },
+        {
+            "begin": 1484,
+            "end": 1510,
+            "name": "tackle_no_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 1511,
+            "end": 1537,
+            "name": "tackle_no_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1538,
+            "end": 1553,
+            "name": "tackle_no",
+            "kind": "once"
+        },
+        {
+            "begin": 1554,
+            "end": 1569,
+            "name": "tackle_no_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1570,
+            "end": 1599,
+            "name": "tackle_no_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1600,
+            "end": 1626,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 1627,
+            "end": 1683,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 1684,
+            "end": 1710,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 1711,
+            "end": 1767,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 1768,
+            "end": 1778,
+            "name": "jump_no_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 1779,
+            "end": 1851,
+            "name": "jump_no",
+            "kind": "once"
+        },
+        {
+            "begin": 1852,
+            "end": 1876,
+            "name": "land_no",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 150,
+            "loop": -1,
+            "end": 193,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_dash",
+            "begin": 193,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 231,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 341,
+            "loop": -1,
+            "end": 384,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_dash",
+            "begin": 384,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 422,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 532,
+            "loop": -1,
+            "end": 575,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_dash",
+            "begin": 575,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 613,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 723,
+            "loop": -1,
+            "end": 766,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_dash",
+            "begin": 766,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 804,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 914,
+            "loop": -1,
+            "end": 957,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_dash",
+            "begin": 957,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 995,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 1105,
+            "loop": -1,
+            "end": 1148,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_dash",
+            "begin": 1148,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 1188,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 1294,
+            "loop": -1,
+            "end": 1337,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_dash",
+            "begin": 1337,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 1375,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 1427,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_physics_charge",
+            "begin": 1511,
+            "loop": -1,
+            "end": 1538,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_dash",
+            "begin": 1538,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 1570,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_triple_jump",
+            "begin": 1779,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

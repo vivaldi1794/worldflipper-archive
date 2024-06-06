@@ -1,0 +1,371 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "neutral",
+            "kind": "stop"
+        },
+        {
+            "begin": 2,
+            "end": 2,
+            "name": "walk_back",
+            "kind": "stop"
+        },
+        {
+            "begin": 3,
+            "end": 3,
+            "name": "walk_front",
+            "kind": "stop"
+        },
+        {
+            "begin": 4,
+            "end": 4,
+            "name": "wince_ready",
+            "kind": "stop"
+        },
+        {
+            "begin": 5,
+            "end": 5,
+            "name": "stun_ready",
+            "kind": "stop"
+        },
+        {
+            "begin": 6,
+            "end": 7,
+            "name": "skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 8,
+            "end": 8,
+            "name": "skill1_charge",
+            "kind": "stop"
+        },
+        {
+            "begin": 9,
+            "end": 9,
+            "name": "skill1_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 10,
+            "end": 35,
+            "name": "skill1_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 36,
+            "end": 36,
+            "name": "skill_ready",
+            "kind": "stop"
+        },
+        {
+            "begin": 37,
+            "end": 37,
+            "name": "kachidoki",
+            "kind": "stop"
+        },
+        {
+            "begin": 38,
+            "end": 38,
+            "name": "shot_start",
+            "kind": "stop"
+        },
+        {
+            "begin": 39,
+            "end": 39,
+            "name": "shot_charge",
+            "kind": "stop"
+        },
+        {
+            "begin": 40,
+            "end": 40,
+            "name": "shot_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 41,
+            "end": 65,
+            "name": "shot_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 66,
+            "end": 67,
+            "name": "funnel_start",
+            "kind": "once"
+        },
+        {
+            "begin": 68,
+            "end": 68,
+            "name": "funnel_charge",
+            "kind": "stop"
+        },
+        {
+            "begin": 69,
+            "end": 69,
+            "name": "funnel_action",
+            "kind": "stop"
+        },
+        {
+            "begin": 70,
+            "end": 71,
+            "name": "funnel_fire",
+            "kind": "once"
+        },
+        {
+            "begin": 72,
+            "end": 72,
+            "name": "dead",
+            "kind": "stop"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -180
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -24
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "skill_shot1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 10,
+                    "data": [
+                        {
+                            "x": -18,
+                            "y": 6
+                        }
+                    ]
+                },
+                {
+                    "begin": 11,
+                    "data": []
+                },
+                {
+                    "begin": 34,
+                    "data": [
+                        {
+                            "x": 30,
+                            "y": 6
+                        }
+                    ]
+                },
+                {
+                    "begin": 35,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 41,
+                    "data": [
+                        {
+                            "x": -30.6,
+                            "y": 18
+                        }
+                    ]
+                },
+                {
+                    "begin": 42,
+                    "data": []
+                },
+                {
+                    "begin": 64,
+                    "data": [
+                        {
+                            "x": 30,
+                            "y": 18
+                        }
+                    ]
+                },
+                {
+                    "begin": 65,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_shot1",
+            "frames": [
+                {
+                    "begin": 70,
+                    "data": [
+                        {
+                            "x": 42,
+                            "y": 24
+                        },
+                        {
+                            "x": -44.099999999999994,
+                            "y": 24
+                        },
+                        {
+                            "x": 42,
+                            "y": 24
+                        },
+                        {
+                            "x": -44.099999999999994,
+                            "y": 24
+                        },
+                        {
+                            "x": 42,
+                            "y": 24
+                        },
+                        {
+                            "x": -44.099999999999994,
+                            "y": 24
+                        },
+                        {
+                            "x": 42,
+                            "y": 24
+                        },
+                        {
+                            "x": -44.099999999999994,
+                            "y": 24
+                        },
+                        {
+                            "x": 42,
+                            "y": 24
+                        },
+                        {
+                            "x": -44.099999999999994,
+                            "y": 24
+                        }
+                    ]
+                },
+                {
+                    "begin": 71,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "countdown",
+            "frames": [
+                {
+                    "begin": 8,
+                    "data": [
+                        {
+                            "x": 112.2,
+                            "y": -142.2
+                        }
+                    ]
+                },
+                {
+                    "begin": 9,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "skill_cutin1",
+            "frames": [
+                {
+                    "begin": 6,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "begin": 7,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "funnel_cutin1",
+            "frames": [
+                {
+                    "begin": 66,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 42
+                        }
+                    ]
+                },
+                {
+                    "begin": 67,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -24,
+                            "r": 60.074615478515625
+                        }
+                    ]
+                },
+                {
+                    "begin": 72,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "weak_point11",
+            "frames": [
+                {
+                    "begin": 8,
+                    "data": [
+                        {
+                            "x": 6,
+                            "y": -216,
+                            "r": 90.00091552734375
+                        }
+                    ]
+                },
+                {
+                    "begin": 9,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,166 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 33,
+            "name": "start",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 34,
+            "end": 66,
+            "name": "ex31",
+            "kind": "pass"
+        },
+        {
+            "begin": 67,
+            "end": 97,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 98,
+            "end": 103,
+            "name": "charge_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 104,
+            "end": 122,
+            "name": "charge_1",
+            "kind": "loop"
+        },
+        {
+            "begin": 123,
+            "end": 141,
+            "name": "charge_2",
+            "kind": "loop"
+        },
+        {
+            "begin": 142,
+            "end": 161,
+            "name": "attack",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 162,
+            "end": 170,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -105
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "center",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path": "normal_shot2",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": []
+                },
+                {
+                    "begin": 35,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -42
+                        }
+                    ]
+                },
+                {
+                    "begin": 36,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot1",
+            "frames": [
+                {
+                    "begin": 151,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -40.8
+                        }
+                    ]
+                },
+                {
+                    "begin": 152,
+                    "data": []
+                }
+            ]
+        },
+        {
+            "path": "normal_shot10",
+            "frames": [
+                {
+                    "begin": 163,
+                    "data": [
+                        {
+                            "x": 2.4000000000000004,
+                            "y": -35.7
+                        }
+                    ]
+                },
+                {
+                    "begin": 164,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "circles": [
+        {
+            "path": "enemy_body1",
+            "frames": [
+                {
+                    "begin": 67,
+                    "data": [
+                        {
+                            "x": 1.7999999999999998,
+                            "y": -43.5,
+                            "r": 43.694091796875
+                        }
+                    ]
+                },
+                {
+                    "begin": 162,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,53 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 39,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 40,
+            "end": 49,
+            "name": "charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 50,
+            "end": 65,
+            "name": "charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 66,
+            "end": 76,
+            "name": "charge3",
+            "kind": "loop"
+        },
+        {
+            "begin": 77,
+            "end": 102,
+            "name": "attack",
+            "kind": "once"
+        },
+        {
+            "begin": 103,
+            "end": 133,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/weapon/se_boar_rider_bomb_single",
+            "begin": 77,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

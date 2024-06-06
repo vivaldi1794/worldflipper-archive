@@ -1,0 +1,81 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 50,
+            "name": "popup",
+            "kind": "once"
+        },
+        {
+            "begin": 51,
+            "end": 104,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 105,
+            "end": 212,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 213,
+            "end": 242,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 243,
+            "end": 266,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 267,
+            "end": 269,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 270,
+            "end": 289,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 290,
+            "end": 307,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 308,
+            "end": 349,
+            "name": "explosion_charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 350,
+            "end": 385,
+            "name": "explosion_charge2",
+            "kind": "loop"
+        },
+        {
+            "begin": 386,
+            "end": 430,
+            "name": "explosion",
+            "kind": "once"
+        },
+        {
+            "begin": 431,
+            "end": 442,
+            "name": "no_body_neutral",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

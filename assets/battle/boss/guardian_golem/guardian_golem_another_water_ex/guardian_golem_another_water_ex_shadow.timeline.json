@@ -1,0 +1,141 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 61,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 62,
+            "end": 126,
+            "name": "move",
+            "kind": "loop"
+        },
+        {
+            "begin": 127,
+            "end": 140,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 141,
+            "end": 147,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 148,
+            "end": 148,
+            "name": "shot1_fire_start",
+            "kind": "stop"
+        },
+        {
+            "begin": 149,
+            "end": 170,
+            "name": "shot1_fire_loop",
+            "kind": "once"
+        },
+        {
+            "begin": 171,
+            "end": 190,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 191,
+            "end": 219,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 220,
+            "end": 220,
+            "name": "shot2_charge",
+            "kind": "stop"
+        },
+        {
+            "begin": 221,
+            "end": 221,
+            "name": "shot2_fire_start",
+            "kind": "stop"
+        },
+        {
+            "begin": 222,
+            "end": 242,
+            "name": "shot2_fire_loop",
+            "kind": "once"
+        },
+        {
+            "begin": 243,
+            "end": 250,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 251,
+            "end": 262,
+            "name": "shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 263,
+            "end": 271,
+            "name": "shot3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 272,
+            "end": 281,
+            "name": "shot3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 282,
+            "end": 315,
+            "name": "shot3_fire_loop",
+            "kind": "once"
+        },
+        {
+            "begin": 316,
+            "end": 337,
+            "name": "shot3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 338,
+            "end": 351,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 352,
+            "end": 400,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 401,
+            "end": 414,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 415,
+            "end": 463,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 464,
+            "end": 635,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

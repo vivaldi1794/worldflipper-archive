@@ -1,0 +1,68 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 76,
+            "name": "start",
+            "kind": "once"
+        },
+        {
+            "begin": 77,
+            "end": 176,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 177,
+            "end": 216,
+            "name": "charge1",
+            "kind": "loop"
+        },
+        {
+            "begin": 217,
+            "end": 272,
+            "name": "attack1",
+            "kind": "once"
+        },
+        {
+            "begin": 273,
+            "end": 333,
+            "name": "dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_warp_in",
+            "begin": 1,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_spit_out",
+            "begin": 13,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_lightning_needle_charge",
+            "begin": 177,
+            "loop": -1,
+            "end": 217,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_energy_inhalation",
+            "begin": 227,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

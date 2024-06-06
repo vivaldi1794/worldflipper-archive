@@ -1,0 +1,1012 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 100,
+            "name": "phase1_float",
+            "kind": "pass"
+        },
+        {
+            "begin": 101,
+            "end": 200,
+            "name": "phase1_float_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 201,
+            "end": 357,
+            "name": "phase1_wear",
+            "kind": "once"
+        },
+        {
+            "begin": 358,
+            "end": 465,
+            "name": "phase1_break",
+            "kind": "once"
+        },
+        {
+            "begin": 466,
+            "end": 566,
+            "name": "phase2_float",
+            "kind": "loop"
+        },
+        {
+            "begin": 567,
+            "end": 707,
+            "name": "phase2_wear",
+            "kind": "once"
+        },
+        {
+            "begin": 708,
+            "end": 821,
+            "name": "phase2_break",
+            "kind": "once"
+        },
+        {
+            "begin": 822,
+            "end": 922,
+            "name": "phase3_float",
+            "kind": "loop"
+        },
+        {
+            "begin": 923,
+            "end": 993,
+            "name": "phase3_purge",
+            "kind": "once"
+        },
+        {
+            "begin": 994,
+            "end": 1094,
+            "name": "phase3_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 1095,
+            "end": 1145,
+            "name": "phase4_float",
+            "kind": "loop"
+        },
+        {
+            "begin": 1146,
+            "end": 1352,
+            "name": "phase4_wear",
+            "kind": "once"
+        },
+        {
+            "begin": 1353,
+            "end": 1453,
+            "name": "phase1_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 1454,
+            "end": 1474,
+            "name": "phase1_attack1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1475,
+            "end": 1491,
+            "name": "phase1_attack1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1492,
+            "end": 1498,
+            "name": "phase1_attack1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1499,
+            "end": 1505,
+            "name": "phase1_attack1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1506,
+            "end": 1522,
+            "name": "phase1_attack1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1523,
+            "end": 1543,
+            "name": "phase1_attack2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1544,
+            "end": 1560,
+            "name": "phase1_attack2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1561,
+            "end": 1567,
+            "name": "phase1_attack2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1568,
+            "end": 1574,
+            "name": "phase1_attack2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1575,
+            "end": 1591,
+            "name": "phase1_attack2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1592,
+            "end": 1604,
+            "name": "phase1_attack3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1605,
+            "end": 1618,
+            "name": "phase1_attack3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1619,
+            "end": 1625,
+            "name": "phase1_attack3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1626,
+            "end": 1632,
+            "name": "phase1_attack3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1633,
+            "end": 1649,
+            "name": "phase1_attack3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1650,
+            "end": 1670,
+            "name": "phase1_ex1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1671,
+            "end": 1687,
+            "name": "phase1_ex1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1688,
+            "end": 1694,
+            "name": "phase1_ex1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1695,
+            "end": 1701,
+            "name": "phase1_ex1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1702,
+            "end": 1718,
+            "name": "phase1_ex1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1719,
+            "end": 1739,
+            "name": "phase1_skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1740,
+            "end": 1756,
+            "name": "phase1_skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 1757,
+            "end": 1763,
+            "name": "phase1_skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1764,
+            "end": 1770,
+            "name": "phase1_skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 1771,
+            "end": 1787,
+            "name": "phase1_skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 1788,
+            "end": 1793,
+            "name": "phase1_wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 1794,
+            "end": 1799,
+            "name": "phase1_wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 1800,
+            "end": 1830,
+            "name": "phase1_stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 1831,
+            "end": 1861,
+            "name": "phase1_stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 1862,
+            "end": 1871,
+            "name": "phase1_crack",
+            "kind": "once"
+        },
+        {
+            "begin": 1872,
+            "end": 1972,
+            "name": "phase1_crack_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 1973,
+            "end": 1993,
+            "name": "phase1_crack_attack1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 1994,
+            "end": 2010,
+            "name": "phase1_crack_attack1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2011,
+            "end": 2017,
+            "name": "phase1_crack_attack1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2018,
+            "end": 2024,
+            "name": "phase1_crack_attack1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 2025,
+            "end": 2041,
+            "name": "phase1_crack_attack1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2042,
+            "end": 2062,
+            "name": "phase1_crack_attack2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2063,
+            "end": 2079,
+            "name": "phase1_crack_attack2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2080,
+            "end": 2086,
+            "name": "phase1_crack_attack2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2087,
+            "end": 2093,
+            "name": "phase1_crack_attack2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 2094,
+            "end": 2110,
+            "name": "phase1_crack_attack2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2111,
+            "end": 2123,
+            "name": "phase1_crack_attack3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2124,
+            "end": 2137,
+            "name": "phase1_crack_attack3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2138,
+            "end": 2144,
+            "name": "phase1_crack_attack3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2145,
+            "end": 2151,
+            "name": "phase1_crack_attack3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 2152,
+            "end": 2168,
+            "name": "phase1_crack_attack3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2169,
+            "end": 2189,
+            "name": "phase1_crack_ex1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2190,
+            "end": 2206,
+            "name": "phase1_crack_ex1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2207,
+            "end": 2213,
+            "name": "phase1_crack_ex1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2214,
+            "end": 2220,
+            "name": "phase1_crack_ex1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 2221,
+            "end": 2237,
+            "name": "phase1_crack_ex1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2238,
+            "end": 2258,
+            "name": "phase1_crack_skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2259,
+            "end": 2275,
+            "name": "phase1_crack_skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2276,
+            "end": 2282,
+            "name": "phase1_crack_skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2283,
+            "end": 2289,
+            "name": "phase1_crack_skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 2290,
+            "end": 2306,
+            "name": "phase1_crack_skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2307,
+            "end": 2312,
+            "name": "phase1_crack_wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 2313,
+            "end": 2318,
+            "name": "phase1_crack_wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 2319,
+            "end": 2349,
+            "name": "phase1_crack_stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 2350,
+            "end": 2380,
+            "name": "phase1_crack_stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 2381,
+            "end": 2481,
+            "name": "phase2_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 2482,
+            "end": 2502,
+            "name": "phase2_attack1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2503,
+            "end": 2573,
+            "name": "phase2_attack1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2574,
+            "end": 2580,
+            "name": "phase2_attack1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2581,
+            "end": 2651,
+            "name": "phase2_attack1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 2652,
+            "end": 2668,
+            "name": "phase2_attack1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2669,
+            "end": 2689,
+            "name": "phase2_attack2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2690,
+            "end": 2760,
+            "name": "phase2_attack2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2761,
+            "end": 2767,
+            "name": "phase2_attack2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2768,
+            "end": 2838,
+            "name": "phase2_attack2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 2839,
+            "end": 2855,
+            "name": "phase2_attack2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 2856,
+            "end": 2876,
+            "name": "phase2_ex1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2877,
+            "end": 2947,
+            "name": "phase2_ex1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 2948,
+            "end": 2954,
+            "name": "phase2_ex1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 2955,
+            "end": 3025,
+            "name": "phase2_ex1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 3026,
+            "end": 3042,
+            "name": "phase2_ex1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 3043,
+            "end": 3063,
+            "name": "phase2_ex2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3064,
+            "end": 3134,
+            "name": "phase2_ex2_charge",
+            "kind": "goto",
+            "target": "phase2_ex1_charge"
+        },
+        {
+            "begin": 3135,
+            "end": 3141,
+            "name": "phase2_ex2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3142,
+            "end": 3212,
+            "name": "phase2_ex2_fire_loop",
+            "kind": "goto",
+            "target": "phase2_ex1_fire_loop"
+        },
+        {
+            "begin": 3213,
+            "end": 3229,
+            "name": "phase2_ex2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 3230,
+            "end": 3250,
+            "name": "phase2_skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3251,
+            "end": 3321,
+            "name": "phase2_skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 3322,
+            "end": 3328,
+            "name": "phase2_skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3329,
+            "end": 3399,
+            "name": "phase2_skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 3400,
+            "end": 3416,
+            "name": "phase2_skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 3417,
+            "end": 3487,
+            "name": "phase2_wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 3488,
+            "end": 3558,
+            "name": "phase2_wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 3559,
+            "end": 3629,
+            "name": "phase2_stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 3630,
+            "end": 3700,
+            "name": "phase2_stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 3701,
+            "end": 3749,
+            "name": "phase4_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 3750,
+            "end": 3770,
+            "name": "phase4_attack1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3771,
+            "end": 3811,
+            "name": "phase4_attack1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 3812,
+            "end": 3818,
+            "name": "phase4_attack1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3819,
+            "end": 3859,
+            "name": "phase4_attack1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 3860,
+            "end": 3876,
+            "name": "phase4_attack1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 3877,
+            "end": 3897,
+            "name": "phase4_attack2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3898,
+            "end": 3938,
+            "name": "phase4_attack2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 3939,
+            "end": 3945,
+            "name": "phase4_attack2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 3946,
+            "end": 3986,
+            "name": "phase4_attack2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 3987,
+            "end": 4003,
+            "name": "phase4_attack2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 4004,
+            "end": 4019,
+            "name": "phase4_attack3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4020,
+            "end": 4060,
+            "name": "phase4_attack3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 4061,
+            "end": 4067,
+            "name": "phase4_attack3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4068,
+            "end": 4108,
+            "name": "phase4_attack3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 4109,
+            "end": 4125,
+            "name": "phase4_attack3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 4126,
+            "end": 4141,
+            "name": "phase4_attack4_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4142,
+            "end": 4182,
+            "name": "phase4_attack4_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 4183,
+            "end": 4189,
+            "name": "phase4_attack4_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4190,
+            "end": 4230,
+            "name": "phase4_attack4_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 4231,
+            "end": 4247,
+            "name": "phase4_attack4_end",
+            "kind": "once"
+        },
+        {
+            "begin": 4248,
+            "end": 4268,
+            "name": "phase4_ex1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4269,
+            "end": 4309,
+            "name": "phase4_ex1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 4310,
+            "end": 4316,
+            "name": "phase4_ex1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4317,
+            "end": 4357,
+            "name": "phase4_ex1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 4358,
+            "end": 4374,
+            "name": "phase4_ex1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 4375,
+            "end": 4395,
+            "name": "phase4_ex2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4396,
+            "end": 4436,
+            "name": "phase4_ex2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 4437,
+            "end": 4443,
+            "name": "phase4_ex2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4444,
+            "end": 4484,
+            "name": "phase4_ex2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 4485,
+            "end": 4501,
+            "name": "phase4_ex2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 4502,
+            "end": 4517,
+            "name": "phase4_skill1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4518,
+            "end": 4558,
+            "name": "phase4_skill1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 4559,
+            "end": 4565,
+            "name": "phase4_skill1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4566,
+            "end": 4606,
+            "name": "phase4_skill1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 4607,
+            "end": 4623,
+            "name": "phase4_skill1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 4624,
+            "end": 4644,
+            "name": "phase4_skill2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4645,
+            "end": 4685,
+            "name": "phase4_skill2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 4686,
+            "end": 4692,
+            "name": "phase4_skill2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4693,
+            "end": 4733,
+            "name": "phase4_skill2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 4734,
+            "end": 4750,
+            "name": "phase4_skill2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 4751,
+            "end": 4779,
+            "name": "phase4_wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 4780,
+            "end": 4808,
+            "name": "phase4_wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 4809,
+            "end": 4837,
+            "name": "phase4_stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 4838,
+            "end": 4866,
+            "name": "phase4_stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 4867,
+            "end": 4922,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 4923,
+            "end": 4933,
+            "name": "phase1_move_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4934,
+            "end": 4939,
+            "name": "phase1_moving",
+            "kind": "loop"
+        },
+        {
+            "begin": 4940,
+            "end": 4950,
+            "name": "phase1_move_end",
+            "kind": "once"
+        },
+        {
+            "begin": 4951,
+            "end": 4961,
+            "name": "phase1_crack_move_start",
+            "kind": "once"
+        },
+        {
+            "begin": 4962,
+            "end": 4967,
+            "name": "phase1_crack_moving",
+            "kind": "loop"
+        },
+        {
+            "begin": 4968,
+            "end": 4978,
+            "name": "phase1_crack_move_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/battle_common/se_short_dash03",
+            "begin": 50,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_player_dash",
+            "begin": 9,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_short_dash03",
+            "begin": 45,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_short_dash03",
+            "begin": 56,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_release",
+            "begin": 220,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_sharp_reflection",
+            "begin": 358,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/water/se_violent_swirling_water",
+            "begin": 567,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_release",
+            "begin": 588,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_sharp_reflection",
+            "begin": 709,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/dark/se_concentrate_ominous",
+            "begin": 1147,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

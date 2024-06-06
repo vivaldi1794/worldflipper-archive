@@ -1,0 +1,42 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 11,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 12,
+            "end": 84,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 85,
+            "end": 111,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/thunder/se_electric_beam",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_waste_heat",
+            "begin": 86,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

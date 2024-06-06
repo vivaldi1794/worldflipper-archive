@@ -1,0 +1,40 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 10,
+            "name": "neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 11,
+            "end": 22,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 23,
+            "end": 32,
+            "name": "dash_panel",
+            "kind": "once"
+        },
+        {
+            "begin": 33,
+            "end": 43,
+            "name": "set",
+            "kind": "loop"
+        },
+        {
+            "begin": 44,
+            "end": 53,
+            "name": "touch",
+            "kind": "goto",
+            "target": "dash_panel"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

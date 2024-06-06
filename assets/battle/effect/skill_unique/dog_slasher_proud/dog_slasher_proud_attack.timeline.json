@@ -1,0 +1,35 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 14,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 15,
+            "end": 42,
+            "name": "loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 43,
+            "end": 58,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/thunder/se_thunder_wide_area_electricity",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

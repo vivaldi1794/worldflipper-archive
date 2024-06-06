@@ -1,0 +1,189 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 61,
+            "name": "p2_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 62,
+            "end": 87,
+            "name": "p2_shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 88,
+            "end": 125,
+            "name": "p2_shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 126,
+            "end": 144,
+            "name": "p2_shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 145,
+            "end": 184,
+            "name": "p2_shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 185,
+            "end": 195,
+            "name": "p2_shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 196,
+            "end": 208,
+            "name": "p2_shot2_right_start",
+            "kind": "once"
+        },
+        {
+            "begin": 209,
+            "end": 217,
+            "name": "p2_shot2_right_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 218,
+            "end": 223,
+            "name": "p2_shot2_right_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 224,
+            "end": 226,
+            "name": "p2_shot2_right_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 227,
+            "end": 239,
+            "name": "p2_shot2_right_end",
+            "kind": "once"
+        },
+        {
+            "begin": 240,
+            "end": 252,
+            "name": "p2_shot2_left_start",
+            "kind": "once"
+        },
+        {
+            "begin": 253,
+            "end": 261,
+            "name": "p2_shot2_left_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 262,
+            "end": 267,
+            "name": "p2_shot2_left_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 268,
+            "end": 270,
+            "name": "p2_shot2_left_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 271,
+            "end": 283,
+            "name": "p2_shot2_left_end",
+            "kind": "once"
+        },
+        {
+            "begin": 284,
+            "end": 292,
+            "name": "p2_shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 293,
+            "end": 325,
+            "name": "p2_shot3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 326,
+            "end": 334,
+            "name": "p2_shot3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 335,
+            "end": 367,
+            "name": "p2_shot3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 368,
+            "end": 376,
+            "name": "p2_shot3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 377,
+            "end": 401,
+            "name": "stun_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 402,
+            "end": 426,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 427,
+            "end": 429,
+            "name": "wince_ready",
+            "kind": "once"
+        },
+        {
+            "begin": 430,
+            "end": 432,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 433,
+            "end": 435,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 436,
+            "end": 482,
+            "name": "warp_start",
+            "kind": "once"
+        },
+        {
+            "begin": 483,
+            "end": 485,
+            "name": "warp",
+            "kind": "once"
+        },
+        {
+            "begin": 486,
+            "end": 540,
+            "name": "warp_end",
+            "kind": "once"
+        },
+        {
+            "begin": 541,
+            "end": 542,
+            "name": "fallen",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

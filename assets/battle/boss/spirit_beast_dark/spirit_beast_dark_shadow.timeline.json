@@ -1,0 +1,183 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 88,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 89,
+            "end": 106,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 107,
+            "end": 166,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 167,
+            "end": 184,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 185,
+            "end": 244,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 245,
+            "end": 367,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 368,
+            "end": 400,
+            "name": "move_in",
+            "kind": "once"
+        },
+        {
+            "begin": 401,
+            "end": 460,
+            "name": "move",
+            "kind": "loop"
+        },
+        {
+            "begin": 461,
+            "end": 532,
+            "name": "move_out",
+            "kind": "once"
+        },
+        {
+            "begin": 533,
+            "end": 538,
+            "name": "shot1_start",
+            "kind": "once"
+        },
+        {
+            "begin": 539,
+            "end": 550,
+            "name": "shot1_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 551,
+            "end": 560,
+            "name": "shot1_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 561,
+            "end": 595,
+            "name": "shot1_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 596,
+            "end": 600,
+            "name": "shot1_end",
+            "kind": "once"
+        },
+        {
+            "begin": 601,
+            "end": 606,
+            "name": "shot2_start",
+            "kind": "once"
+        },
+        {
+            "begin": 607,
+            "end": 618,
+            "name": "shot2_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 619,
+            "end": 623,
+            "name": "shot2_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 624,
+            "end": 635,
+            "name": "shot2_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 636,
+            "end": 645,
+            "name": "shot2_end",
+            "kind": "once"
+        },
+        {
+            "begin": 646,
+            "end": 651,
+            "name": "shot3_start",
+            "kind": "once"
+        },
+        {
+            "begin": 652,
+            "end": 663,
+            "name": "shot3_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 664,
+            "end": 671,
+            "name": "shot3_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 672,
+            "end": 689,
+            "name": "shot3_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 690,
+            "end": 694,
+            "name": "shot3_end",
+            "kind": "once"
+        },
+        {
+            "begin": 695,
+            "end": 700,
+            "name": "shot4_start",
+            "kind": "once"
+        },
+        {
+            "begin": 701,
+            "end": 712,
+            "name": "shot4_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 713,
+            "end": 722,
+            "name": "shot4_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 723,
+            "end": 734,
+            "name": "shot4_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 735,
+            "end": 757,
+            "name": "shot4_end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

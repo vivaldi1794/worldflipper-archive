@@ -1,0 +1,160 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 49,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 50,
+            "end": 98,
+            "name": "neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 99,
+            "end": 106,
+            "name": "jump_out",
+            "kind": "pass"
+        },
+        {
+            "begin": 107,
+            "end": 132,
+            "name": "jump",
+            "kind": "once"
+        },
+        {
+            "begin": 133,
+            "end": 158,
+            "name": "jump_no_shadow",
+            "kind": "once"
+        },
+        {
+            "begin": 159,
+            "end": 166,
+            "name": "jump_in",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 167,
+            "end": 182,
+            "name": "funnel_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 183,
+            "end": 233,
+            "name": "funnel_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 234,
+            "end": 254,
+            "name": "funnel_shot",
+            "kind": "once"
+        },
+        {
+            "begin": 255,
+            "end": 269,
+            "name": "shot_start",
+            "kind": "once"
+        },
+        {
+            "begin": 270,
+            "end": 300,
+            "name": "shot_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 301,
+            "end": 310,
+            "name": "shot_fire_start",
+            "kind": "once"
+        },
+        {
+            "begin": 311,
+            "end": 313,
+            "name": "shot_fire_loop",
+            "kind": "loop"
+        },
+        {
+            "begin": 314,
+            "end": 330,
+            "name": "shot_end",
+            "kind": "once"
+        },
+        {
+            "begin": 331,
+            "end": 385,
+            "name": "wince_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 386,
+            "end": 440,
+            "name": "wince",
+            "kind": "loop"
+        },
+        {
+            "begin": 441,
+            "end": 495,
+            "name": "stun_ready",
+            "kind": "pass"
+        },
+        {
+            "begin": 496,
+            "end": 550,
+            "name": "stun",
+            "kind": "loop"
+        },
+        {
+            "begin": 551,
+            "end": 637,
+            "name": "dead",
+            "kind": "once"
+        },
+        {
+            "begin": 638,
+            "end": 698,
+            "name": "mini_avatar_start",
+            "kind": "once"
+        },
+        {
+            "begin": 699,
+            "end": 729,
+            "name": "mini_avatar_neutral",
+            "kind": "loop"
+        },
+        {
+            "begin": 730,
+            "end": 760,
+            "name": "mini_avatar_move",
+            "kind": "loop"
+        },
+        {
+            "begin": 761,
+            "end": 779,
+            "name": "mini_avatar_move_charge",
+            "kind": "loop"
+        },
+        {
+            "begin": 780,
+            "end": 797,
+            "name": "mini_avatar_attack",
+            "kind": "once"
+        },
+        {
+            "begin": 798,
+            "end": 819,
+            "name": "mini_avatar_dead",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}
