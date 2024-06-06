@@ -1,0 +1,96 @@
+{
+    "sequences": [
+        {
+            "name": "neutral",
+            "kind": "loop",
+            "begin": 1,
+            "end": 1
+        },
+        {
+            "name": "walk_back",
+            "kind": "loop",
+            "begin": 2,
+            "end": 19
+        },
+        {
+            "name": "walk_front",
+            "kind": "loop",
+            "begin": 20,
+            "end": 37
+        },
+        {
+            "name": "skill_ready",
+            "kind": "once",
+            "begin": 38,
+            "end": 38
+        },
+        {
+            "name": "kachidoki",
+            "kind": "loop",
+            "begin": 39,
+            "end": 39
+        }
+    ],
+    "circles": [
+        {
+            "path": "unit_body",
+            "frames": [
+                {
+                    "begin": 2,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 8.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 3,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 8.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 21,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": 0,
+                            "r": 8.3
+                        }
+                    ]
+                },
+                {
+                    "begin": 39,
+                    "data": []
+                },
+                {
+                    "begin": 40,
+                    "data": []
+                }
+            ]
+        }
+    ],
+    "points": [
+        {
+            "path": "hp_gauge",
+            "frames": [
+                {
+                    "begin": 1,
+                    "data": [
+                        {
+                            "x": 0,
+                            "y": -10
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "sounds": []
+}
