@@ -1,0 +1,50 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "none",
+            "kind": "stop"
+        },
+        {
+            "begin": 2,
+            "end": 172,
+            "name": "begin",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/time_attack/se_ranking_cutin_appear",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/time_attack/se_ranking_cutin_praise",
+            "begin": 3,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/time_attack/se_ranking_cutin_txt_flash",
+            "begin": 102,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/time_attack/se_ranking_cutin_disappear",
+            "begin": 153,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

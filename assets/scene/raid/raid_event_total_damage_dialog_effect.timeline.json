@@ -1,0 +1,171 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 99,
+            "name": "hp_break_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 100,
+            "end": 101,
+            "name": "hp_break_hp_bar_damage",
+            "kind": "pass"
+        },
+        {
+            "begin": 102,
+            "end": 171,
+            "name": "hp_break_boss_wince",
+            "kind": "pass"
+        },
+        {
+            "begin": 172,
+            "end": 191,
+            "name": "hp_break_close_button",
+            "kind": "pass"
+        },
+        {
+            "begin": 192,
+            "end": 240,
+            "name": "hp_break_boss_neutral",
+            "kind": "once"
+        },
+        {
+            "begin": 241,
+            "end": 348,
+            "name": "killed_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 349,
+            "end": 350,
+            "name": "killed_hp_bar_damage",
+            "kind": "pass"
+        },
+        {
+            "begin": 351,
+            "end": 600,
+            "name": "killed_boss_dead",
+            "kind": "pass"
+        },
+        {
+            "begin": 601,
+            "end": 601,
+            "name": "killed_close_button",
+            "kind": "stop"
+        },
+        {
+            "begin": 602,
+            "end": 674,
+            "name": "hp_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 675,
+            "end": 686,
+            "name": "hp_character_kachidoki",
+            "kind": "pass"
+        },
+        {
+            "begin": 687,
+            "end": 690,
+            "name": "hp_boss_wince",
+            "kind": "pass"
+        },
+        {
+            "begin": 691,
+            "end": 781,
+            "name": "hp_hp_bar_damage",
+            "kind": "pass"
+        },
+        {
+            "begin": 782,
+            "end": 782,
+            "name": "hp_close_button",
+            "kind": "stop"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/battle_special/se_light_skill_chain_attack_medium",
+            "begin": 31,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_boss_down",
+            "begin": 111,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_special/se_light_skill_chain_attack_medium",
+            "begin": 271,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_boss_dead",
+            "begin": 351,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_heavy_stamp",
+            "begin": 481,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_heavy_stamp",
+            "begin": 486,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_heavy_stamp",
+            "begin": 491,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_heavy_stamp",
+            "begin": 496,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_fanfare_former",
+            "begin": 530,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_charge_screw_sparkling",
+            "begin": 610,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_boss_down",
+            "begin": 689,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

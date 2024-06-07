@@ -1,0 +1,27 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 4,
+            "name": "none",
+            "kind": "stop"
+        },
+        {
+            "begin": 5,
+            "end": 36,
+            "name": "ready_to_unlock",
+            "kind": "pass"
+        },
+        {
+            "begin": 37,
+            "end": 123,
+            "name": "unlocked",
+            "kind": "once"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

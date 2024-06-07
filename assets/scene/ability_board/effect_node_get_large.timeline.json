@@ -1,0 +1,42 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "none",
+            "kind": "stop"
+        },
+        {
+            "begin": 2,
+            "end": 31,
+            "name": "neutral",
+            "kind": "pass"
+        },
+        {
+            "begin": 32,
+            "end": 102,
+            "name": "shine",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/system/se_ability_board_node_release_1",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/system/se_ability_board_node_release_2",
+            "begin": 32,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,48 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 5,
+            "name": "none",
+            "kind": "once"
+        },
+        {
+            "begin": 6,
+            "end": 40,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 41,
+            "end": 100,
+            "name": "converted",
+            "kind": "pass"
+        },
+        {
+            "begin": 101,
+            "end": 111,
+            "name": "end",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/system/se_expod_exp_from_character",
+            "begin": 7,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/system/se_expod_exp_to_expod",
+            "begin": 41,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

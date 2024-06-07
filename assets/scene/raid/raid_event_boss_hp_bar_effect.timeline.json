@@ -1,0 +1,27 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 30,
+            "name": "start",
+            "kind": "loop"
+        },
+        {
+            "begin": 31,
+            "end": 60,
+            "name": "fade_out",
+            "kind": "once"
+        },
+        {
+            "begin": 61,
+            "end": 61,
+            "name": "hide",
+            "kind": "pass"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

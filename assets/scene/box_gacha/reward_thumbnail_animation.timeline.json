@@ -1,0 +1,51 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 9,
+            "name": "wait",
+            "kind": "stop"
+        },
+        {
+            "begin": 10,
+            "end": 18,
+            "name": "normal",
+            "kind": "pass"
+        },
+        {
+            "begin": 19,
+            "end": 19,
+            "name": "finished",
+            "kind": "stop"
+        },
+        {
+            "begin": 20,
+            "end": 60,
+            "name": "better",
+            "kind": "pass"
+        },
+        {
+            "begin": 61,
+            "end": 61,
+            "name": "better_finished",
+            "kind": "stop"
+        },
+        {
+            "begin": 62,
+            "end": 124,
+            "name": "best",
+            "kind": "pass"
+        },
+        {
+            "begin": 125,
+            "end": 125,
+            "name": "best_finished",
+            "kind": "stop"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,68 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "none",
+            "kind": "stop"
+        },
+        {
+            "begin": 2,
+            "end": 46,
+            "name": "small",
+            "kind": "once"
+        },
+        {
+            "begin": 47,
+            "end": 91,
+            "name": "medium",
+            "kind": "once"
+        },
+        {
+            "begin": 92,
+            "end": 136,
+            "name": "large",
+            "kind": "once"
+        },
+        {
+            "begin": 137,
+            "end": 180,
+            "name": "extra_large",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/battle_common/se_flipper_start",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/system/se_stage_node_appearance",
+            "begin": 47,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/system/se_stage_node_appearance",
+            "begin": 92,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/system/se_stage_node_appearance",
+            "begin": 137,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

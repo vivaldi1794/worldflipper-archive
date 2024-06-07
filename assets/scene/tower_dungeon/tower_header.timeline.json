@@ -1,0 +1,303 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 353,
+            "name": "init",
+            "kind": "once"
+        },
+        {
+            "begin": 354,
+            "end": 363,
+            "name": "wait1",
+            "kind": "once"
+        },
+        {
+            "begin": 364,
+            "end": 373,
+            "name": "wait2",
+            "kind": "stop"
+        },
+        {
+            "begin": 374,
+            "end": 383,
+            "name": "wait3",
+            "kind": "stop"
+        },
+        {
+            "begin": 384,
+            "end": 393,
+            "name": "wait4",
+            "kind": "once"
+        },
+        {
+            "begin": 394,
+            "end": 404,
+            "name": "wait5",
+            "kind": "once"
+        },
+        {
+            "begin": 405,
+            "end": 414,
+            "name": "wait6",
+            "kind": "once"
+        },
+        {
+            "begin": 415,
+            "end": 423,
+            "name": "wait7",
+            "kind": "once"
+        },
+        {
+            "begin": 424,
+            "end": 433,
+            "name": "wait8",
+            "kind": "once"
+        },
+        {
+            "begin": 434,
+            "end": 443,
+            "name": "wait9",
+            "kind": "once"
+        },
+        {
+            "begin": 444,
+            "end": 453,
+            "name": "wait10",
+            "kind": "once"
+        },
+        {
+            "begin": 454,
+            "end": 463,
+            "name": "wait_allclear",
+            "kind": "once"
+        },
+        {
+            "begin": 464,
+            "end": 581,
+            "name": "moveto2",
+            "kind": "once"
+        },
+        {
+            "begin": 582,
+            "end": 694,
+            "name": "moveto3",
+            "kind": "once"
+        },
+        {
+            "begin": 695,
+            "end": 807,
+            "name": "moveto4",
+            "kind": "once"
+        },
+        {
+            "begin": 808,
+            "end": 920,
+            "name": "moveto5",
+            "kind": "once"
+        },
+        {
+            "begin": 921,
+            "end": 1033,
+            "name": "moveto6",
+            "kind": "once"
+        },
+        {
+            "begin": 1034,
+            "end": 1146,
+            "name": "moveto7",
+            "kind": "once"
+        },
+        {
+            "begin": 1147,
+            "end": 1259,
+            "name": "moveto8",
+            "kind": "once"
+        },
+        {
+            "begin": 1260,
+            "end": 1372,
+            "name": "moveto9",
+            "kind": "once"
+        },
+        {
+            "begin": 1373,
+            "end": 1500,
+            "name": "moveto10",
+            "kind": "once"
+        },
+        {
+            "begin": 1501,
+            "end": 1718,
+            "name": "moveto_allclear",
+            "kind": "once"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_logo_fade",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_jump",
+            "begin": 255,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_landing",
+            "begin": 308,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 482,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_walk",
+            "begin": 528,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 600,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_walk",
+            "begin": 641,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 713,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_walk",
+            "begin": 754,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 826,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_walk",
+            "begin": 867,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 938,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_walk",
+            "begin": 980,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 1052,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_walk",
+            "begin": 1093,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 1165,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_walk",
+            "begin": 1206,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 1278,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_walk",
+            "begin": 1319,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 1391,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_alk_walk",
+            "begin": 1427,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_flag_shine",
+            "begin": 1519,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/tower_dungeon/se_tower_complete",
+            "begin": 1579,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

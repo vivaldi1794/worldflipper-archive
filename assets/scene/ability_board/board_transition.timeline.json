@@ -1,0 +1,41 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "neutral",
+            "kind": "stop"
+        },
+        {
+            "begin": 2,
+            "end": 22,
+            "name": "top_to_center",
+            "kind": "pass"
+        },
+        {
+            "begin": 23,
+            "end": 43,
+            "name": "center_to_bottom",
+            "kind": "goto",
+            "target": "neutral"
+        },
+        {
+            "begin": 44,
+            "end": 64,
+            "name": "bottom_to_center",
+            "kind": "pass"
+        },
+        {
+            "begin": 65,
+            "end": 85,
+            "name": "center_to_top",
+            "kind": "goto",
+            "target": "neutral"
+        }
+    ],
+    "sounds": [],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

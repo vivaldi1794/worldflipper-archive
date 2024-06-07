@@ -1,0 +1,44 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 10,
+            "name": "hidden",
+            "kind": "stop"
+        },
+        {
+            "begin": 11,
+            "end": 30,
+            "name": "start",
+            "kind": "goto",
+            "target": "hidden"
+        },
+        {
+            "begin": 31,
+            "end": 81,
+            "name": "start_long",
+            "kind": "goto",
+            "target": "hidden"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/time_attack/se_ranking_stamp_flash_short",
+            "begin": 11,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/time_attack/se_ranking_stamp_flash_long",
+            "begin": 31,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

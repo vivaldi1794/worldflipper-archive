@@ -1,0 +1,48 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 1,
+            "name": "hide",
+            "kind": "pass"
+        },
+        {
+            "begin": 2,
+            "end": 3,
+            "name": "pop_start",
+            "kind": "pass"
+        },
+        {
+            "begin": 4,
+            "end": 30,
+            "name": "next_pop",
+            "kind": "pass"
+        },
+        {
+            "begin": 31,
+            "end": 31,
+            "name": "pop_end",
+            "kind": "stop"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/time_attack/se_ranking_item_arrange",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/time_attack/se_ranking_item_arrange_add",
+            "begin": 5,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

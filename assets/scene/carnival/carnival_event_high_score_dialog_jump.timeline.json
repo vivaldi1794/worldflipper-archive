@@ -1,0 +1,115 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 50,
+            "name": "start",
+            "kind": "pass"
+        },
+        {
+            "begin": 51,
+            "end": 111,
+            "name": "landing_minimum",
+            "kind": "pass"
+        },
+        {
+            "begin": 112,
+            "end": 171,
+            "name": "loop",
+            "kind": "pass"
+        },
+        {
+            "begin": 172,
+            "end": 242,
+            "name": "landing",
+            "kind": "pass"
+        },
+        {
+            "begin": 243,
+            "end": 363,
+            "name": "dance",
+            "kind": "pass"
+        },
+        {
+            "begin": 364,
+            "end": 412,
+            "name": "end",
+            "kind": "pass"
+        },
+        {
+            "begin": 413,
+            "end": 533,
+            "name": "end_loop",
+            "kind": "loop"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_before_jump",
+            "begin": 2,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_jump",
+            "begin": 35,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_end_jump",
+            "begin": 61,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_landing",
+            "begin": 91,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_end_jump",
+            "begin": 190,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_landing",
+            "begin": 218,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_show_score",
+            "begin": 243,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_score_rank_stamp",
+            "begin": 272,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/haniwa_carnival/se_haniwa_high_score_update_fanfare_mix",
+            "begin": 291,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}
