@@ -1,0 +1,129 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 99,
+            "name": "scene0",
+            "kind": "pass"
+        },
+        {
+            "begin": 100,
+            "end": 119,
+            "name": "end0",
+            "kind": "once"
+        },
+        {
+            "begin": 120,
+            "end": 179,
+            "name": "scene1",
+            "kind": "pass"
+        },
+        {
+            "begin": 180,
+            "end": 189,
+            "name": "end1",
+            "kind": "once"
+        },
+        {
+            "begin": 190,
+            "end": 199,
+            "name": "scene2",
+            "kind": "pass"
+        },
+        {
+            "begin": 200,
+            "end": 209,
+            "name": "end2",
+            "kind": "once"
+        },
+        {
+            "begin": 210,
+            "end": 218,
+            "name": "scene3",
+            "kind": "pass"
+        },
+        {
+            "begin": 219,
+            "end": 229,
+            "name": "end3",
+            "kind": "once"
+        },
+        {
+            "begin": 230,
+            "end": 290,
+            "name": "scene4",
+            "kind": "pass"
+        },
+        {
+            "begin": 291,
+            "end": 309,
+            "name": "end4",
+            "kind": "once"
+        },
+        {
+            "begin": 310,
+            "end": 359,
+            "name": "scene5",
+            "kind": "pass"
+        },
+        {
+            "begin": 360,
+            "end": 389,
+            "name": "end5",
+            "kind": "once"
+        },
+        {
+            "begin": 390,
+            "end": 489,
+            "name": "scene6",
+            "kind": "pass"
+        },
+        {
+            "begin": 490,
+            "end": 490,
+            "name": "end6",
+            "kind": "pass"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/battle_common/se_enemy_death",
+            "begin": 55,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/unique/se_white_tiger_swing_fast",
+            "begin": 34,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_question",
+            "begin": 120,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_panic",
+            "begin": 210,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_cloudy",
+            "begin": 230,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

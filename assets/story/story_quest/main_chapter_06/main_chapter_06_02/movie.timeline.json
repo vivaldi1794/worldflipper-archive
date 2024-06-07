@@ -1,0 +1,103 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 99,
+            "name": "scene0",
+            "kind": "pass"
+        },
+        {
+            "begin": 100,
+            "end": 109,
+            "name": "end0",
+            "kind": "once"
+        },
+        {
+            "begin": 110,
+            "end": 119,
+            "name": "scene1",
+            "kind": "pass"
+        },
+        {
+            "begin": 120,
+            "end": 129,
+            "name": "end1",
+            "kind": "once"
+        },
+        {
+            "begin": 130,
+            "end": 232,
+            "name": "scene2",
+            "kind": "pass"
+        },
+        {
+            "begin": 233,
+            "end": 252,
+            "name": "end2",
+            "kind": "once"
+        },
+        {
+            "begin": 253,
+            "end": 276,
+            "name": "scene3",
+            "kind": "pass"
+        },
+        {
+            "begin": 277,
+            "end": 291,
+            "name": "end3",
+            "kind": "once"
+        },
+        {
+            "begin": 292,
+            "end": 349,
+            "name": "scene4",
+            "kind": "pass"
+        },
+        {
+            "begin": 350,
+            "end": 359,
+            "name": "end4",
+            "kind": "once"
+        },
+        {
+            "begin": 360,
+            "end": 459,
+            "name": "scene5",
+            "kind": "pass"
+        },
+        {
+            "begin": 460,
+            "end": 460,
+            "name": "end5",
+            "kind": "pass"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/slash/se_slash_short",
+            "begin": 35,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_happning",
+            "begin": 130,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_player_dash",
+            "begin": 183,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}
