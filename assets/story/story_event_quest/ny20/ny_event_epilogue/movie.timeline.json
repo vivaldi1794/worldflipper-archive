@@ -1,0 +1,382 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 143,
+            "name": "scene0",
+            "kind": "pass"
+        },
+        {
+            "begin": 144,
+            "end": 145,
+            "name": "end0",
+            "kind": "once"
+        },
+        {
+            "begin": 146,
+            "end": 318,
+            "name": "scene1",
+            "kind": "pass"
+        },
+        {
+            "begin": 319,
+            "end": 320,
+            "name": "end1",
+            "kind": "once"
+        },
+        {
+            "begin": 321,
+            "end": 503,
+            "name": "scene2",
+            "kind": "pass"
+        },
+        {
+            "begin": 504,
+            "end": 505,
+            "name": "end2",
+            "kind": "once"
+        },
+        {
+            "begin": 506,
+            "end": 648,
+            "name": "scene3",
+            "kind": "pass"
+        },
+        {
+            "begin": 649,
+            "end": 650,
+            "name": "end3",
+            "kind": "once"
+        },
+        {
+            "begin": 651,
+            "end": 683,
+            "name": "scene4",
+            "kind": "pass"
+        },
+        {
+            "begin": 684,
+            "end": 685,
+            "name": "end4",
+            "kind": "once"
+        },
+        {
+            "begin": 686,
+            "end": 903,
+            "name": "scene5",
+            "kind": "pass"
+        },
+        {
+            "begin": 904,
+            "end": 905,
+            "name": "end5",
+            "kind": "once"
+        },
+        {
+            "begin": 906,
+            "end": 933,
+            "name": "scene6",
+            "kind": "pass"
+        },
+        {
+            "begin": 934,
+            "end": 935,
+            "name": "end6",
+            "kind": "once"
+        },
+        {
+            "begin": 936,
+            "end": 963,
+            "name": "scene7",
+            "kind": "pass"
+        },
+        {
+            "begin": 964,
+            "end": 965,
+            "name": "end7",
+            "kind": "once"
+        },
+        {
+            "begin": 966,
+            "end": 993,
+            "name": "scene8",
+            "kind": "pass"
+        },
+        {
+            "begin": 994,
+            "end": 995,
+            "name": "end8",
+            "kind": "once"
+        },
+        {
+            "begin": 996,
+            "end": 1023,
+            "name": "scene9",
+            "kind": "pass"
+        },
+        {
+            "begin": 1024,
+            "end": 1025,
+            "name": "end9",
+            "kind": "once"
+        },
+        {
+            "begin": 1026,
+            "end": 1058,
+            "name": "scene10",
+            "kind": "pass"
+        },
+        {
+            "begin": 1059,
+            "end": 1060,
+            "name": "end10",
+            "kind": "once"
+        },
+        {
+            "begin": 1061,
+            "end": 1093,
+            "name": "scene11",
+            "kind": "pass"
+        },
+        {
+            "begin": 1094,
+            "end": 1095,
+            "name": "end11",
+            "kind": "once"
+        },
+        {
+            "begin": 1096,
+            "end": 1188,
+            "name": "scene12",
+            "kind": "pass"
+        },
+        {
+            "begin": 1189,
+            "end": 1190,
+            "name": "end12",
+            "kind": "once"
+        },
+        {
+            "begin": 1191,
+            "end": 1218,
+            "name": "scene13",
+            "kind": "pass"
+        },
+        {
+            "begin": 1219,
+            "end": 1220,
+            "name": "end13",
+            "kind": "once"
+        },
+        {
+            "begin": 1221,
+            "end": 1248,
+            "name": "scene14",
+            "kind": "pass"
+        },
+        {
+            "begin": 1249,
+            "end": 1250,
+            "name": "end14",
+            "kind": "once"
+        },
+        {
+            "begin": 1251,
+            "end": 1363,
+            "name": "scene15",
+            "kind": "pass"
+        },
+        {
+            "begin": 1364,
+            "end": 1365,
+            "name": "end15",
+            "kind": "once"
+        },
+        {
+            "begin": 1366,
+            "end": 1471,
+            "name": "scene16",
+            "kind": "pass"
+        },
+        {
+            "begin": 1472,
+            "end": 1472,
+            "name": "end16",
+            "kind": "pass"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/yakumono/se_sf_box_hit",
+            "begin": 25,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_shot_once",
+            "begin": 95,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_cannon_bit_shot_once",
+            "begin": 125,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_laser_bit_start",
+            "begin": 154,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_sf_box_hit",
+            "begin": 216,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/sf/se_admin_laser_bit_start",
+            "begin": 251,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/unique/se_alk_jump",
+            "begin": 339,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bomb",
+            "begin": 455,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/thunder/se_thunder_large_explosion",
+            "begin": 516,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_jump_light",
+            "begin": 572,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_sweat",
+            "begin": 765,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_angry",
+            "begin": 1100,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_cloudy",
+            "begin": 1255,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_beam_blade_shot",
+            "begin": 25,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_beam_blade_shot",
+            "begin": 35,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_beam_blade_shot",
+            "begin": 45,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_beam_blade_shot",
+            "begin": 55,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_beam_blade_shot",
+            "begin": 65,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_magic_laser_short",
+            "begin": 241,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_player_dash",
+            "begin": 325,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/unique/se_alk_explosion",
+            "begin": 383,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/weapon/se_bomb",
+            "begin": 474,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_jump_light",
+            "begin": 579,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_enemy_escape",
+            "begin": 690,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

@@ -1,0 +1,537 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 181,
+            "name": "scene0",
+            "kind": "pass"
+        },
+        {
+            "begin": 182,
+            "end": 183,
+            "name": "end0",
+            "kind": "once"
+        },
+        {
+            "begin": 184,
+            "end": 209,
+            "name": "scene1",
+            "kind": "pass"
+        },
+        {
+            "begin": 210,
+            "end": 211,
+            "name": "end1",
+            "kind": "once"
+        },
+        {
+            "begin": 212,
+            "end": 590,
+            "name": "scene2",
+            "kind": "pass"
+        },
+        {
+            "begin": 591,
+            "end": 592,
+            "name": "end2",
+            "kind": "once"
+        },
+        {
+            "begin": 593,
+            "end": 1095,
+            "name": "scene3",
+            "kind": "pass"
+        },
+        {
+            "begin": 1096,
+            "end": 1097,
+            "name": "end3",
+            "kind": "once"
+        },
+        {
+            "begin": 1098,
+            "end": 1160,
+            "name": "scene4",
+            "kind": "pass"
+        },
+        {
+            "begin": 1161,
+            "end": 1162,
+            "name": "end4",
+            "kind": "once"
+        },
+        {
+            "begin": 1163,
+            "end": 1717,
+            "name": "scene5",
+            "kind": "pass"
+        },
+        {
+            "begin": 1718,
+            "end": 1788,
+            "name": "end5",
+            "kind": "once"
+        },
+        {
+            "begin": 1789,
+            "end": 1835,
+            "name": "scene6",
+            "kind": "pass"
+        },
+        {
+            "begin": 1836,
+            "end": 1837,
+            "name": "end6",
+            "kind": "once"
+        },
+        {
+            "begin": 1838,
+            "end": 1894,
+            "name": "scene7",
+            "kind": "pass"
+        },
+        {
+            "begin": 1895,
+            "end": 1896,
+            "name": "end7",
+            "kind": "once"
+        },
+        {
+            "begin": 1897,
+            "end": 1920,
+            "name": "scene8",
+            "kind": "pass"
+        },
+        {
+            "begin": 1921,
+            "end": 1922,
+            "name": "end8",
+            "kind": "once"
+        },
+        {
+            "begin": 1923,
+            "end": 2004,
+            "name": "scene9",
+            "kind": "pass"
+        },
+        {
+            "begin": 2005,
+            "end": 2006,
+            "name": "end9",
+            "kind": "once"
+        },
+        {
+            "begin": 2007,
+            "end": 2108,
+            "name": "scene10",
+            "kind": "pass"
+        },
+        {
+            "begin": 2109,
+            "end": 2110,
+            "name": "end10",
+            "kind": "once"
+        },
+        {
+            "begin": 2111,
+            "end": 2464,
+            "name": "scene11",
+            "kind": "pass"
+        },
+        {
+            "begin": 2465,
+            "end": 2466,
+            "name": "end11",
+            "kind": "once"
+        },
+        {
+            "begin": 2467,
+            "end": 2530,
+            "name": "scene12",
+            "kind": "pass"
+        },
+        {
+            "begin": 2531,
+            "end": 2532,
+            "name": "end12",
+            "kind": "once"
+        },
+        {
+            "begin": 2533,
+            "end": 3161,
+            "name": "scene13",
+            "kind": "pass"
+        },
+        {
+            "begin": 3162,
+            "end": 3163,
+            "name": "end13",
+            "kind": "once"
+        },
+        {
+            "begin": 3164,
+            "end": 3248,
+            "name": "scene14",
+            "kind": "pass"
+        },
+        {
+            "begin": 3249,
+            "end": 3250,
+            "name": "end14",
+            "kind": "once"
+        },
+        {
+            "begin": 3251,
+            "end": 3305,
+            "name": "scene15",
+            "kind": "pass"
+        },
+        {
+            "begin": 3306,
+            "end": 3307,
+            "name": "end15",
+            "kind": "once"
+        },
+        {
+            "begin": 3308,
+            "end": 3394,
+            "name": "scene16",
+            "kind": "pass"
+        },
+        {
+            "begin": 3395,
+            "end": 3396,
+            "name": "end16",
+            "kind": "once"
+        },
+        {
+            "begin": 3397,
+            "end": 3438,
+            "name": "scene17",
+            "kind": "pass"
+        },
+        {
+            "begin": 3439,
+            "end": 3440,
+            "name": "end17",
+            "kind": "once"
+        },
+        {
+            "begin": 3441,
+            "end": 3480,
+            "name": "scene18",
+            "kind": "pass"
+        },
+        {
+            "begin": 3481,
+            "end": 3482,
+            "name": "end18",
+            "kind": "once"
+        },
+        {
+            "begin": 3483,
+            "end": 3671,
+            "name": "scene19",
+            "kind": "pass"
+        },
+        {
+            "begin": 3672,
+            "end": 3672,
+            "name": "end19",
+            "kind": "pass"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/slash/se_rapier_slash",
+            "begin": 11,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/slash/se_rapier_slash",
+            "begin": 18,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/slash/se_rapier_slash",
+            "begin": 25,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/slash/se_rapier_slash",
+            "begin": 32,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/slash/se_slash_finish",
+            "begin": 40,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_enemy_defeat",
+            "begin": 88,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 234,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_heavy_mass_dent",
+            "begin": 362,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_heavy_mass_dent",
+            "begin": 473,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_collapse",
+            "begin": 598,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_orchestra_zzoop",
+            "begin": 845,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_orchestra_zzoop",
+            "begin": 910,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_orchestra_zzoop",
+            "begin": 919,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_pop_bomb",
+            "begin": 1015,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_warp",
+            "begin": 1107,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_question",
+            "begin": 1184,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_orchestra_zzoop",
+            "begin": 1244,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_orchestra_zzoop",
+            "begin": 1306,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_orchestra_zzoop",
+            "begin": 1316,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_impress_transceiver_long",
+            "begin": 1425,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 1471,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/element/se_shooting_star",
+            "begin": 1847,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_shy",
+            "begin": 1934,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 2036,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_player_dash",
+            "begin": 2236,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_jump_up",
+            "begin": 2296,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_jump_up",
+            "begin": 2307,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_happning",
+            "begin": 2316,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_panic",
+            "begin": 2471,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_panic",
+            "begin": 2484,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_glass_break",
+            "begin": 2712,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/dark/se_heavy_glass_break",
+            "begin": 2777,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_dragon_roar",
+            "begin": 2779,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_happning",
+            "begin": 2935,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_hit_ground",
+            "begin": 3058,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_cloudy",
+            "begin": 3177,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_jump_up",
+            "begin": 3262,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_sf_box_hit",
+            "begin": 3421,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_jump_up",
+            "begin": 3455,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_dragon_roar",
+            "begin": 3495,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/battle_common/se_enemy_encount_middleboss",
+            "begin": 3571,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}

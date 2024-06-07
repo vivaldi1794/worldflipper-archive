@@ -1,0 +1,356 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 134,
+            "name": "scene0",
+            "kind": "pass"
+        },
+        {
+            "begin": 135,
+            "end": 139,
+            "name": "end0",
+            "kind": "once"
+        },
+        {
+            "begin": 140,
+            "end": 199,
+            "name": "scene1",
+            "kind": "pass"
+        },
+        {
+            "begin": 200,
+            "end": 229,
+            "name": "end1",
+            "kind": "once"
+        },
+        {
+            "begin": 230,
+            "end": 504,
+            "name": "scene2",
+            "kind": "pass"
+        },
+        {
+            "begin": 505,
+            "end": 509,
+            "name": "end2",
+            "kind": "once"
+        },
+        {
+            "begin": 510,
+            "end": 589,
+            "name": "scene3",
+            "kind": "pass"
+        },
+        {
+            "begin": 590,
+            "end": 594,
+            "name": "end3",
+            "kind": "once"
+        },
+        {
+            "begin": 595,
+            "end": 954,
+            "name": "scene4",
+            "kind": "pass"
+        },
+        {
+            "begin": 955,
+            "end": 959,
+            "name": "end4",
+            "kind": "once"
+        },
+        {
+            "begin": 960,
+            "end": 989,
+            "name": "scene4_a",
+            "kind": "pass"
+        },
+        {
+            "begin": 990,
+            "end": 999,
+            "name": "end4_a",
+            "kind": "once"
+        },
+        {
+            "begin": 1000,
+            "end": 1709,
+            "name": "scene5",
+            "kind": "pass"
+        },
+        {
+            "begin": 1710,
+            "end": 1719,
+            "name": "end5",
+            "kind": "once"
+        },
+        {
+            "begin": 1720,
+            "end": 1784,
+            "name": "scene6",
+            "kind": "pass"
+        },
+        {
+            "begin": 1785,
+            "end": 1789,
+            "name": "end6",
+            "kind": "once"
+        },
+        {
+            "begin": 1790,
+            "end": 1864,
+            "name": "scene7",
+            "kind": "pass"
+        },
+        {
+            "begin": 1865,
+            "end": 1869,
+            "name": "end7",
+            "kind": "once"
+        },
+        {
+            "begin": 1870,
+            "end": 1964,
+            "name": "scene8",
+            "kind": "pass"
+        },
+        {
+            "begin": 1965,
+            "end": 1969,
+            "name": "end8",
+            "kind": "once"
+        },
+        {
+            "begin": 1970,
+            "end": 2014,
+            "name": "scene9",
+            "kind": "pass"
+        },
+        {
+            "begin": 2015,
+            "end": 2019,
+            "name": "end9",
+            "kind": "once"
+        },
+        {
+            "begin": 2020,
+            "end": 2084,
+            "name": "scene10",
+            "kind": "pass"
+        },
+        {
+            "begin": 2085,
+            "end": 2089,
+            "name": "end10",
+            "kind": "once"
+        },
+        {
+            "begin": 2090,
+            "end": 2154,
+            "name": "scene11",
+            "kind": "pass"
+        },
+        {
+            "begin": 2155,
+            "end": 2159,
+            "name": "end11",
+            "kind": "once"
+        },
+        {
+            "begin": 2160,
+            "end": 2284,
+            "name": "scene12",
+            "kind": "pass"
+        },
+        {
+            "begin": 2285,
+            "end": 2289,
+            "name": "end12",
+            "kind": "once"
+        },
+        {
+            "begin": 2290,
+            "end": 2408,
+            "name": "scene13",
+            "kind": "pass"
+        },
+        {
+            "begin": 2409,
+            "end": 2410,
+            "name": "end13",
+            "kind": "once"
+        },
+        {
+            "begin": 2411,
+            "end": 3440,
+            "name": "scene14",
+            "kind": "pass"
+        },
+        {
+            "begin": 3441,
+            "end": 3441,
+            "name": "end14",
+            "kind": "pass"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/monster/se_warp_in",
+            "begin": 2870,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_warp_out",
+            "begin": 2897,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 230,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_brightness",
+            "begin": 510,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_happning",
+            "begin": 530,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_rising_shine",
+            "begin": 600,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/dark/se_dark_wind_v02",
+            "begin": 1066,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_hit_wood",
+            "begin": 1689,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_cloudy",
+            "begin": 1721,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 2160,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/slash/se_slash_swing",
+            "begin": 2791,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_awakening",
+            "begin": 2894,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 230,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_brightness",
+            "begin": 510,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_happning",
+            "begin": 530,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_rising_shine",
+            "begin": 600,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/dark/se_dark_wind_v02",
+            "begin": 1066,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/yakumono/se_hit_wood",
+            "begin": 1689,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_cloudy",
+            "begin": 1721,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 2160,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/slash/se_slash_swing",
+            "begin": 2791,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/light/se_light_awakening",
+            "begin": 2894,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}
