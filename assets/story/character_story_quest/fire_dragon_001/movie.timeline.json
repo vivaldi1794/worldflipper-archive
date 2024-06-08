@@ -1,0 +1,282 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 99,
+            "name": "scene0",
+            "kind": "pass"
+        },
+        {
+            "begin": 100,
+            "end": 109,
+            "name": "end0",
+            "kind": "once"
+        },
+        {
+            "begin": 110,
+            "end": 229,
+            "name": "scene1",
+            "kind": "pass"
+        },
+        {
+            "begin": 230,
+            "end": 239,
+            "name": "end1",
+            "kind": "once"
+        },
+        {
+            "begin": 240,
+            "end": 284,
+            "name": "scene2",
+            "kind": "pass"
+        },
+        {
+            "begin": 285,
+            "end": 299,
+            "name": "end2",
+            "kind": "once"
+        },
+        {
+            "begin": 300,
+            "end": 359,
+            "name": "scene4",
+            "kind": "pass"
+        },
+        {
+            "begin": 360,
+            "end": 369,
+            "name": "end4",
+            "kind": "once"
+        },
+        {
+            "begin": 370,
+            "end": 374,
+            "name": "scene5",
+            "kind": "pass"
+        },
+        {
+            "begin": 375,
+            "end": 379,
+            "name": "end5",
+            "kind": "once"
+        },
+        {
+            "begin": 380,
+            "end": 384,
+            "name": "scene6",
+            "kind": "pass"
+        },
+        {
+            "begin": 385,
+            "end": 389,
+            "name": "end6",
+            "kind": "once"
+        },
+        {
+            "begin": 390,
+            "end": 394,
+            "name": "scene7",
+            "kind": "pass"
+        },
+        {
+            "begin": 395,
+            "end": 399,
+            "name": "end7",
+            "kind": "once"
+        },
+        {
+            "begin": 400,
+            "end": 459,
+            "name": "scene8",
+            "kind": "pass"
+        },
+        {
+            "begin": 460,
+            "end": 469,
+            "name": "end8",
+            "kind": "once"
+        },
+        {
+            "begin": 470,
+            "end": 624,
+            "name": "scene9",
+            "kind": "pass"
+        },
+        {
+            "begin": 625,
+            "end": 629,
+            "name": "end9",
+            "kind": "once"
+        },
+        {
+            "begin": 630,
+            "end": 634,
+            "name": "scene10",
+            "kind": "pass"
+        },
+        {
+            "begin": 635,
+            "end": 639,
+            "name": "end10",
+            "kind": "once"
+        },
+        {
+            "begin": 640,
+            "end": 789,
+            "name": "scene11",
+            "kind": "pass"
+        },
+        {
+            "begin": 790,
+            "end": 799,
+            "name": "end11",
+            "kind": "once"
+        },
+        {
+            "begin": 800,
+            "end": 859,
+            "name": "scene12",
+            "kind": "pass"
+        },
+        {
+            "begin": 860,
+            "end": 869,
+            "name": "end12",
+            "kind": "once"
+        },
+        {
+            "begin": 870,
+            "end": 909,
+            "name": "scene13",
+            "kind": "pass"
+        },
+        {
+            "begin": 910,
+            "end": 929,
+            "name": "end13",
+            "kind": "once"
+        },
+        {
+            "begin": 930,
+            "end": 989,
+            "name": "scene14",
+            "kind": "pass"
+        },
+        {
+            "begin": 990,
+            "end": 999,
+            "name": "end14",
+            "kind": "once"
+        },
+        {
+            "begin": 1000,
+            "end": 1239,
+            "name": "scene15",
+            "kind": "pass"
+        },
+        {
+            "begin": 1240,
+            "end": 1249,
+            "name": "end15",
+            "kind": "once"
+        },
+        {
+            "begin": 1250,
+            "end": 1254,
+            "name": "scene16",
+            "kind": "pass"
+        },
+        {
+            "begin": 1255,
+            "end": 1259,
+            "name": "end16",
+            "kind": "once"
+        },
+        {
+            "begin": 1260,
+            "end": 1304,
+            "name": "scene17",
+            "kind": "pass"
+        },
+        {
+            "begin": 1305,
+            "end": 1309,
+            "name": "end17",
+            "kind": "once"
+        },
+        {
+            "begin": 1310,
+            "end": 1441,
+            "name": "scene18",
+            "kind": "pass"
+        },
+        {
+            "begin": 1442,
+            "end": 1442,
+            "name": "end18",
+            "kind": "pass"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/fire/se_burn_out",
+            "begin": 1043,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_cloudy",
+            "begin": 300,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_question",
+            "begin": 400,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 800,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/blow/se_deck_hit",
+            "begin": 894,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 930,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/monster/se_dragon_landing",
+            "begin": 1003,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_impress_bigflap2",
+            "begin": 1097,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}
