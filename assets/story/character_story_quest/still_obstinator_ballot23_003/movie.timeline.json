@@ -1,0 +1,743 @@
+{
+    "sequences": [
+        {
+            "begin": 1,
+            "end": 99,
+            "name": "scene0",
+            "kind": "pass"
+        },
+        {
+            "begin": 100,
+            "end": 139,
+            "name": "end0",
+            "kind": "once"
+        },
+        {
+            "begin": 140,
+            "end": 209,
+            "name": "scene1",
+            "kind": "pass"
+        },
+        {
+            "begin": 210,
+            "end": 219,
+            "name": "end1",
+            "kind": "once"
+        },
+        {
+            "begin": 220,
+            "end": 224,
+            "name": "scene1_a",
+            "kind": "pass"
+        },
+        {
+            "begin": 225,
+            "end": 229,
+            "name": "end1_a",
+            "kind": "once"
+        },
+        {
+            "begin": 230,
+            "end": 294,
+            "name": "scene1_b",
+            "kind": "pass"
+        },
+        {
+            "begin": 295,
+            "end": 299,
+            "name": "end1_b",
+            "kind": "once"
+        },
+        {
+            "begin": 300,
+            "end": 409,
+            "name": "scene2",
+            "kind": "pass"
+        },
+        {
+            "begin": 410,
+            "end": 414,
+            "name": "end2",
+            "kind": "once"
+        },
+        {
+            "begin": 415,
+            "end": 419,
+            "name": "scene2_a",
+            "kind": "pass"
+        },
+        {
+            "begin": 420,
+            "end": 429,
+            "name": "end2_a",
+            "kind": "once"
+        },
+        {
+            "begin": 430,
+            "end": 484,
+            "name": "scene3",
+            "kind": "pass"
+        },
+        {
+            "begin": 485,
+            "end": 489,
+            "name": "end3",
+            "kind": "once"
+        },
+        {
+            "begin": 490,
+            "end": 559,
+            "name": "scene4",
+            "kind": "pass"
+        },
+        {
+            "begin": 560,
+            "end": 579,
+            "name": "end4",
+            "kind": "once"
+        },
+        {
+            "begin": 580,
+            "end": 659,
+            "name": "scene5",
+            "kind": "pass"
+        },
+        {
+            "begin": 660,
+            "end": 674,
+            "name": "end5",
+            "kind": "once"
+        },
+        {
+            "begin": 675,
+            "end": 679,
+            "name": "scene6",
+            "kind": "pass"
+        },
+        {
+            "begin": 680,
+            "end": 699,
+            "name": "end6",
+            "kind": "once"
+        },
+        {
+            "begin": 700,
+            "end": 844,
+            "name": "scene7",
+            "kind": "pass"
+        },
+        {
+            "begin": 845,
+            "end": 849,
+            "name": "end7",
+            "kind": "once"
+        },
+        {
+            "begin": 850,
+            "end": 1224,
+            "name": "scene8",
+            "kind": "pass"
+        },
+        {
+            "begin": 1225,
+            "end": 1279,
+            "name": "end8",
+            "kind": "once"
+        },
+        {
+            "begin": 1280,
+            "end": 1354,
+            "name": "scene9",
+            "kind": "pass"
+        },
+        {
+            "begin": 1355,
+            "end": 1359,
+            "name": "end9",
+            "kind": "once"
+        },
+        {
+            "begin": 1360,
+            "end": 1484,
+            "name": "scene10",
+            "kind": "pass"
+        },
+        {
+            "begin": 1485,
+            "end": 1489,
+            "name": "end10",
+            "kind": "once"
+        },
+        {
+            "begin": 1490,
+            "end": 1564,
+            "name": "scene11",
+            "kind": "pass"
+        },
+        {
+            "begin": 1565,
+            "end": 1569,
+            "name": "end11",
+            "kind": "once"
+        },
+        {
+            "begin": 1570,
+            "end": 1745,
+            "name": "scene12",
+            "kind": "pass"
+        },
+        {
+            "begin": 1746,
+            "end": 1749,
+            "name": "end12",
+            "kind": "once"
+        },
+        {
+            "begin": 1750,
+            "end": 2364,
+            "name": "scene13",
+            "kind": "pass"
+        },
+        {
+            "begin": 2365,
+            "end": 2369,
+            "name": "end13",
+            "kind": "once"
+        },
+        {
+            "begin": 2370,
+            "end": 2439,
+            "name": "scene14",
+            "kind": "pass"
+        },
+        {
+            "begin": 2440,
+            "end": 2444,
+            "name": "end14",
+            "kind": "once"
+        },
+        {
+            "begin": 2445,
+            "end": 2504,
+            "name": "scene15",
+            "kind": "pass"
+        },
+        {
+            "begin": 2505,
+            "end": 2509,
+            "name": "end15",
+            "kind": "once"
+        },
+        {
+            "begin": 2510,
+            "end": 2639,
+            "name": "scene16",
+            "kind": "pass"
+        },
+        {
+            "begin": 2640,
+            "end": 2644,
+            "name": "end16",
+            "kind": "once"
+        },
+        {
+            "begin": 2645,
+            "end": 2704,
+            "name": "scene17",
+            "kind": "pass"
+        },
+        {
+            "begin": 2705,
+            "end": 2709,
+            "name": "end17",
+            "kind": "once"
+        },
+        {
+            "begin": 2710,
+            "end": 2714,
+            "name": "scene18",
+            "kind": "pass"
+        },
+        {
+            "begin": 2715,
+            "end": 2719,
+            "name": "end18",
+            "kind": "once"
+        },
+        {
+            "begin": 2720,
+            "end": 2824,
+            "name": "scene19",
+            "kind": "pass"
+        },
+        {
+            "begin": 2825,
+            "end": 2829,
+            "name": "end19",
+            "kind": "once"
+        },
+        {
+            "begin": 2830,
+            "end": 2864,
+            "name": "scene20",
+            "kind": "pass"
+        },
+        {
+            "begin": 2865,
+            "end": 2869,
+            "name": "end20",
+            "kind": "once"
+        },
+        {
+            "begin": 2870,
+            "end": 2944,
+            "name": "scene21",
+            "kind": "pass"
+        },
+        {
+            "begin": 2945,
+            "end": 2949,
+            "name": "end21",
+            "kind": "once"
+        },
+        {
+            "begin": 2950,
+            "end": 3104,
+            "name": "scene22",
+            "kind": "pass"
+        },
+        {
+            "begin": 3105,
+            "end": 3109,
+            "name": "end22",
+            "kind": "once"
+        },
+        {
+            "begin": 3110,
+            "end": 3133,
+            "name": "scene23",
+            "kind": "pass"
+        },
+        {
+            "begin": 3134,
+            "end": 3138,
+            "name": "end23",
+            "kind": "once"
+        },
+        {
+            "begin": 3139,
+            "end": 3259,
+            "name": "scene24",
+            "kind": "pass"
+        },
+        {
+            "begin": 3260,
+            "end": 3264,
+            "name": "end24",
+            "kind": "once"
+        },
+        {
+            "begin": 3265,
+            "end": 3324,
+            "name": "scene25",
+            "kind": "pass"
+        },
+        {
+            "begin": 3325,
+            "end": 3329,
+            "name": "end25",
+            "kind": "once"
+        },
+        {
+            "begin": 3330,
+            "end": 3839,
+            "name": "scene26",
+            "kind": "pass"
+        },
+        {
+            "begin": 3840,
+            "end": 3844,
+            "name": "end26",
+            "kind": "once"
+        },
+        {
+            "begin": 3845,
+            "end": 3984,
+            "name": "scene27",
+            "kind": "pass"
+        },
+        {
+            "begin": 3985,
+            "end": 3989,
+            "name": "end27",
+            "kind": "once"
+        },
+        {
+            "begin": 3990,
+            "end": 4014,
+            "name": "scene28",
+            "kind": "pass"
+        },
+        {
+            "begin": 4015,
+            "end": 4019,
+            "name": "end28",
+            "kind": "once"
+        },
+        {
+            "begin": 4020,
+            "end": 4094,
+            "name": "scene29",
+            "kind": "pass"
+        },
+        {
+            "begin": 4095,
+            "end": 4099,
+            "name": "end29",
+            "kind": "once"
+        },
+        {
+            "begin": 4100,
+            "end": 4119,
+            "name": "scene30",
+            "kind": "pass"
+        },
+        {
+            "begin": 4120,
+            "end": 4124,
+            "name": "end30",
+            "kind": "once"
+        },
+        {
+            "begin": 4125,
+            "end": 4129,
+            "name": "scene31",
+            "kind": "pass"
+        },
+        {
+            "begin": 4130,
+            "end": 4149,
+            "name": "end31",
+            "kind": "once"
+        },
+        {
+            "begin": 4150,
+            "end": 4279,
+            "name": "scene32",
+            "kind": "pass"
+        },
+        {
+            "begin": 4280,
+            "end": 4284,
+            "name": "end32",
+            "kind": "once"
+        },
+        {
+            "begin": 4285,
+            "end": 4504,
+            "name": "scene33",
+            "kind": "pass"
+        },
+        {
+            "begin": 4505,
+            "end": 4509,
+            "name": "end33",
+            "kind": "once"
+        },
+        {
+            "begin": 4510,
+            "end": 4634,
+            "name": "scene34",
+            "kind": "pass"
+        },
+        {
+            "begin": 4635,
+            "end": 4639,
+            "name": "end34",
+            "kind": "once"
+        },
+        {
+            "begin": 4640,
+            "end": 4709,
+            "name": "scene35",
+            "kind": "pass"
+        },
+        {
+            "begin": 4710,
+            "end": 4714,
+            "name": "end35",
+            "kind": "once"
+        },
+        {
+            "begin": 4715,
+            "end": 4734,
+            "name": "scene36",
+            "kind": "pass"
+        },
+        {
+            "begin": 4735,
+            "end": 4739,
+            "name": "end36",
+            "kind": "once"
+        },
+        {
+            "begin": 4740,
+            "end": 4874,
+            "name": "scene37",
+            "kind": "pass"
+        },
+        {
+            "begin": 4875,
+            "end": 4879,
+            "name": "end37",
+            "kind": "once"
+        },
+        {
+            "begin": 4880,
+            "end": 4944,
+            "name": "scene37_a",
+            "kind": "pass"
+        },
+        {
+            "begin": 4945,
+            "end": 4949,
+            "name": "end37_a",
+            "kind": "once"
+        },
+        {
+            "begin": 4950,
+            "end": 5029,
+            "name": "scene38",
+            "kind": "pass"
+        },
+        {
+            "begin": 5030,
+            "end": 5049,
+            "name": "end38",
+            "kind": "once"
+        },
+        {
+            "begin": 5050,
+            "end": 5164,
+            "name": "scene39",
+            "kind": "pass"
+        },
+        {
+            "begin": 5165,
+            "end": 5169,
+            "name": "end39",
+            "kind": "once"
+        },
+        {
+            "begin": 5170,
+            "end": 5172,
+            "name": "scene40",
+            "kind": "pass"
+        },
+        {
+            "begin": 5173,
+            "end": 5176,
+            "name": "end40",
+            "kind": "once"
+        },
+        {
+            "begin": 5177,
+            "end": 5179,
+            "name": "scene41",
+            "kind": "pass"
+        },
+        {
+            "begin": 5180,
+            "end": 5194,
+            "name": "end41",
+            "kind": "once"
+        },
+        {
+            "begin": 5195,
+            "end": 5199,
+            "name": "scene42",
+            "kind": "pass"
+        },
+        {
+            "begin": 5200,
+            "end": 5219,
+            "name": "end42",
+            "kind": "once"
+        },
+        {
+            "begin": 5220,
+            "end": 5354,
+            "name": "scene43",
+            "kind": "pass"
+        },
+        {
+            "begin": 5355,
+            "end": 5359,
+            "name": "end43",
+            "kind": "once"
+        },
+        {
+            "begin": 5360,
+            "end": 5394,
+            "name": "scene44",
+            "kind": "pass"
+        },
+        {
+            "begin": 5395,
+            "end": 5399,
+            "name": "end44",
+            "kind": "once"
+        },
+        {
+            "begin": 5400,
+            "end": 5618,
+            "name": "scene45",
+            "kind": "pass"
+        },
+        {
+            "begin": 5619,
+            "end": 5619,
+            "name": "end45",
+            "kind": "pass"
+        }
+    ],
+    "sounds": [
+        {
+            "path": "sound_effect/element/se_shooting_star",
+            "begin": 230,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_question",
+            "begin": 330,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 500,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_happning",
+            "begin": 590,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 1370,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 1950,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 2520,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 2730,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_angry",
+            "begin": 2880,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 2960,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_impress_dooropen",
+            "begin": 3845,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 3870,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 4030,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_cloudy",
+            "begin": 4220,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_question",
+            "begin": 4440,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 4520,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_question",
+            "begin": 4650,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_notice_v03",
+            "begin": 4960,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        },
+        {
+            "path": "sound_effect/situation/se_emote_sweat",
+            "begin": 5280,
+            "loop": 1,
+            "end": -1,
+            "volume": -1
+        }
+    ],
+    "points": [],
+    "circles": [],
+    "rectangles": [],
+    "matrices": []
+}
